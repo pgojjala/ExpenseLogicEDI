@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2023r2 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="997" library="text" uid="3" kind="16">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="-1104" lty="219" rbx="-679" rby="619"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" inpkey="103" expanded="1">
+											<entry name="Settings" inpkey="142"/>
+											<entry name="ISA" inpkey="129" expanded="1">
+												<entry name="FI06" inpkey="114"/>
+												<entry name="FI07" inpkey="112"/>
+											</entry>
+											<entry name="Group" expanded="1">
+												<entry name="GS" expanded="1">
+													<entry name="F142" inpkey="110"/>
+													<entry name="F124" inpkey="140"/>
+													<entry name="F455" inpkey="118"/>
+													<entry name="F480" inpkey="127"/>
+												</entry>
+												<entry name="Message_997" inpkey="116" expanded="1">
+													<entry name="ST" expanded="1"/>
+													<entry name="AK1" inpkey="120" expanded="1">
+														<entry name="F479" inpkey="122"/>
+														<entry name="F28" inpkey="138"/>
+													</entry>
+													<entry name="LoopAK2" inpkey="172" expanded="1">
+														<entry name="AK2" inpkey="171" expanded="1">
+															<entry name="F143" inpkey="153"/>
+															<entry name="F329" inpkey="175"/>
+														</entry>
+														<entry name="LoopAK3" inpkey="179" expanded="1">
+															<entry name="AK3" inpkey="144" expanded="1">
+																<entry name="F721" inpkey="155"/>
+																<entry name="F719" inpkey="177"/>
+																<entry name="F447" inpkey="157"/>
+																<entry name="F720" inpkey="181"/>
+															</entry>
+															<entry name="AK4" inpkey="161" expanded="1">
+																<entry name="C030" inpkey="148" expanded="1">
+																	<entry name="F722" inpkey="167"/>
+																	<entry name="F1528" inpkey="146"/>
+																</entry>
+																<entry name="F725" inpkey="150"/>
+																<entry name="F723" inpkey="152"/>
+																<entry name="F724" inpkey="169"/>
+															</entry>
+														</entry>
+														<entry name="AK5" inpkey="163" expanded="1">
+															<entry name="F717" inpkey="159"/>
+															<entry name="F718" inpkey="165"/>
+														</entry>
+													</entry>
+													<entry name="AK9" inpkey="105" expanded="1">
+														<entry name="F715" inpkey="131"/>
+														<entry name="F97" inpkey="124"/>
+														<entry name="F123" inpkey="108"/>
+														<entry name="F2" inpkey="133"/>
+														<entry name="F716" inpkey="135"/>
+													</entry>
+													<entry name="SE" expanded="1"/>
+												</entry>
+												<entry name="GE" expanded="1"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="997"/>
+							</messages>
+						</text>
+					</data>
+				</component>
+				<component name="810" library="text" uid="2" kind="16">
+					<properties/>
+					<view ltx="-1744" lty="209" rbx="-1435" rby="884"/>
+					<data>
+						<root scrollposition="1314">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" outkey="102" expanded="1">
+											<entry name="Settings" outkey="141"/>
+											<entry name="ISA" outkey="128" expanded="1">
+												<entry name="FI06" outkey="111"/>
+												<entry name="FI07" outkey="113"/>
+											</entry>
+											<entry name="Group" outkey="115" expanded="1">
+												<entry name="GS" outkey="119" expanded="1">
+													<entry name="F479" outkey="121"/>
+													<entry name="F142" outkey="139"/>
+													<entry name="F124" outkey="109"/>
+													<entry name="F28" outkey="137"/>
+													<entry name="F455" outkey="117"/>
+													<entry name="F480" outkey="126"/>
+												</entry>
+												<entry name="Message_810" outkey="16" expanded="1">
+													<entry name="ST" outkey="170" expanded="1">
+														<entry name="F143" outkey="18"/>
+														<entry name="F329" outkey="17"/>
+													</entry>
+													<entry name="LoopN1">
+														<entry name="N1" expanded="1"/>
+													</entry>
+													<entry name="DTM" expanded="1"/>
+													<entry name="LoopFA1" expanded="1"/>
+													<entry name="LoopIT1" expanded="1">
+														<entry name="LoopSLN" expanded="1">
+															<entry name="SAC" expanded="1"/>
+														</entry>
+														<entry name="LoopN1" expanded="1">
+															<entry name="N1" expanded="1"/>
+														</entry>
+													</entry>
+													<entry name="SE" expanded="1"/>
+													<entry name="ParserErrors_Message" expanded="1">
+														<entry name="LoopMF_AK3" outkey="178" expanded="1">
+															<entry name="MF_AK3" outkey="143" expanded="1">
+																<entry name="F721" outkey="154"/>
+																<entry name="F719" outkey="176"/>
+																<entry name="F447" outkey="156"/>
+																<entry name="F720" outkey="180"/>
+															</entry>
+															<entry name="MF_AK4" outkey="160" expanded="1">
+																<entry name="C030" outkey="147" expanded="1">
+																	<entry name="F722" outkey="166"/>
+																	<entry name="F1528" outkey="145"/>
+																</entry>
+																<entry name="F725" outkey="149"/>
+																<entry name="F723" outkey="151"/>
+																<entry name="F724" outkey="168"/>
+															</entry>
+														</entry>
+														<entry name="MF_AK5" outkey="162" expanded="1">
+															<entry name="F717" outkey="158"/>
+															<entry name="F718" outkey="164"/>
+														</entry>
+													</entry>
+												</entry>
+												<entry name="ParserErrors_Group" expanded="1">
+													<entry name="MF_AK9" outkey="104" expanded="1">
+														<entry name="F715" outkey="130"/>
+														<entry name="F97" outkey="123"/>
+														<entry name="F123" outkey="107"/>
+														<entry name="F2" outkey="132"/>
+														<entry name="F716" outkey="134"/>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1000" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config" inputinstance="PGE\INCOMING_RADIUSPOINT_202408300117184035.EDI810">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="810"/>
+							</messages>
+						</text>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges>
+					<edge edgekey="142">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+				</edges>
+				<vertices>
+					<vertex vertexkey="102">
+						<edges>
+							<edge vertexkey="103"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="104">
+						<edges>
+							<edge vertexkey="105"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="107">
+						<edges>
+							<edge vertexkey="108"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="109">
+						<edges>
+							<edge vertexkey="110"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="111">
+						<edges>
+							<edge vertexkey="112"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="113">
+						<edges>
+							<edge vertexkey="114"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="115">
+						<edges>
+							<edge vertexkey="116"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="117">
+						<edges>
+							<edge vertexkey="118"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="119">
+						<edges>
+							<edge vertexkey="120"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="121">
+						<edges>
+							<edge vertexkey="122"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="123">
+						<edges>
+							<edge vertexkey="124"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="126">
+						<edges>
+							<edge vertexkey="127"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="128">
+						<edges>
+							<edge vertexkey="129"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="130">
+						<edges>
+							<edge vertexkey="131"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="132">
+						<edges>
+							<edge vertexkey="133"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="134">
+						<edges>
+							<edge vertexkey="135"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="137">
+						<edges>
+							<edge vertexkey="138"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="139">
+						<edges>
+							<edge vertexkey="140"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="141">
+						<edges>
+							<edge vertexkey="142" edgekey="142"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="143">
+						<edges>
+							<edge vertexkey="144"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="145">
+						<edges>
+							<edge vertexkey="146"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="147">
+						<edges>
+							<edge vertexkey="148"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="149">
+						<edges>
+							<edge vertexkey="150"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="151">
+						<edges>
+							<edge vertexkey="152"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="153"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="154">
+						<edges>
+							<edge vertexkey="155"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="156">
+						<edges>
+							<edge vertexkey="157"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="158">
+						<edges>
+							<edge vertexkey="159"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="160">
+						<edges>
+							<edge vertexkey="161"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="162">
+						<edges>
+							<edge vertexkey="163"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="164">
+						<edges>
+							<edge vertexkey="165"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="166">
+						<edges>
+							<edge vertexkey="167"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="168">
+						<edges>
+							<edge vertexkey="169"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="170">
+						<edges>
+							<edge vertexkey="171"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="172"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="175"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="176">
+						<edges>
+							<edge vertexkey="177"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="178">
+						<edges>
+							<edge vertexkey="179"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="180">
+						<edges>
+							<edge vertexkey="181"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

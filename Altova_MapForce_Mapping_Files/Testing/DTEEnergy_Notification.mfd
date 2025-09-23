@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2023r2 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<settings>
+		<deployment path="/Live/XcelEnergy/XcelEnergy_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2022r2"/>
+	</settings>
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="38" kind="2">
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="402" lty="47" rbx="442" rby="64"/>
+					<data>
+						<constant value="2" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="810" library="text" uid="2" kind="16">
+					<view ltx="78" lty="-561" rbx="395" rby="-46"/>
+					<data>
+						<root scrollposition="205">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" outkey="39" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" expanded="1">
+											<entry name="ISA" expanded="1"/>
+											<entry name="Group" expanded="1">
+												<entry name="Message_810" outkey="40" expanded="1">
+													<entry name="BIG" expanded="1">
+														<entry name="F373_1" outkey="24"/>
+														<entry name="F76_1" outkey="4"/>
+														<entry name="F373_2" outkey="100"/>
+													</entry>
+													<entry name="REF" expanded="1">
+														<entry name="F127" outkey="41"/>
+													</entry>
+													<entry name="TDS" expanded="1"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config" inputinstance="RADIUSPT_20250402190035316.4d0bfe90-3f01-4b65-9e36-7320b1430b06.edi">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="810"/>
+							</messages>
+						</text>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="72" kind="2">
+					<targets>
+						<datapoint pos="0" key="99"/>
+					</targets>
+					<view ltx="548" lty="-177" rbx="610" rby="-160"/>
+					<data>
+						<constant value="PGE" datatype="string"/>
+					</data>
+				</component>
+				<component name="Text file" library="text" uid="22" kind="16">
+					<properties/>
+					<view ltx="670" lty="-409" rbx="838" rby="-209"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" inpkey="30" expanded="1">
+										<entry name="Date" inpkey="29"/>
+										<entry name="Account Number" inpkey="42"/>
+										<entry name="Invoice Number" inpkey="43"/>
+										<entry name="Company Name" inpkey="44"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="..\FirstEnergy\Test Files\Sample Out Text file.csv">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="Sample Out Text file" block="Rows">
+									<field0 name="Date" type="string"/>
+									<field1 name="Account Number" type="string"/>
+									<field2 name="Invoice Number" type="string"/>
+									<field3 name="Amount" type="string"/>
+									<field4 name="File Name" type="string"/>
+									<field5 name="Ack File Name" type="string"/>
+									<field6 name="Company Name" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="FileTracking" library="text" uid="73" kind="16">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="948" lty="-409" rbx="1116" rby="-209"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" inpkey="101" expanded="1">
+										<entry name="FileName" inpkey="102"/>
+										<entry name="ProcessedDate" inpkey="103"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="," quote="&quot;" firstrownames="false" removeempty="true">
+								<names root="FileTracking" block="Rows">
+									<field0 name="FileName" type="string"/>
+									<field1 name="ProcessedDate" type="dateTime"/>
+									<field2 name="Status" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="24">
+						<edges>
+							<edge vertexkey="29"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="40">
+						<edges>
+							<edge vertexkey="30"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="41">
+						<edges>
+							<edge vertexkey="42"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="43"/>
+							<edge vertexkey="101"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="99">
+						<edges>
+							<edge vertexkey="44"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="39">
+						<edges>
+							<edge vertexkey="102"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="100">
+						<edges>
+							<edge vertexkey="103"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

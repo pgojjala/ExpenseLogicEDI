@@ -1,0 +1,18 @@
+Description_vc,Volume_n,Price_n,Dollars_m,ExemptDollars_m,VolumeType_c,AckFileName
+525279.164423 - Electric Percent of Load RTT 7x24 50 PERCENT OF LOAD,25,0.05396,1.35,0,KWH
+Ancillary Services,50,0.0056761,0.28,0,KWH
+Line Losses on Market Purchase,1.73,0.0875185,0.15,0,KWH
+Line Losses on Percentage of Load,1.73,0.05396,0.09,0,KWH
+Market Energy - Day Ahead,25,0.0875185,2.19,0,KWH
+Public Policy Transmission,50,0.0007383,0.04,0,KWH
+Renewable Portfolio Standards,50,0.0018542,0.09,0,KWH
+Rest of State Capacity Charge,3.29,3.87391,12.75,0,KW
+Retail Service Charge,50,0.00435,0.22,0,KWH
+RPS NY Tier 2,50,0,0,0,KWH
+Sub Total,0,0,17.34,0,
+TAX_COUNTY,17.34,0.04,0.69,0,Base
+TAX_SALES,17.34,0.04,0.69,0,Base
+Total Charges,0,0,18.72,0,
+Total Energy,50,0,0,0,KWH
+Transmission Owner Transmission Solutions,50,0.0001581,0.01,0,KWH
+Zero Emissions Credit,50,0.00338,0.17,0,KWH
