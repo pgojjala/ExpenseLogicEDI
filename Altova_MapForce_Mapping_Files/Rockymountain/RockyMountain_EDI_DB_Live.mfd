@@ -2,7 +2,7 @@
 <!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="34">
 	<settings>
-		<deployment path="/Live/EVERSOURCE/EVERSOURCE_EDI_DB.mapping" server="localhost" port="8082" user="/root" toolversion="2025r2"/>
+		<deployment path="/Live/ROCKYMOUNTAIN/ROCKYMOUNTAIN_EDI_DB.mapping" server="localhost" port="8082" user="/root" toolversion="2022r2"/>
 	</settings>
 	<resources>
 		<datasources>
@@ -473,7 +473,7 @@
 				<component name="db" library="db" uid="48" kind="15">
 					<view ltx="70" lty="519" rbx="249" rby="807"/>
 					<data>
-						<root scrollposition="35">
+						<root scrollposition="19">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -483,6 +483,242 @@
 							<entry name="document" ns="1" expanded="1">
 								<entry name="dbo.InvoiceHeader" type="table" expanded="1">
 									<entry name="InvoiceHeaderSysId" outkey="268"/>
+								</entry>
+								<entry name="dbo.sysdiagrams" show-schema-children="0"/>
+							</entry>
+						</root>
+						<database ref="ApexEDI">
+							<data>
+								<selections>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="BAL" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="CTP" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="InvoiceHeader" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="Invoice_Detail" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="Invoice_Summary" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="MEA" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="N1" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="NTE" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PAM" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PER" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PID" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="REF" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="SLN" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="TXI" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="TempEDIInvoiceHeader" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="tempEDIInvoiceDetail" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDITesting" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="sysdiagrams" Kind="Table"/>
+									</selection>
+								</selections>
+							</data>
+						</database>
+					</data>
+				</component>
+				<component name="InvoiceHeaderSysId" library="db" uid="47" kind="21">
+					<sources>
+						<datapoint pos="0" key="269"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="270"/>
+					</targets>
+					<view ltx="405" lty="13" rbx="531" rby="51"/>
+					<data>
+						<where order="[InvoiceHeaderSysId] DESC;">
+							<parameters/>
+						</where>
+					</data>
+				</component>
+				<component name="db" library="db" uid="3" kind="15">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="645" rbx="932" rby="509"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1">
+								<entry name="dbo.InvoiceHeader" type="table" inpkey="1" expanded="1">
+									<entry name="STTransactionSetIdentifierCode" inpkey="2"/>
+									<entry name="STTransactionSetControlNumber" inpkey="3"/>
+									<entry name="BigDate" inpkey="4"/>
+									<entry name="BigInvoiceNumber" inpkey="5"/>
+									<entry name="BigPurchaseOrderNumber" inpkey="6"/>
+									<entry name="BigTransactionTypeCode" inpkey="7"/>
+									<entry name="BigTransactionSetPurposeCode" inpkey="8"/>
+									<entry name="ITDTermsNetDueDate" inpkey="93"/>
+									<entry name="CompanyName" inpkey="245"/>
+									<entry name="FileName" inpkey="246"/>
+									<entry name="ITDTermsTypeCode" inpkey="85"/>
+									<entry name="TermsBasisDateCode" inpkey="89"/>
+									<entry name="dbo.BAL|InvoiceHeaderSysId" type="table" inpkey="95">
+										<entry name="BalBalanceTypeCode" inpkey="96"/>
+										<entry name="BalAmountQualifierCode" inpkey="97"/>
+										<entry name="BalMonetaryAmount" inpkey="98"/>
+									</entry>
+									<entry name="dbo.Invoice_Detail|InvoiceHeaderSysId" type="table" inpkey="107" expanded="1">
+										<entry name="IT1AssignedIdentification" inpkey="108"/>
+										<entry name="IT1ProductServiceIDQualifier1" inpkey="111"/>
+										<entry name="IT1ProductServiceID1" inpkey="115"/>
+										<entry name="IT1ProductServiceIDQualifier12" inpkey="117"/>
+										<entry name="IT1ProductServiceID12" inpkey="118"/>
+										<entry name="DTMServiceStartDate" inpkey="266"/>
+										<entry name="DTMServiceEndDate" inpkey="267"/>
+										<entry name="dbo.MEA|InvoiceDetailSysId" type="table" inpkey="167">
+											<entry name="InvoiceHeaderSysId" inpkey="271"/>
+											<entry name="MEAMeasurementReferenceIDCode" inpkey="168"/>
+											<entry name="MEAMeasurementQualifier" inpkey="169"/>
+											<entry name="MEAMeasurementValue" inpkey="170"/>
+											<entry name="MEACompositeUnitofMeasure" inpkey="171"/>
+											<entry name="MEAUnitorBasisforMeasurementCode" inpkey="172"/>
+											<entry name="MEARangeMinimum" inpkey="173"/>
+											<entry name="MEARangeMaximum" inpkey="174"/>
+											<entry name="MEAMeasurementSignificanceCode" inpkey="175"/>
+										</entry>
+										<entry name="dbo.N1|InvoiceDetailsSysId" type="table" inpkey="204">
+											<entry name="InvoiceHeaderSysId" inpkey="272"/>
+											<entry name="N1EntityIdentifierCode" inpkey="205"/>
+											<entry name="N1Name" inpkey="206"/>
+											<entry name="N1IdentificationCodeQualifier" inpkey="207"/>
+											<entry name="N1IdentificationCode" inpkey="208"/>
+											<entry name="N2Name" inpkey="234"/>
+											<entry name="N3Address1" inpkey="235"/>
+											<entry name="N4CityName" inpkey="236"/>
+											<entry name="N4StateorProvinceCode" inpkey="237"/>
+											<entry name="N4PostalCode" inpkey="238"/>
+											<entry name="N4CountryCode" inpkey="239"/>
+										</entry>
+										<entry name="dbo.REF|InvoiceDetailSysId" type="table" inpkey="176">
+											<entry name="InvoiceHeaderSysId" inpkey="273"/>
+											<entry name="REFReferenceIdentificationQualifier" inpkey="177"/>
+											<entry name="REFReferenceIdentification" inpkey="178"/>
+										</entry>
+										<entry name="dbo.SLN|InvoiceDetailSysId" type="table" inpkey="184" expanded="1">
+											<entry name="InvoiceHeaderSysId" inpkey="274"/>
+											<entry name="SLNAssignedIdentification" inpkey="185"/>
+											<entry name="SLNRelationshipCode" inpkey="186"/>
+											<entry name="SACAllowanceorChargeIndicator" inpkey="190"/>
+											<entry name="SACAgencyQualifierCode" inpkey="194"/>
+											<entry name="SACAgencyServicePromotionAllowanceorChargeCode" inpkey="276"/>
+											<entry name="SACAmount" inpkey="198"/>
+											<entry name="SACRate" inpkey="199"/>
+											<entry name="SACUnitorBasisforMeasurementCode" inpkey="209"/>
+											<entry name="SACDescription" inpkey="210"/>
+											<entry name="SACQuantity" inpkey="211"/>
+										</entry>
+										<entry name="dbo.TXI|InvoiceDetailSysId" type="table" inpkey="123" expanded="1">
+											<entry name="InvoiceHeaderSysId" inpkey="275"/>
+											<entry name="TXITaxTypeCode" inpkey="124"/>
+											<entry name="TXIMonetaryAmount" inpkey="129"/>
+											<entry name="TXIRelationshipCode" inpkey="137"/>
+											<entry name="TXIPercent" inpkey="130"/>
+											<entry name="TXITaxExemptCode" inpkey="131"/>
+										</entry>
+									</entry>
+									<entry name="dbo.Invoice_Summary|InvoiceHeaderSysId" type="table">
+										<entry name="TDSAmount" inpkey="240"/>
+										<entry name="CTTNumberofLineItems" inpkey="241"/>
+										<entry name="SENumberofIncludedSegments" inpkey="242"/>
+										<entry name="SETransactionSetControlNumber" inpkey="243"/>
+									</entry>
+									<entry name="dbo.N1|InvoiceHeaderSysId" type="table" inpkey="39">
+										<entry name="N1EntityIdentifierCode" inpkey="40"/>
+										<entry name="N1Name" inpkey="41"/>
+										<entry name="N1IdentificationCodeQualifier" inpkey="42"/>
+										<entry name="N1IdentificationCode" inpkey="43"/>
+										<entry name="N2Name" inpkey="53"/>
+										<entry name="N3Address1" inpkey="54"/>
+										<entry name="N4CityName" inpkey="57"/>
+										<entry name="N4StateorProvinceCode" inpkey="58"/>
+										<entry name="N4PostalCode" inpkey="59"/>
+										<entry name="N4CountryCode" inpkey="60"/>
+										<entry name="dbo.REF|N1SysId" type="table" inpkey="77">
+											<entry name="REFReferenceIdentificationQualifier" inpkey="78"/>
+											<entry name="REFReferenceIdentification" inpkey="83"/>
+										</entry>
+									</entry>
+									<entry name="dbo.NTE|InvoiceHeaderSysId" type="table" inpkey="21">
+										<entry name="NTENoteReferenceCode" inpkey="22"/>
+										<entry name="NTEDescription" inpkey="23"/>
+									</entry>
+									<entry name="dbo.PER|InvoiceHeaderSysId" type="table" inpkey="65">
+										<entry name="PERContactFunctionCode" inpkey="66"/>
+										<entry name="PERCommunicationNumberQualifier" inpkey="67"/>
+										<entry name="PERCommunicationNumber" inpkey="68"/>
+									</entry>
+									<entry name="dbo.REF|InvoiceHeaderSysId" type="table" inpkey="29">
+										<entry name="REFReferenceIdentificationQualifier" inpkey="30"/>
+										<entry name="REFReferenceIdentification" inpkey="31"/>
+										<entry name="REFDescription" inpkey="32"/>
+									</entry>
 								</entry>
 								<entry name="dbo.sysdiagrams" show-schema-children="0"/>
 							</entry>
@@ -861,33 +1097,19 @@
 						</valuemap>
 					</data>
 				</component>
-				<component name="InvoiceHeaderSysId" library="db" uid="47" kind="21">
-					<sources>
-						<datapoint pos="0" key="269"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="270"/>
-					</targets>
-					<view ltx="174" lty="-111" rbx="300" rby="-73"/>
-					<data>
-						<where order="[InvoiceHeaderSysId] DESC;">
-							<parameters/>
-						</where>
-					</data>
-				</component>
 				<component name="constant" library="core" uid="36" kind="2">
 					<targets>
 						<datapoint pos="0" key="244"/>
 					</targets>
-					<view ltx="526" lty="-66" rbx="637" rby="-49"/>
+					<view ltx="526" lty="-66" rbx="661" rby="-49"/>
 					<data>
-						<constant value="EVERSOURCE" datatype="string"/>
+						<constant value="ROCKYMOUNTAIN" datatype="string"/>
 					</data>
 				</component>
 				<component name="810" library="text" uid="2" kind="16">
 					<view rbx="249" rby="450"/>
 					<data>
-						<root scrollposition="1590">
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -1104,7 +1326,7 @@
 							</entry>
 						</root>
 						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" inputinstance="*.*">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00604" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
 								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
 								<validation>
 									<case kind="undefined" action="stop"/>
@@ -1203,7 +1425,7 @@
 															<entry name="F718" inpkey="360"/>
 														</entry>
 													</entry>
-													<entry name="AK9" inpkey="312" expanded="1">
+													<entry name="AK9" inpkey="312">
 														<entry name="F715" inpkey="313"/>
 														<entry name="F97" inpkey="314"/>
 														<entry name="F123" inpkey="315"/>
@@ -1227,7 +1449,7 @@
 							</entry>
 						</root>
 						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00604" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
 								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
 								<validation>
 									<case kind="undefined" action="stop"/>
@@ -1255,222 +1477,6 @@
 								<message type="997"/>
 							</messages>
 						</text>
-					</data>
-				</component>
-				<component name="db" library="db" uid="3" kind="15">
-					<properties XSLTDefaultOutput="1"/>
-					<view ltx="645" rbx="932" rby="509"/>
-					<data>
-						<root scrollposition="120">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="1" expanded="1">
-								<entry name="dbo.InvoiceHeader" type="table" inpkey="1" expanded="1">
-									<entry name="STTransactionSetIdentifierCode" inpkey="2"/>
-									<entry name="STTransactionSetControlNumber" inpkey="3"/>
-									<entry name="BigDate" inpkey="4"/>
-									<entry name="BigInvoiceNumber" inpkey="5"/>
-									<entry name="BigPurchaseOrderNumber" inpkey="6"/>
-									<entry name="BigTransactionTypeCode" inpkey="7"/>
-									<entry name="BigTransactionSetPurposeCode" inpkey="8"/>
-									<entry name="ITDTermsNetDueDate" inpkey="93"/>
-									<entry name="CompanyName" inpkey="245"/>
-									<entry name="FileName" inpkey="246"/>
-									<entry name="ITDTermsTypeCode" inpkey="85"/>
-									<entry name="TermsBasisDateCode" inpkey="89"/>
-									<entry name="dbo.BAL|InvoiceHeaderSysId" type="table" inpkey="95">
-										<entry name="BalBalanceTypeCode" inpkey="96"/>
-										<entry name="BalAmountQualifierCode" inpkey="97"/>
-										<entry name="BalMonetaryAmount" inpkey="98"/>
-									</entry>
-									<entry name="dbo.Invoice_Detail|InvoiceHeaderSysId" type="table" inpkey="107" expanded="1">
-										<entry name="IT1AssignedIdentification" inpkey="108"/>
-										<entry name="IT1ProductServiceIDQualifier1" inpkey="111"/>
-										<entry name="IT1ProductServiceID1" inpkey="115"/>
-										<entry name="IT1ProductServiceIDQualifier12" inpkey="117"/>
-										<entry name="IT1ProductServiceID12" inpkey="118"/>
-										<entry name="DTMServiceStartDate" inpkey="266"/>
-										<entry name="DTMServiceEndDate" inpkey="267"/>
-										<entry name="dbo.MEA|InvoiceDetailSysId" type="table" inpkey="167" expanded="1">
-											<entry name="InvoiceHeaderSysId" inpkey="271"/>
-											<entry name="MEAMeasurementReferenceIDCode" inpkey="168"/>
-											<entry name="MEAMeasurementQualifier" inpkey="169"/>
-											<entry name="MEAMeasurementValue" inpkey="170"/>
-											<entry name="MEACompositeUnitofMeasure" inpkey="171"/>
-											<entry name="MEAUnitorBasisforMeasurementCode" inpkey="172"/>
-											<entry name="MEARangeMinimum" inpkey="173"/>
-											<entry name="MEARangeMaximum" inpkey="174"/>
-											<entry name="MEAMeasurementSignificanceCode" inpkey="175"/>
-										</entry>
-										<entry name="dbo.N1|InvoiceDetailsSysId" type="table" inpkey="204" expanded="1">
-											<entry name="InvoiceHeaderSysId" inpkey="272"/>
-											<entry name="N1EntityIdentifierCode" inpkey="205"/>
-											<entry name="N1Name" inpkey="206"/>
-											<entry name="N1IdentificationCodeQualifier" inpkey="207"/>
-											<entry name="N1IdentificationCode" inpkey="208"/>
-											<entry name="N2Name" inpkey="234"/>
-											<entry name="N3Address1" inpkey="235"/>
-											<entry name="N4CityName" inpkey="236"/>
-											<entry name="N4StateorProvinceCode" inpkey="237"/>
-											<entry name="N4PostalCode" inpkey="238"/>
-											<entry name="N4CountryCode" inpkey="239"/>
-										</entry>
-										<entry name="dbo.REF|InvoiceDetailSysId" type="table" inpkey="176" expanded="1">
-											<entry name="InvoiceHeaderSysId" inpkey="273"/>
-											<entry name="REFReferenceIdentificationQualifier" inpkey="177"/>
-											<entry name="REFReferenceIdentification" inpkey="178"/>
-										</entry>
-										<entry name="dbo.SLN|InvoiceDetailSysId" type="table" inpkey="184" expanded="1">
-											<entry name="InvoiceHeaderSysId" inpkey="274"/>
-											<entry name="SLNAssignedIdentification" inpkey="185"/>
-											<entry name="SLNRelationshipCode" inpkey="186"/>
-											<entry name="SACAllowanceorChargeIndicator" inpkey="190"/>
-											<entry name="SACAgencyQualifierCode" inpkey="194"/>
-											<entry name="SACAgencyServicePromotionAllowanceorChargeCode" inpkey="276"/>
-											<entry name="SACAmount" inpkey="198"/>
-											<entry name="SACRate" inpkey="199"/>
-											<entry name="SACUnitorBasisforMeasurementCode" inpkey="209"/>
-											<entry name="SACDescription" inpkey="210"/>
-											<entry name="SACQuantity" inpkey="211"/>
-										</entry>
-										<entry name="dbo.TXI|InvoiceDetailSysId" type="table" inpkey="123" expanded="1">
-											<entry name="InvoiceHeaderSysId" inpkey="275"/>
-											<entry name="TXITaxTypeCode" inpkey="124"/>
-											<entry name="TXIMonetaryAmount" inpkey="129"/>
-											<entry name="TXIRelationshipCode" inpkey="137"/>
-											<entry name="TXIPercent" inpkey="130"/>
-											<entry name="TXITaxExemptCode" inpkey="131"/>
-										</entry>
-									</entry>
-									<entry name="dbo.Invoice_Summary|InvoiceHeaderSysId" type="table">
-										<entry name="TDSAmount" inpkey="240"/>
-										<entry name="CTTNumberofLineItems" inpkey="241"/>
-										<entry name="SENumberofIncludedSegments" inpkey="242"/>
-										<entry name="SETransactionSetControlNumber" inpkey="243"/>
-									</entry>
-									<entry name="dbo.N1|InvoiceHeaderSysId" type="table" inpkey="39">
-										<entry name="N1EntityIdentifierCode" inpkey="40"/>
-										<entry name="N1Name" inpkey="41"/>
-										<entry name="N1IdentificationCodeQualifier" inpkey="42"/>
-										<entry name="N1IdentificationCode" inpkey="43"/>
-										<entry name="N2Name" inpkey="53"/>
-										<entry name="N3Address1" inpkey="54"/>
-										<entry name="N4CityName" inpkey="57"/>
-										<entry name="N4StateorProvinceCode" inpkey="58"/>
-										<entry name="N4PostalCode" inpkey="59"/>
-										<entry name="N4CountryCode" inpkey="60"/>
-										<entry name="dbo.REF|N1SysId" type="table" inpkey="77">
-											<entry name="REFReferenceIdentificationQualifier" inpkey="78"/>
-											<entry name="REFReferenceIdentification" inpkey="83"/>
-										</entry>
-									</entry>
-									<entry name="dbo.NTE|InvoiceHeaderSysId" type="table" inpkey="21">
-										<entry name="NTENoteReferenceCode" inpkey="22"/>
-										<entry name="NTEDescription" inpkey="23"/>
-									</entry>
-									<entry name="dbo.PER|InvoiceHeaderSysId" type="table" inpkey="65">
-										<entry name="PERContactFunctionCode" inpkey="66"/>
-										<entry name="PERCommunicationNumberQualifier" inpkey="67"/>
-										<entry name="PERCommunicationNumber" inpkey="68"/>
-									</entry>
-									<entry name="dbo.REF|InvoiceHeaderSysId" type="table" inpkey="29">
-										<entry name="REFReferenceIdentificationQualifier" inpkey="30"/>
-										<entry name="REFReferenceIdentification" inpkey="31"/>
-										<entry name="REFDescription" inpkey="32"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<database ref="ApexEDI">
-							<data>
-								<selections>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="BAL" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="CTP" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="InvoiceHeader" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="Invoice_Detail" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="Invoice_Summary" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="MEA" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="N1" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="NTE" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="PAM" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="PER" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="PID" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="REF" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="SLN" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="TXI" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="TempEDIInvoiceHeader" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="tempEDIInvoiceDetail" Kind="Table"/>
-									</selection>
-								</selections>
-							</data>
-						</database>
 					</data>
 				</component>
 			</children>

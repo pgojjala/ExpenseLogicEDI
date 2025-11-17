@@ -2,7 +2,7 @@
 <!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<settings>
-		<deployment path="/Live/EVERSOURCE/EVERSOURCE_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2025r2"/>
+		<deployment path="/Live/PACIFICPOWER/PACIFICPOWER_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2025"/>
 	</settings>
 	<resources/>
 	<component name="defaultmap" uid="1" editable="1" blackbox="0">
@@ -334,7 +334,7 @@
 							</entry>
 						</root>
 						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" inputinstance="Test Files\Sample In test_810o.dat_tr.txt">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00604" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
 								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
 								<validation>
 									<case kind="undefined" action="stop"/>
@@ -368,9 +368,9 @@
 					<targets>
 						<datapoint pos="0" key="99"/>
 					</targets>
-					<view ltx="949" lty="-347" rbx="1060" rby="-330"/>
+					<view ltx="949" lty="-347" rbx="1069" rby="-330"/>
 					<data>
-						<constant value="EVERSOURCE" datatype="string"/>
+						<constant value="PACIFICPOWER" datatype="string"/>
 					</data>
 				</component>
 			</children>

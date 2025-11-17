@@ -2,7 +2,7 @@
 <!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<settings>
-		<deployment path="/Live/EVERSOURCE/EVERSOURCE_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2025r2"/>
+		<deployment path="/Live/RELIANTENERGY/RELIANTENERGY_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2025r2"/>
 	</settings>
 	<resources/>
 	<component name="defaultmap" uid="1" editable="1" blackbox="0">
@@ -71,6 +71,35 @@
 					<data>
 						<constant value="0" datatype="decimal"/>
 					</data>
+				</component>
+				<component name="year-from-datetime" library="lang" uid="63" kind="5">
+					<sources>
+						<datapoint pos="0" key="85"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="86"/>
+					</targets>
+					<view ltx="677" lty="-314" rbx="802" rby="-276"/>
+				</component>
+				<component name="string-length" library="core" uid="70" kind="5">
+					<sources>
+						<datapoint pos="0" key="87"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="88"/>
+					</targets>
+					<view ltx="824" lty="-326" rbx="919" rby="-288"/>
+				</component>
+				<component name="substring" library="core" uid="66" kind="5">
+					<sources>
+						<datapoint pos="0" key="94"/>
+						<datapoint pos="1" key="95"/>
+						<datapoint pos="2" key="96"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="97"/>
+					</targets>
+					<view ltx="993" lty="-145" rbx="1076" rby="-75"/>
 				</component>
 				<component name="constant" library="core" uid="56" kind="2">
 					<targets>
@@ -271,35 +300,6 @@
 					</targets>
 					<view ltx="514" lty="-409" rbx="618" rby="-336"/>
 				</component>
-				<component name="string-length" library="core" uid="70" kind="5">
-					<sources>
-						<datapoint pos="0" key="87"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="88"/>
-					</targets>
-					<view ltx="824" lty="-326" rbx="919" rby="-288"/>
-				</component>
-				<component name="year-from-datetime" library="lang" uid="63" kind="5">
-					<sources>
-						<datapoint pos="0" key="85"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="86"/>
-					</targets>
-					<view ltx="734" lty="-374" rbx="859" rby="-336"/>
-				</component>
-				<component name="substring" library="core" uid="66" kind="5">
-					<sources>
-						<datapoint pos="0" key="94"/>
-						<datapoint pos="1" key="95"/>
-						<datapoint pos="2" key="96"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="97"/>
-					</targets>
-					<view ltx="993" lty="-145" rbx="1076" rby="-75"/>
-				</component>
 				<component name="810" library="text" uid="2" kind="16">
 					<view ltx="78" lty="-561" rbx="395" rby="-46"/>
 					<data>
@@ -334,7 +334,7 @@
 							</entry>
 						</root>
 						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" inputinstance="Test Files\Sample In test_810o.dat_tr.txt">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00604" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
 								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
 								<validation>
 									<case kind="undefined" action="stop"/>
@@ -368,9 +368,9 @@
 					<targets>
 						<datapoint pos="0" key="99"/>
 					</targets>
-					<view ltx="949" lty="-347" rbx="1060" rby="-330"/>
+					<view ltx="949" lty="-347" rbx="1073" rby="-330"/>
 					<data>
-						<constant value="EVERSOURCE" datatype="string"/>
+						<constant value="RELIANTENERGY" datatype="string"/>
 					</data>
 				</component>
 			</children>

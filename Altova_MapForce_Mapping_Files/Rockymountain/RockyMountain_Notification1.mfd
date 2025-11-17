@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2023r2 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<settings>
+		<deployment path="/Live/ROCKYMOUNTAIN/ROCKYMOUNTAIN_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2022r2"/>
+	</settings>
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="79" kind="2">
+					<targets>
+						<datapoint pos="0" key="100"/>
+					</targets>
+					<view ltx="447" lty="-390" rbx="495" rby="-373"/>
+					<data>
+						<constant value="2" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="76" kind="2">
+					<targets>
+						<datapoint pos="0" key="101"/>
+					</targets>
+					<view ltx="447" lty="-427" rbx="495" rby="-410"/>
+					<data>
+						<constant value="1" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="84" kind="2">
+					<targets>
+						<datapoint pos="0" key="102"/>
+					</targets>
+					<view ltx="447" lty="-355" rbx="495" rby="-338"/>
+					<data>
+						<constant value="3" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="89" kind="2">
+					<targets>
+						<datapoint pos="0" key="103"/>
+					</targets>
+					<view ltx="447" lty="-318" rbx="495" rby="-301"/>
+					<data>
+						<constant value="4" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="93" kind="2">
+					<targets>
+						<datapoint pos="0" key="104"/>
+					</targets>
+					<view ltx="447" lty="-274" rbx="495" rby="-257"/>
+					<data>
+						<constant value="5" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="97" kind="2">
+					<targets>
+						<datapoint pos="0" key="105"/>
+					</targets>
+					<view ltx="447" lty="-235" rbx="495" rby="-218"/>
+					<data>
+						<constant value="6" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="101" kind="2">
+					<targets>
+						<datapoint pos="0" key="136"/>
+					</targets>
+					<view ltx="447" lty="-208" rbx="495" rby="-191"/>
+					<data>
+						<constant value="7" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="105" kind="2">
+					<targets>
+						<datapoint pos="0" key="208"/>
+					</targets>
+					<view ltx="447" lty="-192" rbx="495" rby="-175"/>
+					<data>
+						<constant value="8" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="81" kind="2">
+					<targets>
+						<datapoint pos="0" key="164"/>
+					</targets>
+					<view ltx="621" lty="-336" rbx="685" rby="-319"/>
+					<data>
+						<constant value="kwh" datatype="string"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="88" kind="5">
+					<sources>
+						<datapoint pos="0" key="146"/>
+						<datapoint pos="1" key="147"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="148"/>
+					</targets>
+					<view ltx="519" lty="-459" rbx="575" rby="-405"/>
+				</component>
+				<component name="equal" library="core" uid="83" kind="5">
+					<sources>
+						<datapoint pos="0" key="143"/>
+						<datapoint pos="1" key="144"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="145"/>
+					</targets>
+					<view ltx="519" lty="-517" rbx="575" rby="-463"/>
+				</component>
+				<component name="equal" library="core" uid="78" kind="5">
+					<sources>
+						<datapoint pos="0" key="140"/>
+						<datapoint pos="1" key="141"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="142"/>
+					</targets>
+					<view ltx="519" lty="-570" rbx="575" rby="-516"/>
+				</component>
+				<component name="equal" library="core" uid="74" kind="5">
+					<sources>
+						<datapoint pos="0" key="137"/>
+						<datapoint pos="1" key="138"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="139"/>
+					</targets>
+					<view ltx="519" lty="-623" rbx="575" rby="-569"/>
+				</component>
+				<component name="equal" library="core" uid="92" kind="5">
+					<sources>
+						<datapoint pos="0" key="149"/>
+						<datapoint pos="1" key="150"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="151"/>
+					</targets>
+					<view ltx="519" lty="-406" rbx="575" rby="-352"/>
+				</component>
+				<component name="equal" library="core" uid="96" kind="5">
+					<sources>
+						<datapoint pos="0" key="152"/>
+						<datapoint pos="1" key="153"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="154"/>
+					</targets>
+					<view ltx="519" lty="-353" rbx="575" rby="-299"/>
+				</component>
+				<component name="equal" library="core" uid="100" kind="5">
+					<sources>
+						<datapoint pos="0" key="155"/>
+						<datapoint pos="1" key="156"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="157"/>
+					</targets>
+					<view ltx="519" lty="-304" rbx="575" rby="-250"/>
+				</component>
+				<component name="equal" library="core" uid="104" kind="5">
+					<sources>
+						<datapoint pos="0" key="227"/>
+						<datapoint pos="1" key="228"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="229"/>
+					</targets>
+					<view ltx="519" lty="-251" rbx="575" rby="-197"/>
+				</component>
+				<component name="equal" library="core" uid="108" kind="5">
+					<sources>
+						<datapoint pos="0" key="224"/>
+						<datapoint pos="1" key="225"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="226"/>
+					</targets>
+					<view ltx="519" lty="-199" rbx="575" rby="-145"/>
+				</component>
+				<component name="concat" library="core" uid="110" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="231"/>
+						<datapoint pos="1" key="232"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="233"/>
+					</targets>
+					<view ltx="591" lty="-201" rbx="673" rby="-145"/>
+				</component>
+				<component name="concat" library="core" uid="106" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="209"/>
+						<datapoint pos="1" key="210"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="211"/>
+					</targets>
+					<view ltx="591" lty="-265" rbx="673" rby="-209"/>
+				</component>
+				<component name="concat" library="core" uid="102" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="165"/>
+						<datapoint pos="1" key="166"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="167"/>
+					</targets>
+					<view ltx="591" lty="-318" rbx="673" rby="-262"/>
+				</component>
+				<component name="concat" library="core" uid="98" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="158"/>
+						<datapoint pos="1" key="159"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="160"/>
+					</targets>
+					<view ltx="591" lty="-394" rbx="673" rby="-338"/>
+				</component>
+				<component name="concat" library="core" uid="94" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="112"/>
+						<datapoint pos="1" key="113"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="114"/>
+					</targets>
+					<view ltx="591" lty="-449" rbx="673" rby="-393"/>
+				</component>
+				<component name="concat" library="core" uid="90" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="109"/>
+						<datapoint pos="1" key="110"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="111"/>
+					</targets>
+					<view ltx="591" lty="-498" rbx="673" rby="-442"/>
+				</component>
+				<component name="concat" library="core" uid="85" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="106"/>
+						<datapoint pos="1" key="107"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="108"/>
+					</targets>
+					<view ltx="591" lty="-553" rbx="673" rby="-497"/>
+				</component>
+				<component name="concat" library="core" uid="80" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="161"/>
+						<datapoint pos="1" key="162"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="163"/>
+					</targets>
+					<view ltx="591" lty="-608" rbx="673" rby="-552"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="82" kind="3">
+					<sources>
+						<datapoint pos="0" key="121"/>
+						<datapoint pos="1" key="122"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="123"/>
+						<datapoint/>
+					</targets>
+					<view ltx="691" lty="-496" rbx="804" rby="-442"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="87" kind="3">
+					<sources>
+						<datapoint pos="0" key="127"/>
+						<datapoint pos="1" key="128"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="129"/>
+						<datapoint/>
+					</targets>
+					<view ltx="691" lty="-443" rbx="804" rby="-389"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="91" kind="3">
+					<sources>
+						<datapoint pos="0" key="124"/>
+						<datapoint pos="1" key="125"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="126"/>
+						<datapoint/>
+					</targets>
+					<view ltx="691" lty="-387" rbx="804" rby="-333"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="95" kind="3">
+					<sources>
+						<datapoint pos="0" key="130"/>
+						<datapoint pos="1" key="131"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="132"/>
+						<datapoint/>
+					</targets>
+					<view ltx="691" lty="-334" rbx="804" rby="-280"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="99" kind="3">
+					<sources>
+						<datapoint pos="0" key="133"/>
+						<datapoint pos="1" key="134"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="135"/>
+						<datapoint/>
+					</targets>
+					<view ltx="691" lty="-281" rbx="804" rby="-227"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="103" kind="3">
+					<sources>
+						<datapoint pos="0" key="221"/>
+						<datapoint pos="1" key="222"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="223"/>
+						<datapoint/>
+					</targets>
+					<view ltx="691" lty="-228" rbx="804" rby="-174"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="107" kind="3">
+					<sources>
+						<datapoint pos="0" key="218"/>
+						<datapoint pos="1" key="219"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="220"/>
+						<datapoint/>
+					</targets>
+					<view ltx="691" lty="-175" rbx="804" rby="-121"/>
+				</component>
+				<component name="format-number" library="core" uid="116" kind="5">
+					<sources>
+						<datapoint pos="0" key="248"/>
+						<datapoint pos="1" key="249"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="250"/>
+					</targets>
+					<view ltx="826" lty="-443" rbx="997" rby="-357"/>
+				</component>
+				<component name="format-number" library="core" uid="117" kind="5">
+					<sources>
+						<datapoint pos="0" key="251"/>
+						<datapoint pos="1" key="252"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="253"/>
+					</targets>
+					<view ltx="826" lty="-358" rbx="997" rby="-272"/>
+				</component>
+				<component name="constant" library="core" uid="109" kind="2">
+					<targets>
+						<datapoint pos="0" key="230"/>
+					</targets>
+					<view ltx="447" lty="-162" rbx="495" rby="-145"/>
+					<data>
+						<constant value="9" datatype="string"/>
+					</data>
+				</component>
+				<component name="format-number" library="core" uid="123" kind="5">
+					<sources>
+						<datapoint pos="0" key="266"/>
+						<datapoint pos="1" key="267"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="268"/>
+					</targets>
+					<view ltx="826" lty="-771" rbx="997" rby="-685"/>
+				</component>
+				<component name="format-number" library="core" uid="112" kind="5">
+					<sources>
+						<datapoint pos="0" key="238"/>
+						<datapoint pos="1" key="239"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="240"/>
+					</targets>
+					<view ltx="826" lty="-686" rbx="997" rby="-600"/>
+				</component>
+				<component name="format-number" library="core" uid="114" kind="5">
+					<sources>
+						<datapoint pos="0" key="243"/>
+						<datapoint pos="1" key="242"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="244"/>
+					</targets>
+					<view ltx="826" lty="-601" rbx="997" rby="-515"/>
+				</component>
+				<component name="format-number" library="core" uid="115" kind="5">
+					<sources>
+						<datapoint pos="0" key="245"/>
+						<datapoint pos="1" key="246"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="247"/>
+					</targets>
+					<view ltx="826" lty="-517" rbx="997" rby="-431"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="77" kind="3">
+					<sources>
+						<datapoint pos="0" key="118"/>
+						<datapoint pos="1" key="119"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="120"/>
+						<datapoint/>
+					</targets>
+					<view ltx="691" lty="-549" rbx="804" rby="-495"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="73" kind="3">
+					<sources>
+						<datapoint pos="0" key="115"/>
+						<datapoint pos="1" key="116"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="117"/>
+						<datapoint/>
+					</targets>
+					<view ltx="691" lty="-602" rbx="804" rby="-548"/>
+				</component>
+				<component name="constant" library="core" uid="131" kind="2">
+					<targets>
+						<datapoint pos="0" key="287"/>
+					</targets>
+					<view ltx="1202" lty="-390" rbx="1341" rby="-373"/>
+					<data>
+						<constant value="Total New Charges" datatype="string"/>
+					</data>
+				</component>
+				<component name="format-number" library="core" uid="119" kind="5">
+					<sources>
+						<datapoint pos="0" key="257"/>
+						<datapoint pos="1" key="258"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="259"/>
+					</targets>
+					<view ltx="1017" lty="-374" rbx="1188" rby="-288"/>
+				</component>
+				<component name="format-number" library="core" uid="118" kind="5">
+					<sources>
+						<datapoint pos="0" key="254"/>
+						<datapoint pos="1" key="255"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="256"/>
+					</targets>
+					<view ltx="826" lty="-274" rbx="997" rby="-188"/>
+				</component>
+				<component name="format-number" library="core" uid="120" kind="5">
+					<sources>
+						<datapoint pos="0" key="260"/>
+						<datapoint pos="1" key="261"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="262"/>
+					</targets>
+					<view ltx="1017" lty="-289" rbx="1188" rby="-203"/>
+				</component>
+				<component name="format-number" library="core" uid="121" kind="5">
+					<sources>
+						<datapoint pos="0" key="263"/>
+						<datapoint pos="1" key="264"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="265"/>
+					</targets>
+					<view ltx="1017" lty="-459" rbx="1188" rby="-373"/>
+				</component>
+				<component name="first-items" library="core" uid="132" kind="5">
+					<sources>
+						<datapoint pos="0" key="291"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="292"/>
+					</targets>
+					<view ltx="1225" lty="-326" rbx="1340" rby="-272"/>
+				</component>
+				<component name="first-items" library="core" uid="133" kind="5">
+					<sources>
+						<datapoint pos="0" key="294"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="293"/>
+					</targets>
+					<view ltx="1231" lty="-274" rbx="1346" rby="-220"/>
+				</component>
+				<component name="constant" library="core" uid="122" kind="2">
+					<targets>
+						<datapoint pos="0" key="269"/>
+					</targets>
+					<view ltx="1225" lty="-208" rbx="1294" rby="-191"/>
+					<data>
+						<constant value="00.00" datatype="string"/>
+					</data>
+				</component>
+				<component name="format-number" library="core" uid="134" kind="5">
+					<sources>
+						<datapoint pos="0" key="295"/>
+						<datapoint pos="1" key="297"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="296"/>
+					</targets>
+					<view ltx="1017" lty="-201" rbx="1188" rby="-115"/>
+				</component>
+				<component name="constant" library="core" uid="129" kind="2">
+					<targets>
+						<datapoint pos="0" key="279"/>
+					</targets>
+					<view ltx="1202" lty="-459" rbx="1362" rby="-442"/>
+					<data>
+						<constant value="Multnomah CountyFee" datatype="string"/>
+					</data>
+				</component>
+				<component name="format-number" library="core" uid="130" kind="5">
+					<sources>
+						<datapoint pos="0" key="281"/>
+						<datapoint pos="1" key="283"/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="282"/>
+					</targets>
+					<view ltx="826" lty="-121" rbx="997" rby="-35"/>
+				</component>
+				<component name="constant" library="core" uid="113" kind="2">
+					<targets>
+						<datapoint pos="0" key="241"/>
+					</targets>
+					<view ltx="1004" lty="-78" rbx="1097" rby="-61"/>
+					<data>
+						<constant value="0.0000000" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="135" kind="2">
+					<targets>
+						<datapoint pos="0" key="298"/>
+					</targets>
+					<view ltx="679" lty="-78" rbx="776" rby="-61"/>
+					<data>
+						<constant value="-0.0000000" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="128" kind="2">
+					<targets>
+						<datapoint pos="0" key="278"/>
+					</targets>
+					<view ltx="1202" lty="-427" rbx="1330" rby="-410"/>
+					<data>
+						<constant value="Portland City Tax" datatype="string"/>
+					</data>
+				</component>
+				<component name="Sample Out Text file" library="text" uid="22" kind="16">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="1168" lty="-686" rbx="1336" rby="-486"/>
+					<data>
+						<root scrollposition="698">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" inpkey="30" expanded="1">
+										<entry name="NEWCHARGES-09_12" inpkey="168"/>
+										<entry name="UNITS" inpkey="169"/>
+										<entry name="COST PER UNIT" inpkey="170"/>
+										<entry name="CHARGE" inpkey="171"/>
+									</entry>
+									<entry name="Rows" inpkey="172" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="173"/>
+										<entry name="UNITS" inpkey="174"/>
+										<entry name="COST PER UNIT" inpkey="175"/>
+										<entry name="CHARGE" inpkey="176"/>
+									</entry>
+									<entry name="Rows" inpkey="177" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="178"/>
+										<entry name="UNITS" inpkey="179"/>
+										<entry name="COST PER UNIT" inpkey="180"/>
+										<entry name="CHARGE" inpkey="181"/>
+									</entry>
+									<entry name="Rows" inpkey="182" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="183"/>
+										<entry name="UNITS" inpkey="184"/>
+										<entry name="COST PER UNIT" inpkey="185"/>
+										<entry name="CHARGE" inpkey="186"/>
+									</entry>
+									<entry name="Rows" inpkey="187" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="188"/>
+										<entry name="UNITS" inpkey="189"/>
+										<entry name="COST PER UNIT" inpkey="190"/>
+										<entry name="CHARGE" inpkey="191"/>
+									</entry>
+									<entry name="Rows" inpkey="192" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="193"/>
+										<entry name="UNITS" inpkey="194"/>
+										<entry name="COST PER UNIT" inpkey="195"/>
+										<entry name="CHARGE" inpkey="196"/>
+									</entry>
+									<entry name="Rows" inpkey="197" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="198"/>
+										<entry name="UNITS" inpkey="199"/>
+										<entry name="COST PER UNIT" inpkey="200"/>
+										<entry name="CHARGE" inpkey="201"/>
+									</entry>
+									<entry name="Rows" inpkey="212" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="213"/>
+										<entry name="UNITS" inpkey="214"/>
+										<entry name="COST PER UNIT" inpkey="215"/>
+										<entry name="CHARGE" inpkey="216"/>
+									</entry>
+									<entry name="Rows" inpkey="217" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="234"/>
+										<entry name="UNITS" inpkey="235"/>
+										<entry name="COST PER UNIT" inpkey="236"/>
+										<entry name="CHARGE" inpkey="237"/>
+									</entry>
+									<entry name="Rows" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="277"/>
+										<entry name="COST PER UNIT" inpkey="270"/>
+										<entry name="CHARGE" inpkey="271"/>
+									</entry>
+									<entry name="Rows" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="280"/>
+										<entry name="COST PER UNIT" inpkey="285"/>
+										<entry name="CHARGE" inpkey="286"/>
+									</entry>
+									<entry name="Rows" expanded="1" clone="1">
+										<entry name="NEWCHARGES-09_12" inpkey="288"/>
+										<entry name="CHARGE" inpkey="289"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="Test Files\Test.csv.csv">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="Test.csv" block="Rows">
+									<field0 name="NEWCHARGES-09_12" realname="NEWCHARGES-09/12" type="string"/>
+									<field1 name="UNITS" type="string"/>
+									<field2 name="COST PER UNIT" type="string"/>
+									<field3 name="CHARGE" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="810" library="text" uid="2" kind="16">
+					<view ltx="100" lty="-771" rbx="417" rby="-256"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" expanded="1">
+											<entry name="ISA" expanded="1"/>
+											<entry name="Group" expanded="1">
+												<entry name="Message_810" expanded="1">
+													<entry name="BIG" expanded="1"/>
+													<entry name="REF" expanded="1"/>
+													<entry name="BAL" expanded="1">
+														<entry name="F782" outkey="290"/>
+													</entry>
+													<entry name="LoopIT1" expanded="1">
+														<entry name="TXI" expanded="1">
+															<entry name="F782" outkey="275"/>
+															<entry name="F954" outkey="284"/>
+														</entry>
+														<entry name="LoopSAC" expanded="1">
+															<entry name="TXI" expanded="1"/>
+														</entry>
+														<entry name="LoopSLN" outkey="202" expanded="1">
+															<entry name="SLN" expanded="1">
+																<entry name="F350_1" outkey="203"/>
+															</entry>
+															<entry name="SAC" expanded="1">
+																<entry name="F610" outkey="204"/>
+																<entry name="F118" outkey="205"/>
+																<entry name="F380" outkey="206"/>
+																<entry name="F352" outkey="207"/>
+															</entry>
+															<entry name="TXI" expanded="1"/>
+														</entry>
+													</entry>
+													<entry name="TDS" expanded="1"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config" inputinstance="..\..\Test_C810o_PacifiCorp_20250723-055215-446.dec">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="%7C" component="\" subcomponent="" segmentcode="%7C" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="810"/>
+							</messages>
+						</text>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="117">
+						<edges>
+							<edge vertexkey="30"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="206">
+						<edges>
+							<edge vertexkey="106"/>
+							<edge vertexkey="109"/>
+							<edge vertexkey="112"/>
+							<edge vertexkey="158"/>
+							<edge vertexkey="161"/>
+							<edge vertexkey="165"/>
+							<edge vertexkey="209"/>
+							<edge vertexkey="231"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="164">
+						<edges>
+							<edge vertexkey="107"/>
+							<edge vertexkey="110"/>
+							<edge vertexkey="113"/>
+							<edge vertexkey="159"/>
+							<edge vertexkey="162"/>
+							<edge vertexkey="166"/>
+							<edge vertexkey="210"/>
+							<edge vertexkey="232"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="202">
+						<edges>
+							<edge vertexkey="115"/>
+							<edge vertexkey="118"/>
+							<edge vertexkey="121"/>
+							<edge vertexkey="124"/>
+							<edge vertexkey="127"/>
+							<edge vertexkey="130"/>
+							<edge vertexkey="133"/>
+							<edge vertexkey="218"/>
+							<edge vertexkey="221"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="139">
+						<edges>
+							<edge vertexkey="116"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="142">
+						<edges>
+							<edge vertexkey="119"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="145">
+						<edges>
+							<edge vertexkey="122"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="151">
+						<edges>
+							<edge vertexkey="125"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="148">
+						<edges>
+							<edge vertexkey="128"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="154">
+						<edges>
+							<edge vertexkey="131"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="157">
+						<edges>
+							<edge vertexkey="134"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="203">
+						<edges>
+							<edge vertexkey="137"/>
+							<edge vertexkey="140"/>
+							<edge vertexkey="143"/>
+							<edge vertexkey="146"/>
+							<edge vertexkey="149"/>
+							<edge vertexkey="152"/>
+							<edge vertexkey="155"/>
+							<edge vertexkey="224"/>
+							<edge vertexkey="227"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="101">
+						<edges>
+							<edge vertexkey="138"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="100">
+						<edges>
+							<edge vertexkey="141"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="102">
+						<edges>
+							<edge vertexkey="144"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="103">
+						<edges>
+							<edge vertexkey="147"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="104">
+						<edges>
+							<edge vertexkey="150"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="105">
+						<edges>
+							<edge vertexkey="153"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="136">
+						<edges>
+							<edge vertexkey="156"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="207">
+						<edges>
+							<edge vertexkey="168"/>
+							<edge vertexkey="173"/>
+							<edge vertexkey="178"/>
+							<edge vertexkey="183"/>
+							<edge vertexkey="188"/>
+							<edge vertexkey="193"/>
+							<edge vertexkey="198"/>
+							<edge vertexkey="213"/>
+							<edge vertexkey="234"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="205">
+						<edges>
+							<edge vertexkey="169"/>
+							<edge vertexkey="170"/>
+							<edge vertexkey="238"/>
+							<edge vertexkey="243"/>
+							<edge vertexkey="245"/>
+							<edge vertexkey="248"/>
+							<edge vertexkey="251"/>
+							<edge vertexkey="254"/>
+							<edge vertexkey="257"/>
+							<edge vertexkey="260"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="265">
+						<edges>
+							<edge vertexkey="171"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="120">
+						<edges>
+							<edge vertexkey="172"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="163">
+						<edges>
+							<edge vertexkey="174"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="240">
+						<edges>
+							<edge vertexkey="175"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="204">
+						<edges>
+							<edge vertexkey="176"/>
+							<edge vertexkey="181"/>
+							<edge vertexkey="186"/>
+							<edge vertexkey="196"/>
+							<edge vertexkey="201"/>
+							<edge vertexkey="216"/>
+							<edge vertexkey="237"/>
+							<edge vertexkey="263"/>
+							<edge vertexkey="266"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="123">
+						<edges>
+							<edge vertexkey="177"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="108">
+						<edges>
+							<edge vertexkey="179"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="244">
+						<edges>
+							<edge vertexkey="180"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="129">
+						<edges>
+							<edge vertexkey="182"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="111">
+						<edges>
+							<edge vertexkey="184"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="247">
+						<edges>
+							<edge vertexkey="185"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="126">
+						<edges>
+							<edge vertexkey="187"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="114">
+						<edges>
+							<edge vertexkey="189"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="250">
+						<edges>
+							<edge vertexkey="190"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="268">
+						<edges>
+							<edge vertexkey="191"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="132">
+						<edges>
+							<edge vertexkey="192"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="160">
+						<edges>
+							<edge vertexkey="194"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="253">
+						<edges>
+							<edge vertexkey="195"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="135">
+						<edges>
+							<edge vertexkey="197"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="167">
+						<edges>
+							<edge vertexkey="199"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="256">
+						<edges>
+							<edge vertexkey="200"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="223">
+						<edges>
+							<edge vertexkey="212"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="211">
+						<edges>
+							<edge vertexkey="214"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="259">
+						<edges>
+							<edge vertexkey="215"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="220">
+						<edges>
+							<edge vertexkey="217"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="226">
+						<edges>
+							<edge vertexkey="219"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="229">
+						<edges>
+							<edge vertexkey="222"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="230">
+						<edges>
+							<edge vertexkey="225"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="208">
+						<edges>
+							<edge vertexkey="228"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="233">
+						<edges>
+							<edge vertexkey="235"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="262">
+						<edges>
+							<edge vertexkey="236"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="241">
+						<edges>
+							<edge vertexkey="239"/>
+							<edge vertexkey="242"/>
+							<edge vertexkey="246"/>
+							<edge vertexkey="249"/>
+							<edge vertexkey="252"/>
+							<edge vertexkey="255"/>
+							<edge vertexkey="258"/>
+							<edge vertexkey="261"/>
+							<edge vertexkey="297"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="269">
+						<edges>
+							<edge vertexkey="264"/>
+							<edge vertexkey="267"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="296">
+						<edges>
+							<edge vertexkey="270"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="293">
+						<edges>
+							<edge vertexkey="271"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="278">
+						<edges>
+							<edge vertexkey="277"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="279">
+						<edges>
+							<edge vertexkey="280"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="284">
+						<edges>
+							<edge vertexkey="281"/>
+							<edge vertexkey="291"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="298">
+						<edges>
+							<edge vertexkey="283"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="282">
+						<edges>
+							<edge vertexkey="285"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="275">
+						<edges>
+							<edge vertexkey="286"/>
+							<edge vertexkey="294"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="287">
+						<edges>
+							<edge vertexkey="288"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="290">
+						<edges>
+							<edge vertexkey="289"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="292">
+						<edges>
+							<edge vertexkey="295"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

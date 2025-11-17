@@ -2,7 +2,7 @@
 <!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="34">
 	<settings>
-		<deployment path="/Live/EVERSOURCE/EVERSOURCE_EDI_DB.mapping" server="localhost" port="8082" user="/root" toolversion="2025r2"/>
+		<deployment path="/Live/NYSEG/NYSEG_EDI_DB.mapping" server="localhost" port="8082" user="/root" toolversion="2025"/>
 	</settings>
 	<resources>
 		<datasources>
@@ -875,15 +875,6 @@
 						</where>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="36" kind="2">
-					<targets>
-						<datapoint pos="0" key="244"/>
-					</targets>
-					<view ltx="526" lty="-66" rbx="637" rby="-49"/>
-					<data>
-						<constant value="EVERSOURCE" datatype="string"/>
-					</data>
-				</component>
 				<component name="810" library="text" uid="2" kind="16">
 					<view rbx="249" rby="450"/>
 					<data>
@@ -1471,6 +1462,15 @@
 								</selections>
 							</data>
 						</database>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="36" kind="2">
+					<targets>
+						<datapoint pos="0" key="244"/>
+					</targets>
+					<view ltx="526" lty="-66" rbx="601" rby="-49"/>
+					<data>
+						<constant value="NYSEG" datatype="string"/>
 					</data>
 				</component>
 			</children>

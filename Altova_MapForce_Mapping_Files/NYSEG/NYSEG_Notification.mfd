@@ -2,7 +2,7 @@
 <!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<settings>
-		<deployment path="/Live/EVERSOURCE/EVERSOURCE_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2025r2"/>
+		<deployment path="/Live/NYSEG/NYSEG_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2025"/>
 	</settings>
 	<resources/>
 	<component name="defaultmap" uid="1" editable="1" blackbox="0">
@@ -27,24 +27,6 @@
 						<constant value="2" datatype="decimal"/>
 					</data>
 				</component>
-				<component name="remove-fileext" library="core" uid="44" kind="5">
-					<sources>
-						<datapoint pos="0" key="69"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="70"/>
-					</targets>
-					<view ltx="430" lty="-586" rbx="563" rby="-548"/>
-				</component>
-				<component name="constant" library="core" uid="67" kind="2">
-					<targets>
-						<datapoint pos="0" key="84"/>
-					</targets>
-					<view ltx="824" lty="-87" rbx="872" rby="-70"/>
-					<data>
-						<constant value="3" datatype="string"/>
-					</data>
-				</component>
 				<component name="constant" library="core" uid="33" kind="2">
 					<targets>
 						<datapoint pos="0" key="56"/>
@@ -53,65 +35,6 @@
 					<data>
 						<constant value="-$" datatype="string"/>
 					</data>
-				</component>
-				<component name="remove-folder" library="core" uid="51" kind="5">
-					<sources>
-						<datapoint pos="0" key="75"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="76"/>
-					</targets>
-					<view ltx="539" lty="-526" rbx="643" rby="-488"/>
-				</component>
-				<component name="constant" library="core" uid="29" kind="2">
-					<targets>
-						<datapoint pos="0" key="45"/>
-					</targets>
-					<view ltx="423" lty="-393" rbx="463" rby="-376"/>
-					<data>
-						<constant value="0" datatype="decimal"/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="56" kind="2">
-					<targets>
-						<datapoint pos="0" key="79"/>
-					</targets>
-					<view ltx="636" lty="-278" rbx="703" rby="-261"/>
-					<data>
-						<constant value="[M,2]" datatype="string"/>
-					</data>
-				</component>
-				<component name="format-date" library="core" uid="55" kind="5">
-					<sources>
-						<datapoint pos="0" key="81"/>
-						<datapoint pos="1" key="82"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="83"/>
-					</targets>
-					<view ltx="665" lty="-431" rbx="763" rby="-361"/>
-				</component>
-				<component name="constant" library="core" uid="59" kind="2">
-					<targets>
-						<datapoint pos="0" key="80"/>
-					</targets>
-					<view ltx="635" lty="-347" rbx="680" rby="-330"/>
-					<data>
-						<constant value=" " datatype="string"/>
-					</data>
-				</component>
-				<component name="concat" library="core" uid="58" kind="5" growable="1" growablebasename="value">
-					<sources>
-						<datapoint pos="0" key="89"/>
-						<datapoint pos="1" key="90"/>
-						<datapoint pos="2" key="91"/>
-						<datapoint pos="3" key="92"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="93"/>
-					</targets>
-					<view ltx="1130" lty="-187" rbx="1222" rby="-97"/>
 				</component>
 				<component name="constant" library="core" uid="32" kind="2">
 					<targets>
@@ -143,23 +66,24 @@
 					</targets>
 					<view ltx="687" lty="-91" rbx="769" rby="-35"/>
 				</component>
-				<component name="remove-folder" library="core" uid="25" kind="5">
+				<component name="concat" library="core" uid="31" kind="5" growable="1" growablebasename="value">
 					<sources>
-						<datapoint pos="0" key="37"/>
+						<datapoint pos="0" key="52"/>
+						<datapoint pos="1" key="53"/>
 					</sources>
 					<targets>
-						<datapoint pos="0" key="38"/>
+						<datapoint pos="0" key="54"/>
 					</targets>
-					<view ltx="539" lty="-489" rbx="643" rby="-451"/>
+					<view ltx="491" lty="-129" rbx="573" rby="-73"/>
 				</component>
-				<component name="constant" library="core" uid="49" kind="2">
+				<component name="remove-fileext" library="core" uid="44" kind="5">
+					<sources>
+						<datapoint pos="0" key="69"/>
+					</sources>
 					<targets>
-						<datapoint pos="0" key="71"/>
+						<datapoint pos="0" key="70"/>
 					</targets>
-					<view ltx="600" lty="-585" rbx="684" rby="-568"/>
-					<data>
-						<constant value="_997.edi" datatype="string"/>
-					</data>
+					<view ltx="430" lty="-586" rbx="563" rby="-548"/>
 				</component>
 				<component name="concat" library="core" uid="48" kind="5" growable="1" growablebasename="value">
 					<sources>
@@ -171,6 +95,15 @@
 					</targets>
 					<view ltx="677" lty="-526" rbx="759" rby="-470"/>
 				</component>
+				<component name="constant" library="core" uid="49" kind="2">
+					<targets>
+						<datapoint pos="0" key="71"/>
+					</targets>
+					<view ltx="600" lty="-585" rbx="684" rby="-568"/>
+					<data>
+						<constant value="_997.edi" datatype="string"/>
+					</data>
+				</component>
 				<component name="right-trim" library="lang" uid="53" kind="5">
 					<sources>
 						<datapoint pos="0" key="77"/>
@@ -180,6 +113,24 @@
 					</targets>
 					<view ltx="824" lty="-511" rbx="903" rby="-473"/>
 				</component>
+				<component name="remove-folder" library="core" uid="25" kind="5">
+					<sources>
+						<datapoint pos="0" key="37"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="38"/>
+					</targets>
+					<view ltx="539" lty="-489" rbx="643" rby="-451"/>
+				</component>
+				<component name="remove-folder" library="core" uid="51" kind="5">
+					<sources>
+						<datapoint pos="0" key="75"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="76"/>
+					</targets>
+					<view ltx="539" lty="-526" rbx="643" rby="-488"/>
+				</component>
 				<component name="greater" library="core" uid="28" kind="5">
 					<sources>
 						<datapoint pos="0" key="46"/>
@@ -188,7 +139,47 @@
 					<targets>
 						<datapoint pos="0" key="48"/>
 					</targets>
-					<view ltx="445" lty="-463" rbx="509" rby="-409"/>
+					<view ltx="515" lty="-456" rbx="579" rby="-402"/>
+				</component>
+				<component name="if-else" library="core" uid="26" kind="4">
+					<sources>
+						<datapoint pos="0" key="49"/>
+						<datapoint pos="1" key="50"/>
+						<datapoint pos="2" key="51"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="65"/>
+					</targets>
+					<view ltx="715" lty="-231" rbx="819" rby="-158"/>
+				</component>
+				<component name="constant" library="core" uid="29" kind="2">
+					<targets>
+						<datapoint pos="0" key="45"/>
+					</targets>
+					<view ltx="430" lty="-470" rbx="470" rby="-453"/>
+					<data>
+						<constant value="0" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="11" kind="2">
+					<targets>
+						<datapoint pos="0" key="13"/>
+					</targets>
+					<view ltx="419" lty="-231" rbx="510" rby="-214"/>
+					<data>
+						<constant value="[M]/[D]/[Y]" datatype="string"/>
+					</data>
+				</component>
+				<component name="format-date" library="core" uid="13" kind="5">
+					<sources>
+						<datapoint pos="0" key="14"/>
+						<datapoint pos="1" key="15"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="16"/>
+					</targets>
+					<view ltx="515" lty="-327" rbx="613" rby="-257"/>
 				</component>
 				<component name="Sample Out Text file" library="text" uid="22" kind="16">
 					<properties XSLTDefaultOutput="1"/>
@@ -230,46 +221,34 @@
 						</text>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="11" kind="2">
+				<component name="constant" library="core" uid="56" kind="2">
 					<targets>
-						<datapoint pos="0" key="13"/>
+						<datapoint pos="0" key="79"/>
 					</targets>
-					<view ltx="419" lty="-231" rbx="510" rby="-214"/>
+					<view ltx="636" lty="-278" rbx="703" rby="-261"/>
 					<data>
-						<constant value="[M]/[D]/[Y]" datatype="string"/>
+						<constant value="[M,2]" datatype="string"/>
 					</data>
 				</component>
-				<component name="format-date" library="core" uid="13" kind="5">
+				<component name="format-date" library="core" uid="55" kind="5">
 					<sources>
-						<datapoint pos="0" key="14"/>
-						<datapoint pos="1" key="15"/>
+						<datapoint pos="0" key="81"/>
+						<datapoint pos="1" key="82"/>
 						<datapoint/>
 					</sources>
 					<targets>
-						<datapoint pos="0" key="16"/>
+						<datapoint pos="0" key="83"/>
 					</targets>
-					<view ltx="515" lty="-327" rbx="613" rby="-257"/>
+					<view ltx="665" lty="-431" rbx="763" rby="-361"/>
 				</component>
-				<component name="concat" library="core" uid="31" kind="5" growable="1" growablebasename="value">
+				<component name="year-from-datetime" library="lang" uid="63" kind="5">
 					<sources>
-						<datapoint pos="0" key="52"/>
-						<datapoint pos="1" key="53"/>
+						<datapoint pos="0" key="85"/>
 					</sources>
 					<targets>
-						<datapoint pos="0" key="54"/>
+						<datapoint pos="0" key="86"/>
 					</targets>
-					<view ltx="491" lty="-129" rbx="573" rby="-73"/>
-				</component>
-				<component name="if-else" library="core" uid="26" kind="4">
-					<sources>
-						<datapoint pos="0" key="49"/>
-						<datapoint pos="1" key="50"/>
-						<datapoint pos="2" key="51"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="65"/>
-					</targets>
-					<view ltx="514" lty="-409" rbx="618" rby="-336"/>
+					<view ltx="734" lty="-374" rbx="859" rby="-336"/>
 				</component>
 				<component name="string-length" library="core" uid="70" kind="5">
 					<sources>
@@ -280,14 +259,14 @@
 					</targets>
 					<view ltx="824" lty="-326" rbx="919" rby="-288"/>
 				</component>
-				<component name="year-from-datetime" library="lang" uid="63" kind="5">
-					<sources>
-						<datapoint pos="0" key="85"/>
-					</sources>
+				<component name="constant" library="core" uid="67" kind="2">
 					<targets>
-						<datapoint pos="0" key="86"/>
+						<datapoint pos="0" key="84"/>
 					</targets>
-					<view ltx="734" lty="-374" rbx="859" rby="-336"/>
+					<view ltx="824" lty="-87" rbx="872" rby="-70"/>
+					<data>
+						<constant value="3" datatype="string"/>
+					</data>
 				</component>
 				<component name="substring" library="core" uid="66" kind="5">
 					<sources>
@@ -299,6 +278,15 @@
 						<datapoint pos="0" key="97"/>
 					</targets>
 					<view ltx="993" lty="-145" rbx="1076" rby="-75"/>
+				</component>
+				<component name="constant" library="core" uid="59" kind="2">
+					<targets>
+						<datapoint pos="0" key="80"/>
+					</targets>
+					<view ltx="635" lty="-347" rbx="680" rby="-330"/>
+					<data>
+						<constant value=" " datatype="string"/>
+					</data>
 				</component>
 				<component name="810" library="text" uid="2" kind="16">
 					<view ltx="78" lty="-561" rbx="395" rby="-46"/>
@@ -334,7 +322,7 @@
 							</entry>
 						</root>
 						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" inputinstance="Test Files\Sample In test_810o.dat_tr.txt">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00604" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
 								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
 								<validation>
 									<case kind="undefined" action="stop"/>
@@ -364,13 +352,25 @@
 						</text>
 					</data>
 				</component>
+				<component name="concat" library="core" uid="58" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="89"/>
+						<datapoint pos="1" key="90"/>
+						<datapoint pos="2" key="91"/>
+						<datapoint pos="3" key="92"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="93"/>
+					</targets>
+					<view ltx="1130" lty="-187" rbx="1222" rby="-97"/>
+				</component>
 				<component name="constant" library="core" uid="72" kind="2">
 					<targets>
 						<datapoint pos="0" key="99"/>
 					</targets>
-					<view ltx="949" lty="-347" rbx="1060" rby="-330"/>
+					<view ltx="949" lty="-347" rbx="1024" rby="-330"/>
 					<data>
-						<constant value="EVERSOURCE" datatype="string"/>
+						<constant value="NYSEG" datatype="string"/>
 					</data>
 				</component>
 			</children>
