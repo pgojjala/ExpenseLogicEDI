@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Edited with Altova MapForce 2023r2 -->
+<!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="34">
 	<settings>
-		<deployment path="/Live/Direct Energy/Direct Energy_EDI_DB.mapping" server="localhost" port="8082" user="/root" toolversion="2022r2"/>
+		<deployment path="/Live/DUKEENERGY/DukeEnergy_EDI_DB.mapping" server="localhost" port="8082" user="/root" toolversion="2025"/>
 	</settings>
 	<resources>
 		<datasources>
@@ -83,15 +83,6 @@
 					<data>
 						<constant value="FA" datatype="string"/>
 						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="53" kind="2">
-					<targets>
-						<datapoint pos="0" key="361"/>
-					</targets>
-					<view ltx="555" lty="-3" rbx="609" rby="14"/>
-					<data>
-						<constant value="01" datatype="string"/>
 					</data>
 				</component>
 				<component name="constant" library="core" uid="51" kind="2">
@@ -692,7 +683,7 @@
 				<component name="db" library="db" uid="48" kind="15">
 					<view ltx="70" lty="519" rbx="249" rby="807"/>
 					<data>
-						<root scrollposition="35">
+						<root scrollposition="34">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -875,15 +866,6 @@
 						</valuemap>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="36" kind="2">
-					<targets>
-						<datapoint pos="0" key="244"/>
-					</targets>
-					<view ltx="487" lty="-65" rbx="594" rby="-48"/>
-					<data>
-						<constant value="Duke Energy" datatype="string"/>
-					</data>
-				</component>
 				<component name="constant" library="core" uid="78" kind="2">
 					<targets>
 						<datapoint pos="0" key="420"/>
@@ -933,380 +915,6 @@
 					</targets>
 					<view ltx="82" lty="-185" rbx="186" rby="-112"/>
 				</component>
-				<component name="997" library="text" uid="49" kind="16">
-					<properties XSLTDefaultOutput="1"/>
-					<view ltx="1003" lty="-48" rbx="1436" rby="497"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1">
-									<entry name="Envelope" expanded="1">
-										<entry name="Interchange" inpkey="297" expanded="1">
-											<entry name="ISA" inpkey="298">
-												<entry name="FI06" inpkey="299"/>
-												<entry name="FI05_2" inpkey="362"/>
-												<entry name="FI07" inpkey="300"/>
-												<entry name="FI10" inpkey="363"/>
-												<entry name="FI11" inpkey="364"/>
-												<entry name="FI12" inpkey="365"/>
-												<entry name="FI14" inpkey="366"/>
-											</entry>
-											<entry name="Group" expanded="1">
-												<entry name="GS">
-													<entry name="F479" inpkey="301"/>
-													<entry name="F142" inpkey="302"/>
-													<entry name="F124" inpkey="303"/>
-													<entry name="F373" inpkey="367"/>
-													<entry name="F337" inpkey="368"/>
-													<entry name="F28" inpkey="304"/>
-													<entry name="F455" inpkey="305"/>
-													<entry name="F480" inpkey="306"/>
-												</entry>
-												<entry name="Message_997" inpkey="307" expanded="1">
-													<entry name="ST" expanded="1">
-														<entry name="F329" inpkey="308"/>
-													</entry>
-													<entry name="AK1" inpkey="309">
-														<entry name="F479" inpkey="310"/>
-														<entry name="F28" inpkey="311"/>
-													</entry>
-													<entry name="LoopAK2" inpkey="341">
-														<entry name="AK2" inpkey="342" expanded="1">
-															<entry name="F143" inpkey="343"/>
-															<entry name="F329" inpkey="344"/>
-														</entry>
-														<entry name="LoopAK3" inpkey="345" expanded="1">
-															<entry name="AK3" inpkey="346" expanded="1">
-																<entry name="F721" inpkey="347"/>
-																<entry name="F719" inpkey="348"/>
-																<entry name="F447" inpkey="349"/>
-																<entry name="F720" inpkey="350"/>
-															</entry>
-															<entry name="AK4" inpkey="351" expanded="1">
-																<entry name="C030" inpkey="352" expanded="1">
-																	<entry name="F722" inpkey="353"/>
-																	<entry name="F1528" inpkey="354"/>
-																</entry>
-																<entry name="F725" inpkey="355"/>
-																<entry name="F723" inpkey="356"/>
-																<entry name="F724" inpkey="357"/>
-															</entry>
-														</entry>
-														<entry name="AK5" inpkey="358" expanded="1">
-															<entry name="F717" inpkey="359"/>
-															<entry name="F718" inpkey="360"/>
-														</entry>
-													</entry>
-													<entry name="AK9" inpkey="312">
-														<entry name="F715" inpkey="313"/>
-														<entry name="F97" inpkey="314"/>
-														<entry name="F123" inpkey="315"/>
-														<entry name="F2" inpkey="316"/>
-														<entry name="F716" inpkey="317"/>
-													</entry>
-													<entry name="SE" expanded="1">
-														<entry name="F329" inpkey="318"/>
-													</entry>
-												</entry>
-												<entry name="GE" expanded="1">
-													<entry name="F28" inpkey="319"/>
-												</entry>
-											</entry>
-											<entry name="IEA" expanded="1">
-												<entry name="FI12" inpkey="369"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<text type="edi" encoding="1000" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
-								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
-								<validation>
-									<case kind="undefined" action="stop"/>
-									<case kind="missing-segment" action="stop"/>
-									<case kind="missing-group" action="stop"/>
-									<case kind="missing-field-or-composite" action="report+reject"/>
-									<case kind="extra-data" action="report+reject"/>
-									<case kind="invalid-field-value" action="report+reject"/>
-									<case kind="invalid-date" action="report+reject"/>
-									<case kind="invalid-time" action="report+reject"/>
-									<case kind="extra-repeat" action="report+reject"/>
-									<case kind="numeric-overflow" action="report+reject"/>
-									<case kind="data-element-too-short" action="report+reject"/>
-									<case kind="data-element-too-long" action="report+reject"/>
-									<case kind="unexpected-eof" action="stop"/>
-									<case kind="invalid-codelist-value" action="report+reject"/>
-									<case kind="semantic" action="report+reject"/>
-									<case kind="segment-not-in-message" action="stop"/>
-									<case kind="unrecognized-segment-id" action="stop"/>
-									<case kind="impl-not-used-present" action="report+reject"/>
-									<case kind="not-all-data-parsed" action="report+reject"/>
-								</validation>
-							</settings>
-							<messages>
-								<message type="997"/>
-							</messages>
-						</text>
-					</data>
-				</component>
-				<component name="810" library="text" uid="2" kind="16">
-					<view ltx="-50" lty="-3" rbx="199" rby="447"/>
-					<data>
-						<root scrollposition="1633">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" outkey="247" expanded="1">
-								<entry name="document" ns="1" expanded="1">
-									<entry name="Envelope" expanded="1">
-										<entry name="Interchange" outkey="279" expanded="1">
-											<entry name="ISA" outkey="280">
-												<entry name="FI06" outkey="281"/>
-												<entry name="FI07" outkey="282"/>
-												<entry name="FI10" outkey="370"/>
-												<entry name="FI11" outkey="371"/>
-												<entry name="FI12" outkey="372"/>
-												<entry name="FI14" outkey="373"/>
-											</entry>
-											<entry name="Group" outkey="283" expanded="1">
-												<entry name="GS" outkey="284">
-													<entry name="F479" outkey="285"/>
-													<entry name="F142" outkey="286"/>
-													<entry name="F124" outkey="287"/>
-													<entry name="F373" outkey="374"/>
-													<entry name="F337" outkey="375"/>
-													<entry name="F28" outkey="288"/>
-													<entry name="F455" outkey="289"/>
-													<entry name="F480" outkey="290"/>
-												</entry>
-												<entry name="Message_810" outkey="11" expanded="1">
-													<entry name="ST" outkey="324" expanded="1">
-														<entry name="F143" outkey="12"/>
-														<entry name="F329" outkey="13"/>
-													</entry>
-													<entry name="BIG" expanded="1">
-														<entry name="F373_1" outkey="14"/>
-														<entry name="F76_1" outkey="15"/>
-														<entry name="F324" outkey="16"/>
-														<entry name="F640" outkey="17"/>
-														<entry name="F353" outkey="18"/>
-													</entry>
-													<entry name="NTE" outkey="26">
-														<entry name="F363" outkey="27"/>
-														<entry name="F352" outkey="28"/>
-													</entry>
-													<entry name="REF" outkey="35">
-														<entry name="F128" outkey="36"/>
-														<entry name="F127" outkey="37"/>
-														<entry name="F352" outkey="38"/>
-													</entry>
-													<entry name="LoopN1" outkey="48">
-														<entry name="N1">
-															<entry name="F98_1" outkey="49"/>
-															<entry name="F93" outkey="50"/>
-															<entry name="F66" outkey="51"/>
-															<entry name="F67" outkey="52"/>
-														</entry>
-														<entry name="N2">
-															<entry name="F93" outkey="55"/>
-														</entry>
-														<entry name="N3">
-															<entry name="F166" outkey="56"/>
-														</entry>
-														<entry name="N4">
-															<entry name="F19" outkey="61"/>
-															<entry name="F156" outkey="62"/>
-															<entry name="F116" outkey="63"/>
-															<entry name="F26" outkey="64"/>
-														</entry>
-														<entry name="REF" outkey="79">
-															<entry name="F128" outkey="80"/>
-															<entry name="F127" outkey="84"/>
-														</entry>
-														<entry name="PER" outkey="71">
-															<entry name="F366" outkey="72"/>
-															<entry name="F365_1" outkey="73"/>
-															<entry name="F364_1" outkey="74"/>
-														</entry>
-													</entry>
-													<entry name="ITD">
-														<entry name="F336" outkey="86"/>
-														<entry name="F333" outkey="90"/>
-														<entry name="F446" outkey="94"/>
-													</entry>
-													<entry name="BAL" outkey="103">
-														<entry name="F951" outkey="104"/>
-														<entry name="F522" outkey="105"/>
-														<entry name="F782" outkey="106"/>
-													</entry>
-													<entry name="LoopIT1" outkey="109" expanded="1">
-														<entry name="IT1">
-															<entry name="F350" outkey="110"/>
-															<entry name="F235_01" outkey="112"/>
-															<entry name="F234_01" outkey="116"/>
-															<entry name="F235_02" outkey="121"/>
-															<entry name="F234_02" outkey="122"/>
-														</entry>
-														<entry name="TXI" outkey="125">
-															<entry name="F963" outkey="126"/>
-															<entry name="F782" outkey="132"/>
-															<entry name="F954" outkey="133"/>
-															<entry name="F441" outkey="134"/>
-															<entry name="F662" outkey="138"/>
-														</entry>
-														<entry name="MEA" outkey="143" expanded="1">
-															<entry name="F737" outkey="144"/>
-															<entry name="F738" outkey="148"/>
-															<entry name="F739" outkey="154"/>
-															<entry name="C001" outkey="155" expanded="1">
-																<entry name="F355_1" outkey="156"/>
-															</entry>
-															<entry name="F740" outkey="162"/>
-															<entry name="F741" outkey="163"/>
-															<entry name="F935" outkey="164"/>
-														</entry>
-														<entry name="REF" outkey="181">
-															<entry name="F128" outkey="182"/>
-															<entry name="F127" outkey="183"/>
-														</entry>
-														<entry name="DTM" expanded="1">
-															<entry name="F374" outkey="261"/>
-															<entry name="F373" outkey="262"/>
-														</entry>
-														<entry name="LoopSLN" outkey="187" expanded="1">
-															<entry name="SLN">
-																<entry name="F350_1" outkey="188"/>
-																<entry name="F662_1" outkey="189"/>
-															</entry>
-															<entry name="SAC" expanded="1">
-																<entry name="F248" outkey="191"/>
-																<entry name="F559" outkey="195"/>
-																<entry name="F1301" outkey="278"/>
-																<entry name="F610" outkey="200"/>
-																<entry name="F118" outkey="201"/>
-																<entry name="F355" outkey="216"/>
-																<entry name="F380" outkey="217"/>
-																<entry name="F352" outkey="218"/>
-															</entry>
-														</entry>
-														<entry name="LoopN1" outkey="219">
-															<entry name="N1">
-																<entry name="F98_1" outkey="220"/>
-																<entry name="F93" outkey="221"/>
-																<entry name="F66" outkey="222"/>
-																<entry name="F67" outkey="223"/>
-															</entry>
-															<entry name="N2">
-																<entry name="F93" outkey="224"/>
-															</entry>
-															<entry name="N3">
-																<entry name="F166" outkey="225"/>
-															</entry>
-															<entry name="N4">
-																<entry name="F19" outkey="226"/>
-																<entry name="F156" outkey="227"/>
-																<entry name="F116" outkey="228"/>
-																<entry name="F26" outkey="229"/>
-															</entry>
-														</entry>
-													</entry>
-													<entry name="TDS">
-														<entry name="F610_1" outkey="230"/>
-													</entry>
-													<entry name="CTT">
-														<entry name="F354" outkey="231"/>
-													</entry>
-													<entry name="SE" expanded="1">
-														<entry name="F96" outkey="232"/>
-														<entry name="F329" outkey="233"/>
-													</entry>
-													<entry name="ParserErrors_Message" expanded="1">
-														<entry name="LoopMF_AK3" outkey="325" expanded="1">
-															<entry name="MF_AK3" outkey="326" expanded="1">
-																<entry name="F721" outkey="327"/>
-																<entry name="F719" outkey="328"/>
-																<entry name="F447" outkey="329"/>
-																<entry name="F720" outkey="330"/>
-															</entry>
-															<entry name="MF_AK4" outkey="331" expanded="1">
-																<entry name="C030" outkey="332" expanded="1">
-																	<entry name="F722" outkey="333"/>
-																	<entry name="F1528" outkey="334"/>
-																</entry>
-																<entry name="F725" outkey="335"/>
-																<entry name="F723" outkey="336"/>
-																<entry name="F724" outkey="337"/>
-															</entry>
-														</entry>
-														<entry name="MF_AK5" outkey="338" expanded="1">
-															<entry name="F717" outkey="339"/>
-															<entry name="F718" outkey="340"/>
-														</entry>
-													</entry>
-												</entry>
-												<entry name="GE" expanded="1">
-													<entry name="F28" outkey="376"/>
-												</entry>
-												<entry name="ParserErrors_Group" expanded="1">
-													<entry name="MF_AK9" outkey="291" expanded="1">
-														<entry name="F715" outkey="292"/>
-														<entry name="F97" outkey="293"/>
-														<entry name="F123" outkey="294"/>
-														<entry name="F2" outkey="295"/>
-														<entry name="F716" outkey="296"/>
-													</entry>
-												</entry>
-											</entry>
-											<entry name="IEA" expanded="1">
-												<entry name="FI12" outkey="377"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<text type="edi" encoding="1000" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config" inputinstance="Test Files\dsmkey_P11E-202504000000005978277496_250426042222_3418618_9354.edi">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
-								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
-								<validation>
-									<case kind="undefined" action="stop"/>
-									<case kind="missing-segment" action="stop"/>
-									<case kind="missing-group" action="stop"/>
-									<case kind="missing-field-or-composite" action="report+reject"/>
-									<case kind="extra-data" action="report+reject"/>
-									<case kind="invalid-field-value" action="report+reject"/>
-									<case kind="invalid-date" action="report+reject"/>
-									<case kind="invalid-time" action="report+reject"/>
-									<case kind="extra-repeat" action="report+reject"/>
-									<case kind="numeric-overflow" action="report+reject"/>
-									<case kind="data-element-too-short" action="report+reject"/>
-									<case kind="data-element-too-long" action="report+reject"/>
-									<case kind="unexpected-eof" action="stop"/>
-									<case kind="invalid-codelist-value" action="report+reject"/>
-									<case kind="semantic" action="report+reject"/>
-									<case kind="segment-not-in-message" action="stop"/>
-									<case kind="unrecognized-segment-id" action="stop"/>
-									<case kind="impl-not-used-present" action="report+reject"/>
-									<case kind="not-all-data-parsed" action="report+reject"/>
-								</validation>
-							</settings>
-							<messages>
-								<message type="810"/>
-							</messages>
-						</text>
-					</data>
-				</component>
 				<component name="if-else" library="core" uid="81" kind="4">
 					<sources>
 						<datapoint pos="0" key="438"/>
@@ -1322,7 +930,7 @@
 					<properties/>
 					<view ltx="632" lty="-31" rbx="919" rby="478"/>
 					<data>
-						<root scrollposition="1208">
+						<root scrollposition="1548">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -1547,6 +1155,408 @@
 						</database>
 					</data>
 				</component>
+				<component name="constant" library="core" uid="36" kind="2">
+					<targets>
+						<datapoint pos="0" key="244"/>
+					</targets>
+					<view ltx="487" lty="-65" rbx="597" rby="-48"/>
+					<data>
+						<constant value="DUKEENERGY" datatype="string"/>
+					</data>
+				</component>
+				<component name="810" library="text" uid="2" kind="16">
+					<view ltx="-50" lty="-3" rbx="199" rby="447"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" outkey="247" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" outkey="279" expanded="1">
+											<entry name="ISA" outkey="280" expanded="1">
+												<entry name="FI06" outkey="281"/>
+												<entry name="FI07" outkey="282"/>
+												<entry name="FI11" outkey="371"/>
+												<entry name="FI12" outkey="372"/>
+												<entry name="FI14" outkey="373"/>
+												<entry name="FI10" outkey="370"/>
+											</entry>
+											<entry name="Group" outkey="283" expanded="1">
+												<entry name="GS" outkey="284">
+													<entry name="F479" outkey="285"/>
+													<entry name="F142" outkey="286"/>
+													<entry name="F124" outkey="287"/>
+													<entry name="F373" outkey="374"/>
+													<entry name="F337" outkey="375"/>
+													<entry name="F28" outkey="288"/>
+													<entry name="F455" outkey="289"/>
+													<entry name="F480" outkey="290"/>
+												</entry>
+												<entry name="Message_810" outkey="11" expanded="1">
+													<entry name="ST" outkey="324" expanded="1">
+														<entry name="F143" outkey="12"/>
+														<entry name="F329" outkey="13"/>
+													</entry>
+													<entry name="BIG" expanded="1">
+														<entry name="F373_1" outkey="14"/>
+														<entry name="F76_1" outkey="15"/>
+														<entry name="F324" outkey="16"/>
+														<entry name="F640" outkey="17"/>
+														<entry name="F353" outkey="18"/>
+													</entry>
+													<entry name="NTE" outkey="26">
+														<entry name="F363" outkey="27"/>
+														<entry name="F352" outkey="28"/>
+													</entry>
+													<entry name="REF" outkey="35">
+														<entry name="F128" outkey="36"/>
+														<entry name="F127" outkey="37"/>
+														<entry name="F352" outkey="38"/>
+													</entry>
+													<entry name="LoopN1" outkey="48">
+														<entry name="N1">
+															<entry name="F98_1" outkey="49"/>
+															<entry name="F93" outkey="50"/>
+															<entry name="F66" outkey="51"/>
+															<entry name="F67" outkey="52"/>
+														</entry>
+														<entry name="N2">
+															<entry name="F93" outkey="55"/>
+														</entry>
+														<entry name="N3">
+															<entry name="F166" outkey="56"/>
+														</entry>
+														<entry name="N4">
+															<entry name="F19" outkey="61"/>
+															<entry name="F156" outkey="62"/>
+															<entry name="F116" outkey="63"/>
+															<entry name="F26" outkey="64"/>
+														</entry>
+														<entry name="REF" outkey="79">
+															<entry name="F128" outkey="80"/>
+															<entry name="F127" outkey="84"/>
+														</entry>
+														<entry name="PER" outkey="71">
+															<entry name="F366" outkey="72"/>
+															<entry name="F365_1" outkey="73"/>
+															<entry name="F364_1" outkey="74"/>
+														</entry>
+													</entry>
+													<entry name="ITD">
+														<entry name="F336" outkey="86"/>
+														<entry name="F333" outkey="90"/>
+														<entry name="F446" outkey="94"/>
+													</entry>
+													<entry name="BAL" outkey="103">
+														<entry name="F951" outkey="104"/>
+														<entry name="F522" outkey="105"/>
+														<entry name="F782" outkey="106"/>
+													</entry>
+													<entry name="LoopIT1" outkey="109" expanded="1">
+														<entry name="IT1">
+															<entry name="F350" outkey="110"/>
+															<entry name="F235_01" outkey="112"/>
+															<entry name="F234_01" outkey="116"/>
+															<entry name="F235_02" outkey="121"/>
+															<entry name="F234_02" outkey="122"/>
+														</entry>
+														<entry name="TXI" outkey="125">
+															<entry name="F963" outkey="126"/>
+															<entry name="F782" outkey="132"/>
+															<entry name="F954" outkey="133"/>
+															<entry name="F441" outkey="134"/>
+															<entry name="F662" outkey="138"/>
+														</entry>
+														<entry name="MEA" outkey="143" expanded="1">
+															<entry name="F737" outkey="144"/>
+															<entry name="F738" outkey="148"/>
+															<entry name="F739" outkey="154"/>
+															<entry name="C001" outkey="155" expanded="1">
+																<entry name="F355_1" outkey="156"/>
+															</entry>
+															<entry name="F740" outkey="162"/>
+															<entry name="F741" outkey="163"/>
+															<entry name="F935" outkey="164"/>
+														</entry>
+														<entry name="REF" outkey="181">
+															<entry name="F128" outkey="182"/>
+															<entry name="F127" outkey="183"/>
+														</entry>
+														<entry name="DTM" expanded="1">
+															<entry name="F374" outkey="261"/>
+															<entry name="F373" outkey="262"/>
+														</entry>
+														<entry name="LoopSLN" outkey="187" expanded="1">
+															<entry name="SLN">
+																<entry name="F350_1" outkey="188"/>
+																<entry name="F662_1" outkey="189"/>
+															</entry>
+															<entry name="SAC" expanded="1">
+																<entry name="F248" outkey="191"/>
+																<entry name="F559" outkey="195"/>
+																<entry name="F1301" outkey="278"/>
+																<entry name="F610" outkey="200"/>
+																<entry name="F118" outkey="201"/>
+																<entry name="F355" outkey="216"/>
+																<entry name="F380" outkey="217"/>
+																<entry name="F352" outkey="218"/>
+															</entry>
+														</entry>
+														<entry name="LoopN1" outkey="219">
+															<entry name="N1">
+																<entry name="F98_1" outkey="220"/>
+																<entry name="F93" outkey="221"/>
+																<entry name="F66" outkey="222"/>
+																<entry name="F67" outkey="223"/>
+															</entry>
+															<entry name="N2">
+																<entry name="F93" outkey="224"/>
+															</entry>
+															<entry name="N3">
+																<entry name="F166" outkey="225"/>
+															</entry>
+															<entry name="N4">
+																<entry name="F19" outkey="226"/>
+																<entry name="F156" outkey="227"/>
+																<entry name="F116" outkey="228"/>
+																<entry name="F26" outkey="229"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="TDS">
+														<entry name="F610_1" outkey="230"/>
+													</entry>
+													<entry name="CTT">
+														<entry name="F354" outkey="231"/>
+													</entry>
+													<entry name="SE" expanded="1">
+														<entry name="F96" outkey="232"/>
+														<entry name="F329" outkey="233"/>
+													</entry>
+													<entry name="ParserErrors_Message" expanded="1">
+														<entry name="LoopMF_AK3" outkey="325" expanded="1">
+															<entry name="MF_AK3" outkey="326" expanded="1">
+																<entry name="F721" outkey="327"/>
+																<entry name="F719" outkey="328"/>
+																<entry name="F447" outkey="329"/>
+																<entry name="F720" outkey="330"/>
+															</entry>
+															<entry name="MF_AK4" outkey="331" expanded="1">
+																<entry name="C030" outkey="332" expanded="1">
+																	<entry name="F722" outkey="333"/>
+																	<entry name="F1528" outkey="334"/>
+																</entry>
+																<entry name="F725" outkey="335"/>
+																<entry name="F723" outkey="336"/>
+																<entry name="F724" outkey="337"/>
+															</entry>
+														</entry>
+														<entry name="MF_AK5" outkey="338" expanded="1">
+															<entry name="F717" outkey="339"/>
+															<entry name="F718" outkey="340"/>
+														</entry>
+													</entry>
+												</entry>
+												<entry name="GE" expanded="1">
+													<entry name="F28" outkey="376"/>
+												</entry>
+												<entry name="ParserErrors_Group" expanded="1">
+													<entry name="MF_AK9" outkey="291" expanded="1">
+														<entry name="F715" outkey="292"/>
+														<entry name="F97" outkey="293"/>
+														<entry name="F123" outkey="294"/>
+														<entry name="F2" outkey="295"/>
+														<entry name="F716" outkey="296"/>
+													</entry>
+												</entry>
+											</entry>
+											<entry name="IEA" expanded="1">
+												<entry name="FI12" outkey="377"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" inputinstance="Test Files\dsmkey_P11E-202504000000005978277496_250426042222_3418618_9354.edi">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00604" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="810"/>
+							</messages>
+						</text>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="53" kind="2">
+					<targets>
+						<datapoint pos="0" key="361"/>
+					</targets>
+					<view ltx="865" lty="-155" rbx="919" rby="-138"/>
+					<data>
+						<constant value="ZZ" datatype="string"/>
+					</data>
+				</component>
+				<component name="997" library="text" uid="49" kind="16">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="1003" lty="-48" rbx="1436" rby="497"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" inpkey="297" expanded="1">
+											<entry name="ISA" inpkey="298" expanded="1">
+												<entry name="FI05_1" inpkey="448"/>
+												<entry name="FI06" inpkey="299"/>
+												<entry name="FI05_2" inpkey="362"/>
+												<entry name="FI07" inpkey="300"/>
+												<entry name="FI11" inpkey="364"/>
+												<entry name="FI12" inpkey="365"/>
+												<entry name="FI14" inpkey="366"/>
+												<entry name="FI10" inpkey="363"/>
+											</entry>
+											<entry name="Group" expanded="1">
+												<entry name="GS">
+													<entry name="F479" inpkey="301"/>
+													<entry name="F142" inpkey="302"/>
+													<entry name="F124" inpkey="303"/>
+													<entry name="F373" inpkey="367"/>
+													<entry name="F337" inpkey="368"/>
+													<entry name="F28" inpkey="304"/>
+													<entry name="F455" inpkey="305"/>
+													<entry name="F480" inpkey="306"/>
+												</entry>
+												<entry name="Message_997" inpkey="307" expanded="1">
+													<entry name="ST" expanded="1">
+														<entry name="F329" inpkey="308"/>
+													</entry>
+													<entry name="AK1" inpkey="309">
+														<entry name="F479" inpkey="310"/>
+														<entry name="F28" inpkey="311"/>
+													</entry>
+													<entry name="LoopAK2" inpkey="341">
+														<entry name="AK2" inpkey="342" expanded="1">
+															<entry name="F143" inpkey="343"/>
+															<entry name="F329" inpkey="344"/>
+														</entry>
+														<entry name="LoopAK3" inpkey="345" expanded="1">
+															<entry name="AK3" inpkey="346" expanded="1">
+																<entry name="F721" inpkey="347"/>
+																<entry name="F719" inpkey="348"/>
+																<entry name="F447" inpkey="349"/>
+																<entry name="F720" inpkey="350"/>
+															</entry>
+															<entry name="AK4" inpkey="351" expanded="1">
+																<entry name="C030" inpkey="352" expanded="1">
+																	<entry name="F722" inpkey="353"/>
+																	<entry name="F1528" inpkey="354"/>
+																</entry>
+																<entry name="F725" inpkey="355"/>
+																<entry name="F723" inpkey="356"/>
+																<entry name="F724" inpkey="357"/>
+															</entry>
+														</entry>
+														<entry name="AK5" inpkey="358" expanded="1">
+															<entry name="F717" inpkey="359"/>
+															<entry name="F718" inpkey="360"/>
+														</entry>
+													</entry>
+													<entry name="AK9" inpkey="312">
+														<entry name="F715" inpkey="313"/>
+														<entry name="F97" inpkey="314"/>
+														<entry name="F123" inpkey="315"/>
+														<entry name="F2" inpkey="316"/>
+														<entry name="F716" inpkey="317"/>
+													</entry>
+													<entry name="SE" expanded="1">
+														<entry name="F329" inpkey="318"/>
+													</entry>
+												</entry>
+												<entry name="GE" expanded="1">
+													<entry name="F28" inpkey="319"/>
+												</entry>
+											</entry>
+											<entry name="IEA" expanded="1">
+												<entry name="FI12" inpkey="369"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" outputinstance="Test.edi">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00604" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="997"/>
+							</messages>
+						</text>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="87" kind="2">
+					<targets>
+						<datapoint pos="0" key="449"/>
+					</targets>
+					<view ltx="951" lty="-175" rbx="1005" rby="-158"/>
+					<data>
+						<constant value="01" datatype="string"/>
+					</data>
+				</component>
 			</children>
 		</structure>
 		<connections>
@@ -1749,6 +1759,7 @@
 			<edge from="434" to="435"/>
 			<edge from="434" to="436"/>
 			<edge from="437" to="438"/>
+			<edge from="449" to="448"/>
 		</connections>
 	</component>
 </mapping>
