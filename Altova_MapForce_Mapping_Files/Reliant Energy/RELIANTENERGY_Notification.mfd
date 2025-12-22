@@ -2,7 +2,7 @@
 <!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<settings>
-		<deployment path="/Live/RELIANTENERGY/RELIANTENERGY_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2025r2"/>
+		<deployment path="/Live/RELIANTENERGY/RELIANTENERGY_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2025"/>
 	</settings>
 	<resources/>
 	<component name="defaultmap" uid="1" editable="1" blackbox="0">
@@ -27,15 +27,6 @@
 						<constant value="2" datatype="decimal"/>
 					</data>
 				</component>
-				<component name="remove-fileext" library="core" uid="44" kind="5">
-					<sources>
-						<datapoint pos="0" key="69"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="70"/>
-					</targets>
-					<view ltx="430" lty="-586" rbx="563" rby="-548"/>
-				</component>
 				<component name="constant" library="core" uid="67" kind="2">
 					<targets>
 						<datapoint pos="0" key="84"/>
@@ -53,15 +44,6 @@
 					<data>
 						<constant value="-$" datatype="string"/>
 					</data>
-				</component>
-				<component name="remove-folder" library="core" uid="51" kind="5">
-					<sources>
-						<datapoint pos="0" key="75"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="76"/>
-					</targets>
-					<view ltx="539" lty="-526" rbx="643" rby="-488"/>
 				</component>
 				<component name="constant" library="core" uid="29" kind="2">
 					<targets>
@@ -172,43 +154,6 @@
 					</targets>
 					<view ltx="687" lty="-91" rbx="769" rby="-35"/>
 				</component>
-				<component name="remove-folder" library="core" uid="25" kind="5">
-					<sources>
-						<datapoint pos="0" key="37"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="38"/>
-					</targets>
-					<view ltx="539" lty="-489" rbx="643" rby="-451"/>
-				</component>
-				<component name="constant" library="core" uid="49" kind="2">
-					<targets>
-						<datapoint pos="0" key="71"/>
-					</targets>
-					<view ltx="600" lty="-585" rbx="684" rby="-568"/>
-					<data>
-						<constant value="_997.edi" datatype="string"/>
-					</data>
-				</component>
-				<component name="concat" library="core" uid="48" kind="5" growable="1" growablebasename="value">
-					<sources>
-						<datapoint pos="0" key="72"/>
-						<datapoint pos="1" key="73"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="74"/>
-					</targets>
-					<view ltx="677" lty="-526" rbx="759" rby="-470"/>
-				</component>
-				<component name="right-trim" library="lang" uid="53" kind="5">
-					<sources>
-						<datapoint pos="0" key="77"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="78"/>
-					</targets>
-					<view ltx="824" lty="-511" rbx="903" rby="-473"/>
-				</component>
 				<component name="greater" library="core" uid="28" kind="5">
 					<sources>
 						<datapoint pos="0" key="46"/>
@@ -218,46 +163,6 @@
 						<datapoint pos="0" key="48"/>
 					</targets>
 					<view ltx="445" lty="-463" rbx="509" rby="-409"/>
-				</component>
-				<component name="Sample Out Text file" library="text" uid="22" kind="16">
-					<properties XSLTDefaultOutput="1"/>
-					<view ltx="1110" lty="-499" rbx="1278" rby="-299"/>
-					<data>
-						<root>
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1">
-									<entry name="Rows" inpkey="30" expanded="1">
-										<entry name="Date" inpkey="29"/>
-										<entry name="Account Number" inpkey="42"/>
-										<entry name="Invoice Number" inpkey="43"/>
-										<entry name="Amount" inpkey="33"/>
-										<entry name="File Name" inpkey="35"/>
-										<entry name="Ack File Name" inpkey="68"/>
-										<entry name="Company Name" inpkey="44"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="Test Files\Sample Out Text file.csv">
-							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
-								<names root="Sample Out Text file" block="Rows">
-									<field0 name="Date" type="string"/>
-									<field1 name="Account Number" type="string"/>
-									<field2 name="Invoice Number" type="string"/>
-									<field3 name="Amount" type="string"/>
-									<field4 name="File Name" type="string"/>
-									<field5 name="Ack File Name" type="string"/>
-									<field6 name="Company Name" type="string"/>
-								</names>
-							</settings>
-						</text>
-					</data>
 				</component>
 				<component name="constant" library="core" uid="11" kind="2">
 					<targets>
@@ -364,14 +269,186 @@
 						</text>
 					</data>
 				</component>
+				<component name="constant" library="core" uid="90" kind="2">
+					<targets>
+						<datapoint pos="0" key="143"/>
+					</targets>
+					<view ltx="496" lty="-775" rbx="632" rby="-758"/>
+					<data>
+						<constant value="Reliant_prod_997_" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="91" kind="2">
+					<targets>
+						<datapoint pos="0" key="136"/>
+					</targets>
+					<view ltx="427" lty="-718" rbx="530" rby="-701"/>
+					<data>
+						<constant value="_TC002.xml_" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="94" kind="2">
+					<targets>
+						<datapoint pos="0" key="134"/>
+					</targets>
+					<view ltx="449" lty="-688" rbx="510" rby="-671"/>
+					<data>
+						<constant value=".edi" datatype="string"/>
+					</data>
+				</component>
+				<component name="now" library="lang" uid="97" kind="5">
+					<targets>
+						<datapoint pos="0" key="154"/>
+					</targets>
+					<view ltx="511" lty="-655" rbx="561" rby="-617"/>
+				</component>
+				<component name="hour-from-datetime" library="lang" uid="98" kind="5">
+					<sources>
+						<datapoint pos="0" key="160"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="168"/>
+					</targets>
+					<view ltx="778" lty="-567" rbx="907" rby="-529"/>
+				</component>
+				<component name="minute-from-datetime" library="lang" uid="99" kind="5">
+					<sources>
+						<datapoint pos="0" key="161"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="166"/>
+					</targets>
+					<view ltx="783" lty="-534" rbx="923" rby="-496"/>
+				</component>
+				<component name="second-from-datetime" library="lang" uid="100" kind="5">
+					<sources>
+						<datapoint pos="0" key="151"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="152"/>
+					</targets>
+					<view ltx="783" lty="-500" rbx="924" rby="-462"/>
+				</component>
+				<component name="remove-timezone" library="lang" uid="104" kind="5">
+					<sources>
+						<datapoint pos="0" key="155"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="148"/>
+					</targets>
+					<view ltx="596" lty="-655" rbx="711" rby="-617"/>
+				</component>
+				<component name="year-from-datetime" library="lang" uid="103" kind="5">
+					<sources>
+						<datapoint pos="0" key="165"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="163"/>
+					</targets>
+					<view ltx="763" lty="-676" rbx="888" rby="-638"/>
+				</component>
+				<component name="day-from-datetime" library="lang" uid="105" kind="5">
+					<sources>
+						<datapoint pos="0" key="162"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="158"/>
+					</targets>
+					<view ltx="783" lty="-605" rbx="905" rby="-567"/>
+				</component>
+				<component name="concat" library="core" uid="92" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="144"/>
+						<datapoint pos="1" key="141"/>
+						<datapoint pos="2" key="137"/>
+						<datapoint pos="3" key="142"/>
+						<datapoint pos="4" key="135"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="145"/>
+					</targets>
+					<view ltx="763" lty="-795" rbx="855" rby="-688"/>
+				</component>
+				<component name="Sample Out Text file" library="text" uid="22" kind="16">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="1073" lty="-463" rbx="1241" rby="-263"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" inpkey="30" expanded="1">
+										<entry name="Date" inpkey="29"/>
+										<entry name="Account Number" inpkey="42"/>
+										<entry name="Invoice Number" inpkey="43"/>
+										<entry name="Amount" inpkey="33"/>
+										<entry name="File Name" inpkey="35"/>
+										<entry name="Ack File Name" inpkey="68"/>
+										<entry name="Company Name" inpkey="44"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="Test Files\Sample Out Text file.csv">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="Sample Out Text file" block="Rows">
+									<field0 name="Date" type="string"/>
+									<field1 name="Account Number" type="string"/>
+									<field2 name="Invoice Number" type="string"/>
+									<field3 name="Amount" type="string"/>
+									<field4 name="File Name" type="string"/>
+									<field5 name="Ack File Name" type="string"/>
+									<field6 name="Company Name" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
 				<component name="constant" library="core" uid="72" kind="2">
 					<targets>
 						<datapoint pos="0" key="99"/>
 					</targets>
-					<view ltx="949" lty="-347" rbx="1073" rby="-330"/>
+					<view ltx="925" lty="-314" rbx="1049" rby="-297"/>
 					<data>
 						<constant value="RELIANTENERGY" datatype="string"/>
 					</data>
+				</component>
+				<component name="remove-folder" library="core" uid="25" kind="5">
+					<sources>
+						<datapoint pos="0" key="37"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="38"/>
+					</targets>
+					<view ltx="431" lty="-500" rbx="535" rby="-462"/>
+				</component>
+				<component name="month-from-datetime" library="lang" uid="102" kind="5">
+					<sources>
+						<datapoint pos="0" key="149"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="156"/>
+					</targets>
+					<view ltx="778" lty="-639" rbx="916" rby="-601"/>
+				</component>
+				<component name="concat" library="core" uid="101" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="164"/>
+						<datapoint pos="1" key="157"/>
+						<datapoint pos="2" key="159"/>
+						<datapoint pos="3" key="169"/>
+						<datapoint pos="4" key="167"/>
+						<datapoint pos="5" key="153"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="150"/>
+					</targets>
+					<view ltx="1014" lty="-605" rbx="1106" rby="-481"/>
 				</component>
 			</children>
 			<graph directed="1">
@@ -412,7 +489,6 @@
 					<vertex vertexkey="39">
 						<edges>
 							<edge vertexkey="37"/>
-							<edge vertexkey="69"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="41">
@@ -483,29 +559,9 @@
 							<edge vertexkey="63"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="78">
+					<vertex vertexkey="145">
 						<edges>
 							<edge vertexkey="68"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="76">
-						<edges>
-							<edge vertexkey="72"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="71">
-						<edges>
-							<edge vertexkey="73"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="70">
-						<edges>
-							<edge vertexkey="75"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="74">
-						<edges>
-							<edge vertexkey="77"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="79">
@@ -547,6 +603,72 @@
 					<vertex vertexkey="88">
 						<edges>
 							<edge vertexkey="96"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="134">
+						<edges>
+							<edge vertexkey="135"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="136">
+						<edges>
+							<edge vertexkey="137"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="150">
+						<edges>
+							<edge vertexkey="141"/>
+							<edge vertexkey="142"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="143">
+						<edges>
+							<edge vertexkey="144"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="148">
+						<edges>
+							<edge vertexkey="149"/>
+							<edge vertexkey="151"/>
+							<edge vertexkey="160"/>
+							<edge vertexkey="161"/>
+							<edge vertexkey="162"/>
+							<edge vertexkey="165"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="152">
+						<edges>
+							<edge vertexkey="153"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="154">
+						<edges>
+							<edge vertexkey="155"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="156">
+						<edges>
+							<edge vertexkey="157"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="158">
+						<edges>
+							<edge vertexkey="159"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="163">
+						<edges>
+							<edge vertexkey="164"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="166">
+						<edges>
+							<edge vertexkey="167"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="168">
+						<edges>
+							<edge vertexkey="169"/>
 						</edges>
 					</vertex>
 				</vertices>
