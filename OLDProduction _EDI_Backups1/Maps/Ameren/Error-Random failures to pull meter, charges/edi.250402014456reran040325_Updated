@@ -1,0 +1,292 @@
+ISA*00*          *00*          *01*966851875      *ZZ*RADIUSPOINT    *250402*0142*U*4010 *000000814*0*P*~|
+GS*IN*006936017*RADIUSPOINT*20250402*0142*655*X*004010|
+ST*810*0001|
+BIG*20250401*0695003004202504010001*****PR*00|
+NTE*ADD*Visit AmerenIllinois.com to view bill inserts which contain useful and|
+NTE*ADD*important information about ways to save energy and safety around|
+NTE*ADD*electricity and natural gas.|
+REF*12*0695003004|
+N1*RE*AMEREN ILLINOIS*1*006936017|
+N3*P.O.  Box 88034|
+N4*Chicago*IL*60680|
+N1*BT*MACON COUNTY RURAL KING*1*003436227|
+N3*C/O RADIUSPOINT DEPT 132*1211 STATE ROAD 436 STE 295|
+N4*CASSELBERRY*FL*32707|
+N1*MQ*MACON COUNTY RURAL KING|
+N3*1920 S MOUNT ZION RD, GAS|
+N4*DECATUR*IL*62521|
+ITD*05*4****20250416|
+BAL*M*YB*2152.74|
+IT1*001*****SV*GAS*C3*METER|
+MEA*AA*UG*1980*TD*143557*143755*51|
+MEA**MU*10|
+REF*MG*6TC78468|
+REF*NH*H22*Total Therm|
+REF*LU*18826031|
+DTM*150*20250302|
+DTM*151*20250331|
+IT1*002*****SV*GAS*C3*RATE|
+REF*NH*H22*GDS-2 Small Gas Delivery Servi|
+REF*LU*18826031|
+DTM*150*20250302|
+DTM*151*20250331|
+SLN*001**A|
+SAC*C**EU*BAS001*5068********001**Customer Charge|
+SLN*002**A|
+SAC*C**EU*DIS001*77539***.39161*TD*1980***002**Distribution Delivery Charge|
+SLN*003**A|
+SAC*C**EU*ADJ002*21701***.1096*TD*1980***003**Volume Balancing Adjustment|
+SLN*004**A|
+SAC*C**EU*ADJ002*26********004**Qualifying Infrastructure Plant Surchg|
+SLN*005**A|
+SAC*C**EU*ADJ002*817********005**Invested Capital Tax Adjustment|
+IT1*003*****SV*GAS*C3*RATE|
+REF*NH*000*Gas Supply|
+REF*LU*18826031|
+DTM*150*20250302|
+DTM*151*20250331|
+SLN*001**A|
+SAC*C**EU*ENC001*91492***.46208*TD*1980***001**Purchased Gas Adjustment Charge|
+IT1*004*****SV*GAS*C3*RATE|
+REF*NH*000*Taxes|
+REF*LU*18826031|
+DTM*150*20250302|
+DTM*151*20250331|
+SLN*001**A|
+SAC*C**EU*ADJ002*2558***.01292*TD*1980***001**Energy Efficiency Programs Charge|
+SLN*002**A|
+SAC*C**EU*ADJ002*183***.0009233*TD*1980***002**Gas Environmental Adjustment|
+SLN*003**A|
+SAC*C**EU*BAS001*2130********003**Low Income Credit Adjustment|
+SLN*004**A|
+SAC*N**EU*MSC001*4752********004**Illinois State Gas Revenue Tax|
+TXI*ST*47.52****2*A|
+SLN*005**A|
+SAC*N**EU*MSC001*202********005**Illinois State Commerce Commission Tax|
+TXI*ZZ*2.02****2*A|
+SLN*006**A|
+SAC*N**EU*MSC001*8806********006**Municipal Gross Revenue|
+TXI*MP*88.06****2*A|
+TDS*215274|
+SE*69*0001|
+ST*810*0002|
+BIG*20250401*2375318074202504010001*****PR*00|
+NTE*ADD*Visit AmerenIllinois.com to view bill inserts which contain useful and|
+NTE*ADD*important information about ways to save energy and safety around|
+NTE*ADD*electricity and natural gas.|
+REF*12*2375318074|
+N1*RE*AMEREN ILLINOIS*1*006936017|
+N3*P.O.  Box 88034|
+N4*Chicago*IL*60680|
+N1*BT*ICH LIMITED*1*003436227|
+N2*AUDIBEL HEARING CENTER|
+N3*C/O RADIUSPOINT*1211 STATE ROAD 436 STE 295|
+N4*CASSELBERRY*FL*32707|
+N1*MQ*ICH LIMITED|
+N2*AUDIBEL HEARING CENTER|
+N3*2890 S MOUNT ZION RD|
+N4*DECATUR*IL*62521|
+ITD*05*4****20250416|
+BAL*M*YB*408.68|
+IT1*001*****SV*ELECTRIC*C3*METER|
+MEA*AA*UG*825*KH*131137*131962*51|
+REF*MG*25610585|
+REF*NH*D02*Total kWh|
+REF*LU*14406203|
+DTM*150*20250227|
+DTM*151*20250330|
+IT1*002*****SV*ELECTRIC*C3*RATE|
+REF*NH*D02*DS-2 Small General Delivery Se|
+REF*LU*14406203|
+DTM*150*20250227|
+DTM*151*20250330|
+SLN*001**A|
+SAC*C**EU*BAS001*2486********001**Customer Charge|
+SLN*002**A|
+SAC*C**EU*BAS001*802********002**Meter Charge|
+SLN*003**A|
+SAC*C**EU*DIS001*2765***.03352*KH*825***003**Distribution Delivery Charge Non-Summer|
+SLN*004**A|
+SAC*A**EU*ADJ002*-120********004**Electric Deferred Income Tax Adjustment|
+SLN*005**A|
+SAC*C**EU*ADJ002*701********005**Delivery Service Cost Adjustment|
+IT1*003*****SV*ELECTRIC*C3*RATE|
+REF*NH*503|
+REF*LU*14406203|
+DTM*150*20250227|
+DTM*151*20250330|
+SLN*001**A|
+SAC*C**EU*TPI002*9929***.120352*KH*825***001**MARKET-BASED RATE - 825 KWH ACTUA|
+IT1*004*****SV*ELECTRIC*C3*RATE|
+REF*NH*000*Taxes|
+REF*LU*14406203|
+DTM*150*20250227|
+DTM*151*20250330|
+SLN*001**A|
+SAC*C**EU*MSC001*248********001**Customer Generation Charge|
+SLN*002**A|
+SAC*C**EU*MSC001*156***.00189*KH*825***002**Clean Energy Assistance Charge|
+SLN*003**A|
+SAC*C**EU*MSC001*7***.00008*KH*825***003**Coal to Solar and Energy Storage Charge|
+SLN*004**A|
+SAC*C**EU*MSC001*378***.00458*KH*825***004**Renewable Energy Adjustment|
+SLN*005**A|
+SAC*N**EU*MSC001*104********005**EDT Cost Recovery|
+TXI*ZZ*1.04****2*A|
+SLN*006**A|
+SAC*C**EU*ADJ002*6***.0000752*KH*825***006**Electric Environmental Adjustment|
+SLN*007**A|
+SAC*C**EU*MSC001*629***.00763*KH*825***007**Energy Efficiency Programs Charge|
+SLN*008**A|
+SAC*C**EU*MSC001*59***.00072*KH*825***008**Energy Transition Assistance Charge|
+SLN*009**A|
+SAC*C**EU*MSC001*7***.000083*KH*825***009**Utility-Owned Solar and Storage Adjustment|
+SLN*010**A|
+SAC*N**EU*MSC001*272********010**Illinois State Electricity Excise Tax|
+TXI*SE*2.72****2*A|
+IT1*005*****SV*GAS*C3*METER|
+MEA*AA*UG*151*TD*9064*9215*51|
+REF*MG*21050708|
+REF*NH*H22*Total Therm|
+REF*LU*15400974|
+DTM*150*20250227|
+DTM*151*20250328|
+IT1*006*****SV*GAS*C3*RATE|
+REF*NH*H22*GDS-2 Small Gas Delivery Servi|
+REF*LU*15400974|
+DTM*150*20250227|
+DTM*151*20250328|
+SLN*001**A|
+SAC*C**EU*BAS001*5068********001**Customer Charge|
+SLN*002**A|
+SAC*C**EU*DIS001*5913***.39161*TD*151***002**Distribution Delivery Charge|
+SLN*003**A|
+SAC*C**EU*ADJ002*1655***.1096*TD*151***003**Volume Balancing Adjustment|
+SLN*004**A|
+SAC*C**EU*ADJ002*3********004**Qualifying Infrastructure Plant Surchg|
+SLN*005**A|
+SAC*C**EU*ADJ002*101********005**Invested Capital Tax Adjustment|
+IT1*007*****SV*GAS*C3*RATE|
+REF*NH*000*Gas Supply|
+REF*LU*15400974|
+DTM*150*20250227|
+DTM*151*20250328|
+SLN*001**A|
+SAC*C**EU*ENC001*6976***.4620412*TD*151***001**Purchased Gas Adjustment Charge|
+IT1*008*****SV*GAS*C3*RATE|
+REF*NH*000*Taxes|
+REF*LU*15400974|
+DTM*150*20250227|
+DTM*151*20250328|
+SLN*001**A|
+SAC*C**EU*ADJ002*195***.01292*TD*151***001**Energy Efficiency Programs Charge|
+SLN*002**A|
+SAC*C**EU*ADJ002*14***.0009233*TD*151***002**Gas Environmental Adjustment|
+SLN*003**A|
+SAC*C**EU*BAS001*2130********003**Low Income Credit Adjustment|
+SLN*004**A|
+SAC*N**EU*MSC001*362********004**Illinois State Gas Revenue Tax|
+TXI*ST*3.62****2*A|
+SLN*005**A|
+SAC*N**EU*MSC001*22********005**Illinois State Commerce Commission Tax|
+TXI*ZZ*.22****2*A|
+TDS*40868|
+SE*123*0002|
+GE*2*655|
+GS*IN*006968655*RADIUSPOINT*20250402*0142*610*X*004010|
+ST*810*0001|
+BIG*20250401*0511128174202504010001*****PR*00|
+NTE*ADD*Visit AmerenMissouri.com to view bill inserts which contain useful and important|
+NTE*ADD*information about electricity, ways to save energy, and safety around|
+NTE*ADD*electricity and natural gas.|
+NTE*ADD*Stay Safe: How to Detect and Report Natural Gas Leaks|
+NTE*ADD*Suspect a natural gas leak? Don’t use electrical switches. Leave|
+NTE*ADD*the area and call Ameren Missouri at 1.800.552.7583. Detect|
+NTE*ADD*leaks by smell (rotten eggs), sound (hissing), or sight (dead|
+NTE*ADD*vegetation). Before digging, call 811 or visit Missouri-811.org at|
+NTE*ADD*least three workdays in advance to have underground natural|
+NTE*ADD*gas pipelines marked. It's free, simple and the law.|
+REF*12*0511128174|
+N1*RE*AMEREN MISSOURI*1*006968655|
+N3*P.O.  Box 88068|
+N4*Chicago*IL*60680|
+N1*BT*CURO HEALTH SERVICES*1*003436227|
+N2*LLC|
+N3*1211 STATE ROAD 436 STE 295|
+N4*CASSELBERRY*FL*32707|
+N1*MQ*CURO HEALTH SERVICES|
+N2*LLC|
+N3*1095 WENTZVILLE PKWY|
+N4*WENTZVILLE*MO*63385|
+ITD*05*4****20250424|
+BAL*M*YB*347.14|
+IT1*001*****SV*GAS*C3*METER|
+MEA*AA*UG*99.05*HH*1778*1867*51|
+MEA**MU*1.113|
+REF*MG*20554636|
+REF*NH*053*Total CCF|
+REF*LU*17399243|
+DTM*150*20250302|
+DTM*151*20250331|
+IT1*002*****SV*GAS*C3*RATE|
+REF*NH*053*MO Gen Gas Service - Panhandle|
+REF*LU*17399243|
+DTM*150*20250302|
+DTM*151*20250331|
+SLN*001**A|
+SAC*C**EU*ENC001*5981***.6038*HH*99.05***001**Purchased Gas Adjustment|
+SLN*002**A|
+SAC*C**EU*DIS001*3220***.3251*HH*99.05***002**Sales Delivery Charge|
+SLN*003**A|
+SAC*C**EU*BAS001*3033********003**Customer Charge|
+SLN*004**A|
+SAC*C**EU*BAS001*0********004**Infrastructure Replacement Surcharge|
+SLN*005**A|
+SAC*N**EU*MSC001*517********005**Missouri State Sales Tax|
+TXI*ST*5.17****2*A|
+SLN*006**A|
+SAC*N**EU*MSC001*517********006**Missouri Local Sales Tax|
+TXI*LS*5.17****2*A|
+SLN*007**A|
+SAC*N**EU*MSC001*644********007**Municipal Charge|
+TXI*MP*6.44****2*A|
+IT1*003*****SV*ELECTRIC*C3*METER|
+MEA*AA*UG*1623*KH*31318*32941*51|
+REF*MG*70836918|
+REF*NH*354*Total kWh|
+REF*LU*20916604|
+DTM*150*20250302|
+DTM*151*20250331|
+IT1*004*****SV*ELECTRIC*C3*RATE|
+REF*NH*354*Rate 2M Sm Gen Svc - 3 Ph - No|
+REF*LU*20916604|
+DTM*150*20250302|
+DTM*151*20250331|
+SLN*001**A|
+SAC*C**EU*ENC001*14510***.0894*KH*1623***001**Base Energy Charge|
+SLN*002**A|
+SAC*C**EU*ENC001*0***.0516*KH*0***002**Seasonal Energy Charge|
+SLN*003**A|
+SAC*C**EU*BAS001*2307********003**Customer Charge|
+SLN*004**A|
+SAC*C**EU*MSC001*185***.00114*KH*1623***004**Fuel Adjustment Charge|
+SLN*005**A|
+SAC*C**EU*MSC001*458***.002819*KH*1623***005**Energy Efficiency Investment Charge|
+SLN*006**A|
+SAC*C**EU*MSC001*508***.00313*KH*1623***006**Renewable Energy Adjustment|
+SLN*007**A|
+SAC*C**EU*MSC001*325***.002*KH*1623***007**Rush Island Retirement Cost|
+SLN*008**A|
+SAC*N**EU*MSC001*773********008**Missouri State Sales Tax|
+TXI*ST*7.73****2*A|
+SLN*009**A|
+SAC*N**EU*MSC001*773********009**Missouri Local Sales Tax|
+TXI*LS*7.73****2*A|
+SLN*010**A|
+SAC*N**EU*MSC001*963********010**Municipal Charge - Service|
+TXI*MP*9.63****2*A|
+TDS*34714|
+SE*93*0001|
+GE*1*610|
+IEA*2*000000814|
+

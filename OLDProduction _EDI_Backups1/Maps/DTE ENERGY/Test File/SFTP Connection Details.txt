@@ -1,0 +1,22 @@
+
+
+HOST: sftp.bheapps.com
+PORT: 22
+USERNAME: BHE_RadiusPoint
+PASSWORD: Zaq12wsxcde#4rfv
+
+
+
+
+HOST: 65.124.207.34
+PORT/PROTOCOL: SFTP - Port 22
+USERNAME: EDI-ENGIE
+PASSWORD: Ws#xrTGafY3-FHJ+
+
+
+C:\Users\LZone1\Desktop\EDI-MIDAMERICAN\Incoming
+
+
+
+Trigger
+C:\Users\LZone1\Desktop\EDI-MIDAMERICAN\Incoming

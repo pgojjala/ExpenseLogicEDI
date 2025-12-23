@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2023r2 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<settings>
+		<deployment path="/Live/CONSTELLATIONENERGY/CONSTELLATIONENERGY_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2022r2"/>
+	</settings>
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="77" kind="2">
+					<targets>
+						<datapoint pos="0" key="103"/>
+					</targets>
+					<view ltx="799" lty="-509" rbx="847" rby="-492"/>
+					<data>
+						<constant value="5" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="81" kind="2">
+					<targets>
+						<datapoint pos="0" key="116"/>
+					</targets>
+					<view ltx="799" lty="-456" rbx="847" rby="-439"/>
+					<data>
+						<constant value="9" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="87" kind="2">
+					<targets>
+						<datapoint pos="0" key="118"/>
+					</targets>
+					<view ltx="795" lty="-405" rbx="843" rby="-388"/>
+					<data>
+						<constant value="7" datatype="string"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="86" kind="5">
+					<sources>
+						<datapoint pos="0" key="160"/>
+						<datapoint pos="1" key="161"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="162"/>
+					</targets>
+					<view ltx="869" lty="-441" rbx="925" rby="-387"/>
+				</component>
+				<component name="constant" library="core" uid="91" kind="2">
+					<targets>
+						<datapoint pos="0" key="168"/>
+					</targets>
+					<view ltx="795" lty="-352" rbx="843" rby="-335"/>
+					<data>
+						<constant value="6" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="95" kind="2">
+					<targets>
+						<datapoint pos="0" key="182"/>
+					</targets>
+					<view ltx="795" lty="-299" rbx="843" rby="-282"/>
+					<data>
+						<constant value="8" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="98" kind="2">
+					<targets>
+						<datapoint pos="0" key="195"/>
+					</targets>
+					<view ltx="794" lty="-245" rbx="842" rby="-228"/>
+					<data>
+						<constant value="2" datatype="string"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="76" kind="5">
+					<sources>
+						<datapoint pos="0" key="104"/>
+						<datapoint pos="1" key="105"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="106"/>
+					</targets>
+					<view ltx="870" lty="-546" rbx="926" rby="-492"/>
+				</component>
+				<component name="equal" library="core" uid="82" kind="5">
+					<sources>
+						<datapoint pos="0" key="115"/>
+						<datapoint pos="1" key="117"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="114"/>
+					</targets>
+					<view ltx="870" lty="-493" rbx="926" rby="-439"/>
+				</component>
+				<component name="constant" library="core" uid="104" kind="2">
+					<targets>
+						<datapoint pos="0" key="211"/>
+					</targets>
+					<view ltx="793" lty="-151" rbx="847" rby="-134"/>
+					<data>
+						<constant value="11" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="107" kind="2">
+					<targets>
+						<datapoint pos="0" key="238"/>
+					</targets>
+					<view ltx="798" lty="-84" rbx="852" rby="-67"/>
+					<data>
+						<constant value="10" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="110" kind="2">
+					<targets>
+						<datapoint pos="0" key="252"/>
+					</targets>
+					<view ltx="802" lty="-40" rbx="850" rby="-23"/>
+					<data>
+						<constant value="4" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="113" kind="2">
+					<targets>
+						<datapoint pos="0" key="266"/>
+					</targets>
+					<view ltx="802" lty="20" rbx="856" rby="37"/>
+					<data>
+						<constant value="15" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="116" kind="2">
+					<targets>
+						<datapoint pos="0" key="280"/>
+					</targets>
+					<view ltx="802" lty="71" rbx="856" rby="88"/>
+					<data>
+						<constant value="14" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="119" kind="2">
+					<targets>
+						<datapoint pos="0" key="294"/>
+					</targets>
+					<view ltx="802" lty="122" rbx="856" rby="139"/>
+					<data>
+						<constant value="12" datatype="string"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="121" kind="5">
+					<sources>
+						<datapoint pos="0" key="305"/>
+						<datapoint pos="1" key="306"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="307"/>
+					</targets>
+					<view ltx="869" lty="142" rbx="925" rby="196"/>
+				</component>
+				<component name="constant" library="core" uid="122" kind="2">
+					<targets>
+						<datapoint pos="0" key="308"/>
+					</targets>
+					<view ltx="801" lty="174" rbx="855" rby="191"/>
+					<data>
+						<constant value="13" datatype="string"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="103" kind="5">
+					<sources>
+						<datapoint pos="0" key="235"/>
+						<datapoint pos="1" key="236"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="237"/>
+					</targets>
+					<view ltx="869" lty="-175" rbx="925" rby="-121"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="102" kind="3">
+					<sources>
+						<datapoint pos="0" key="212"/>
+						<datapoint pos="1" key="213"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="214"/>
+						<datapoint/>
+					</targets>
+					<view ltx="963" lty="-174" rbx="1076" rby="-120"/>
+				</component>
+				<component name="equal" library="core" uid="115" kind="5">
+					<sources>
+						<datapoint pos="0" key="277"/>
+						<datapoint pos="1" key="278"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="279"/>
+					</targets>
+					<view ltx="869" lty="37" rbx="925" rby="91"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="114" kind="3">
+					<sources>
+						<datapoint pos="0" key="274"/>
+						<datapoint pos="1" key="275"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="276"/>
+						<datapoint/>
+					</targets>
+					<view ltx="965" lty="35" rbx="1078" rby="89"/>
+				</component>
+				<component name="F380" library="core" uid="128" kind="3">
+					<sources>
+						<datapoint pos="0" key="320"/>
+						<datapoint pos="1" key="321"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="322"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1237" lty="-17" rbx="1350" rby="37"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="80" kind="3">
+					<sources>
+						<datapoint pos="0" key="119"/>
+						<datapoint pos="1" key="113"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="120"/>
+						<datapoint/>
+					</targets>
+					<view ltx="961" lty="-547" rbx="1074" rby="-493"/>
+				</component>
+				<component name="value-map" library="core" uid="130" kind="23">
+					<sources>
+						<datapoint pos="0" key="336"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="337"/>
+					</targets>
+					<view ltx="1082" lty="-589" rbx="1162" rby="-551"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="LoopSLN" library="core" uid="83" kind="3">
+					<sources>
+						<datapoint pos="0" key="121"/>
+						<datapoint pos="1" key="122"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="123"/>
+						<datapoint/>
+					</targets>
+					<view ltx="961" lty="-494" rbx="1074" rby="-440"/>
+				</component>
+				<component name="value-map" library="core" uid="131" kind="23">
+					<sources>
+						<datapoint pos="0" key="338"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="339"/>
+					</targets>
+					<view ltx="1082" lty="-545" rbx="1162" rby="-507"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="127" kind="2">
+					<targets>
+						<datapoint pos="0" key="319"/>
+					</targets>
+					<view ltx="1073" lty="-389" rbx="1164" rby="-372"/>
+					<data>
+						<constant value="Sub Total" datatype="string"/>
+					</data>
+				</component>
+				<component name="LoopSLN" library="core" uid="85" kind="3">
+					<sources>
+						<datapoint pos="0" key="124"/>
+						<datapoint pos="1" key="125"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="126"/>
+						<datapoint/>
+					</targets>
+					<view ltx="961" lty="-441" rbx="1074" rby="-387"/>
+				</component>
+				<component name="value-map" library="core" uid="132" kind="23">
+					<sources>
+						<datapoint pos="0" key="340"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="341"/>
+					</targets>
+					<view ltx="1069" lty="-344" rbx="1149" rby="-306"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="90" kind="5">
+					<sources>
+						<datapoint pos="0" key="154"/>
+						<datapoint pos="1" key="155"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="156"/>
+					</targets>
+					<view ltx="869" lty="-388" rbx="925" rby="-334"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="88" kind="3">
+					<sources>
+						<datapoint pos="0" key="157"/>
+						<datapoint pos="1" key="158"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="159"/>
+						<datapoint/>
+					</targets>
+					<view ltx="961" lty="-388" rbx="1074" rby="-334"/>
+				</component>
+				<component name="value-map" library="core" uid="133" kind="23">
+					<sources>
+						<datapoint pos="0" key="342"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="343"/>
+					</targets>
+					<view ltx="1081" lty="-509" rbx="1161" rby="-471"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="94" kind="5">
+					<sources>
+						<datapoint pos="0" key="179"/>
+						<datapoint pos="1" key="180"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="181"/>
+					</targets>
+					<view ltx="869" lty="-335" rbx="925" rby="-281"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="93" kind="3">
+					<sources>
+						<datapoint pos="0" key="176"/>
+						<datapoint pos="1" key="177"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="178"/>
+						<datapoint/>
+					</targets>
+					<view ltx="962" lty="-335" rbx="1075" rby="-281"/>
+				</component>
+				<component name="value-map" library="core" uid="134" kind="23">
+					<sources>
+						<datapoint pos="0" key="344"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="345"/>
+					</targets>
+					<view ltx="1081" lty="-476" rbx="1161" rby="-438"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="97" kind="5">
+					<sources>
+						<datapoint pos="0" key="192"/>
+						<datapoint pos="1" key="193"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="194"/>
+					</targets>
+					<view ltx="869" lty="-281" rbx="925" rby="-227"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="96" kind="3">
+					<sources>
+						<datapoint pos="0" key="189"/>
+						<datapoint pos="1" key="190"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="191"/>
+						<datapoint/>
+					</targets>
+					<view ltx="962" lty="-280" rbx="1075" rby="-226"/>
+				</component>
+				<component name="constant" library="core" uid="101" kind="2">
+					<targets>
+						<datapoint pos="0" key="210"/>
+					</targets>
+					<view ltx="794" lty="-192" rbx="842" rby="-175"/>
+					<data>
+						<constant value="3" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="126" kind="2">
+					<targets>
+						<datapoint pos="0" key="317"/>
+					</targets>
+					<view ltx="1102" lty="-228" rbx="1215" rby="-211"/>
+					<data>
+						<constant value="Total Charges" datatype="string"/>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="135" kind="23">
+					<sources>
+						<datapoint pos="0" key="332"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="333"/>
+					</targets>
+					<view ltx="1090" lty="-423" rbx="1170" rby="-385"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="100" kind="5">
+					<sources>
+						<datapoint pos="0" key="204"/>
+						<datapoint pos="1" key="205"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="206"/>
+					</targets>
+					<view ltx="870" lty="-228" rbx="926" rby="-174"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="99" kind="3">
+					<sources>
+						<datapoint pos="0" key="207"/>
+						<datapoint pos="1" key="208"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="209"/>
+						<datapoint/>
+					</targets>
+					<view ltx="962" lty="-228" rbx="1075" rby="-174"/>
+				</component>
+				<component name="value-map" library="core" uid="137" kind="23">
+					<sources>
+						<datapoint pos="0" key="346"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="347"/>
+					</targets>
+					<view ltx="1082" lty="-310" rbx="1162" rby="-272"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="106" kind="5">
+					<sources>
+						<datapoint pos="0" key="232"/>
+						<datapoint pos="1" key="233"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="234"/>
+					</targets>
+					<view ltx="870" lty="-121" rbx="926" rby="-67"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="105" kind="3">
+					<sources>
+						<datapoint pos="0" key="229"/>
+						<datapoint pos="1" key="230"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="231"/>
+						<datapoint/>
+					</targets>
+					<view ltx="964" lty="-121" rbx="1077" rby="-67"/>
+				</component>
+				<component name="equal" library="core" uid="109" kind="5">
+					<sources>
+						<datapoint pos="0" key="249"/>
+						<datapoint pos="1" key="250"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="251"/>
+					</targets>
+					<view ltx="869" lty="-69" rbx="925" rby="-15"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="108" kind="3">
+					<sources>
+						<datapoint pos="0" key="246"/>
+						<datapoint pos="1" key="247"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="248"/>
+						<datapoint/>
+					</targets>
+					<view ltx="962" lty="-69" rbx="1075" rby="-15"/>
+				</component>
+				<component name="value-map" library="core" uid="139" kind="23">
+					<sources>
+						<datapoint pos="0" key="350"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="351"/>
+					</targets>
+					<view ltx="1081" lty="-245" rbx="1161" rby="-207"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="112" kind="5">
+					<sources>
+						<datapoint pos="0" key="263"/>
+						<datapoint pos="1" key="264"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="265"/>
+					</targets>
+					<view ltx="869" lty="-16" rbx="925" rby="38"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="111" kind="3">
+					<sources>
+						<datapoint pos="0" key="260"/>
+						<datapoint pos="1" key="261"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="262"/>
+						<datapoint/>
+					</targets>
+					<view ltx="962" lty="-17" rbx="1075" rby="37"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="120" kind="3">
+					<sources>
+						<datapoint pos="0" key="302"/>
+						<datapoint pos="1" key="303"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="304"/>
+						<datapoint/>
+					</targets>
+					<view ltx="963" lty="137" rbx="1076" rby="191"/>
+				</component>
+				<component name="equal" library="core" uid="118" kind="5">
+					<sources>
+						<datapoint pos="0" key="291"/>
+						<datapoint pos="1" key="292"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="293"/>
+					</targets>
+					<view ltx="868" lty="89" rbx="924" rby="143"/>
+				</component>
+				<component name="LoopSLN" library="core" uid="117" kind="3">
+					<sources>
+						<datapoint pos="0" key="288"/>
+						<datapoint pos="1" key="289"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="290"/>
+						<datapoint/>
+					</targets>
+					<view ltx="962" lty="86" rbx="1075" rby="140"/>
+				</component>
+				<component name="constant" library="core" uid="142" kind="2">
+					<targets>
+						<datapoint pos="0" key="356"/>
+					</targets>
+					<view ltx="1375" lty="-84" rbx="1481" rby="-67"/>
+					<data>
+						<constant value="Total Energy" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="78" kind="2">
+					<targets>
+						<datapoint pos="0" key="127"/>
+					</targets>
+					<view ltx="1089" lty="-441" rbx="1137" rby="-424"/>
+					<data>
+						<constant value="0" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="129" kind="2">
+					<targets>
+						<datapoint pos="0" key="331"/>
+					</targets>
+					<view ltx="1082" lty="-355" rbx="1130" rby="-338"/>
+					<data>
+						<constant value="0" datatype="string"/>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="138" kind="23">
+					<sources>
+						<datapoint pos="0" key="348"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="349"/>
+					</targets>
+					<view ltx="1081" lty="-278" rbx="1161" rby="-240"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="140" kind="23">
+					<sources>
+						<datapoint pos="0" key="352"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="353"/>
+					</targets>
+					<view ltx="1082" lty="-210" rbx="1162" rby="-172"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="143" kind="23">
+					<sources>
+						<datapoint pos="0" key="364"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="365"/>
+					</targets>
+					<view ltx="1082" lty="-170" rbx="1162" rby="-132"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="141" kind="23">
+					<sources>
+						<datapoint pos="0" key="354"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="355"/>
+					</targets>
+					<view ltx="1082" lty="-138" rbx="1162" rby="-100"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="KWH"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="124" kind="23">
+					<sources>
+						<datapoint pos="0" key="309"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="310"/>
+					</targets>
+					<view ltx="1082" lty="-102" rbx="1162" rby="-64"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="Base"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="123" kind="23">
+					<sources>
+						<datapoint pos="0" key="311"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="312"/>
+					</targets>
+					<view ltx="1081" lty="-59" rbx="1161" rby="-21"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="KH" to="Base"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="125" kind="23">
+					<sources>
+						<datapoint pos="0" key="313"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="314"/>
+					</targets>
+					<view ltx="1089" lty="-17" rbx="1169" rby="21"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="K1" to="KW"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="Sample Out" library="text" uid="73" kind="16">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="1238" lty="-571" rbx="1493" rby="-155"/>
+					<data>
+						<root scrollposition="1392">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" inpkey="109" expanded="1">
+										<entry name="Description_vc" inpkey="110"/>
+										<entry name="Volume_n" inpkey="128"/>
+										<entry name="Price_n" inpkey="129"/>
+										<entry name="Dollars_m" inpkey="130"/>
+										<entry name="ExemptDollars_m" inpkey="131"/>
+										<entry name="VolumeType_c" inpkey="132"/>
+									</entry>
+									<entry name="Rows" inpkey="133" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="134"/>
+										<entry name="Volume_n" inpkey="135"/>
+										<entry name="Price_n" inpkey="136"/>
+										<entry name="Dollars_m" inpkey="137"/>
+										<entry name="ExemptDollars_m" inpkey="138"/>
+										<entry name="VolumeType_c" inpkey="139"/>
+									</entry>
+									<entry name="Rows" inpkey="140" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="141"/>
+										<entry name="Volume_n" inpkey="142"/>
+										<entry name="Price_n" inpkey="143"/>
+										<entry name="Dollars_m" inpkey="144"/>
+										<entry name="ExemptDollars_m" inpkey="145"/>
+										<entry name="VolumeType_c" inpkey="146"/>
+									</entry>
+									<entry name="Rows" inpkey="147" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="148"/>
+										<entry name="Volume_n" inpkey="149"/>
+										<entry name="Price_n" inpkey="150"/>
+										<entry name="Dollars_m" inpkey="151"/>
+										<entry name="ExemptDollars_m" inpkey="152"/>
+										<entry name="VolumeType_c" inpkey="153"/>
+									</entry>
+									<entry name="Rows" inpkey="169" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="170"/>
+										<entry name="Volume_n" inpkey="171"/>
+										<entry name="Price_n" inpkey="172"/>
+										<entry name="Dollars_m" inpkey="173"/>
+										<entry name="ExemptDollars_m" inpkey="174"/>
+										<entry name="VolumeType_c" inpkey="175"/>
+									</entry>
+									<entry name="Rows" inpkey="183" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="184"/>
+										<entry name="Volume_n" inpkey="185"/>
+										<entry name="Price_n" inpkey="186"/>
+										<entry name="Dollars_m" inpkey="187"/>
+										<entry name="ExemptDollars_m" inpkey="188"/>
+										<entry name="VolumeType_c" inpkey="196"/>
+									</entry>
+									<entry name="Rows" inpkey="197" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="198"/>
+										<entry name="Volume_n" inpkey="199"/>
+										<entry name="Price_n" inpkey="200"/>
+										<entry name="Dollars_m" inpkey="201"/>
+										<entry name="ExemptDollars_m" inpkey="202"/>
+										<entry name="VolumeType_c" inpkey="203"/>
+									</entry>
+									<entry name="Rows" inpkey="215" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="216"/>
+										<entry name="Volume_n" inpkey="217"/>
+										<entry name="Price_n" inpkey="218"/>
+										<entry name="Dollars_m" inpkey="219"/>
+										<entry name="ExemptDollars_m" inpkey="220"/>
+										<entry name="VolumeType_c" inpkey="221"/>
+									</entry>
+									<entry name="Rows" inpkey="222" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="223"/>
+										<entry name="Volume_n" inpkey="224"/>
+										<entry name="Price_n" inpkey="225"/>
+										<entry name="Dollars_m" inpkey="226"/>
+										<entry name="ExemptDollars_m" inpkey="227"/>
+										<entry name="VolumeType_c" inpkey="228"/>
+									</entry>
+									<entry name="Rows" inpkey="239" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="240"/>
+										<entry name="Volume_n" inpkey="241"/>
+										<entry name="Price_n" inpkey="242"/>
+										<entry name="Dollars_m" inpkey="243"/>
+										<entry name="ExemptDollars_m" inpkey="244"/>
+										<entry name="VolumeType_c" inpkey="245"/>
+									</entry>
+									<entry name="Rows" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="323"/>
+										<entry name="Volume_n" inpkey="325"/>
+										<entry name="Price_n" inpkey="326"/>
+										<entry name="Dollars_m" inpkey="324"/>
+										<entry name="ExemptDollars_m" inpkey="327"/>
+									</entry>
+									<entry name="Rows" inpkey="253" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="254"/>
+										<entry name="Volume_n" inpkey="255"/>
+										<entry name="Price_n" inpkey="256"/>
+										<entry name="Dollars_m" inpkey="257"/>
+										<entry name="ExemptDollars_m" inpkey="258"/>
+										<entry name="VolumeType_c" inpkey="259"/>
+									</entry>
+									<entry name="Rows" inpkey="267" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="268"/>
+										<entry name="Volume_n" inpkey="269"/>
+										<entry name="Price_n" inpkey="270"/>
+										<entry name="Dollars_m" inpkey="271"/>
+										<entry name="ExemptDollars_m" inpkey="272"/>
+										<entry name="VolumeType_c" inpkey="273"/>
+									</entry>
+									<entry name="Rows" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="315"/>
+										<entry name="Volume_n" inpkey="328"/>
+										<entry name="Price_n" inpkey="316"/>
+										<entry name="Dollars_m" inpkey="329"/>
+										<entry name="ExemptDollars_m" inpkey="330"/>
+									</entry>
+									<entry name="Rows" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="358"/>
+										<entry name="Volume_n" inpkey="359"/>
+										<entry name="Price_n" inpkey="360"/>
+										<entry name="Dollars_m" inpkey="361"/>
+										<entry name="ExemptDollars_m" inpkey="362"/>
+										<entry name="VolumeType_c" inpkey="363"/>
+									</entry>
+									<entry name="Rows" inpkey="281" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="282"/>
+										<entry name="Volume_n" inpkey="283"/>
+										<entry name="Price_n" inpkey="284"/>
+										<entry name="Dollars_m" inpkey="285"/>
+										<entry name="ExemptDollars_m" inpkey="286"/>
+										<entry name="VolumeType_c" inpkey="287"/>
+									</entry>
+									<entry name="Rows" inpkey="295" expanded="1" clone="1">
+										<entry name="Description_vc" inpkey="296"/>
+										<entry name="Volume_n" inpkey="297"/>
+										<entry name="Price_n" inpkey="298"/>
+										<entry name="Dollars_m" inpkey="299"/>
+										<entry name="ExemptDollars_m" inpkey="300"/>
+										<entry name="VolumeType_c" inpkey="301"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="Test Files\Sample Out.csv">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="Sample Out" block="Rows">
+									<field0 name="Description_vc" type="string"/>
+									<field1 name="Volume_n" type="string"/>
+									<field2 name="Price_n" type="string"/>
+									<field3 name="Dollars_m" type="string"/>
+									<field4 name="ExemptDollars_m" type="string"/>
+									<field5 name="VolumeType_c" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="810" library="text" uid="2" kind="16">
+					<view ltx="60" lty="-571" rbx="377" rby="-56"/>
+					<data>
+						<root scrollposition="2248">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" expanded="1">
+											<entry name="ISA" expanded="1"/>
+											<entry name="Group" expanded="1">
+												<entry name="Message_810" expanded="1">
+													<entry name="BIG" expanded="1"/>
+													<entry name="REF" expanded="1"/>
+													<entry name="MEA" expanded="1"/>
+													<entry name="BAL" expanded="1">
+														<entry name="F782" outkey="318"/>
+													</entry>
+													<entry name="LoopIT1" expanded="1">
+														<entry name="MEA" expanded="1">
+															<entry name="F739" outkey="357"/>
+														</entry>
+														<entry name="LoopSAC" expanded="1">
+															<entry name="SAC" expanded="1"/>
+														</entry>
+														<entry name="LoopSLN" outkey="107" expanded="1">
+															<entry name="SLN" expanded="1">
+																<entry name="F350_1" outkey="108"/>
+															</entry>
+															<entry name="SAC" expanded="1">
+																<entry name="F610" outkey="163"/>
+																<entry name="F118" outkey="164"/>
+																<entry name="F355" outkey="165"/>
+																<entry name="F380" outkey="166"/>
+																<entry name="F352" outkey="167"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="TDS" expanded="1"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config" inputinstance="Test Files\Sample In 810.txt">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="%7C" component="\" subcomponent="" segmentcode="%7C" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="810"/>
+							</messages>
+						</text>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="108">
+						<edges>
+							<edge vertexkey="104"/>
+							<edge vertexkey="115"/>
+							<edge vertexkey="154"/>
+							<edge vertexkey="160"/>
+							<edge vertexkey="179"/>
+							<edge vertexkey="192"/>
+							<edge vertexkey="204"/>
+							<edge vertexkey="232"/>
+							<edge vertexkey="235"/>
+							<edge vertexkey="249"/>
+							<edge vertexkey="263"/>
+							<edge vertexkey="277"/>
+							<edge vertexkey="291"/>
+							<edge vertexkey="305"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="103">
+						<edges>
+							<edge vertexkey="105"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="120">
+						<edges>
+							<edge vertexkey="109"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="167">
+						<edges>
+							<edge vertexkey="110"/>
+							<edge vertexkey="134"/>
+							<edge vertexkey="141"/>
+							<edge vertexkey="148"/>
+							<edge vertexkey="170"/>
+							<edge vertexkey="184"/>
+							<edge vertexkey="198"/>
+							<edge vertexkey="216"/>
+							<edge vertexkey="223"/>
+							<edge vertexkey="240"/>
+							<edge vertexkey="254"/>
+							<edge vertexkey="268"/>
+							<edge vertexkey="282"/>
+							<edge vertexkey="296"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="106">
+						<edges>
+							<edge vertexkey="113"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="116">
+						<edges>
+							<edge vertexkey="117"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="107">
+						<edges>
+							<edge vertexkey="119"/>
+							<edge vertexkey="121"/>
+							<edge vertexkey="124"/>
+							<edge vertexkey="157"/>
+							<edge vertexkey="176"/>
+							<edge vertexkey="189"/>
+							<edge vertexkey="207"/>
+							<edge vertexkey="212"/>
+							<edge vertexkey="229"/>
+							<edge vertexkey="246"/>
+							<edge vertexkey="260"/>
+							<edge vertexkey="274"/>
+							<edge vertexkey="288"/>
+							<edge vertexkey="302"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="114">
+						<edges>
+							<edge vertexkey="122"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="162">
+						<edges>
+							<edge vertexkey="125"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="166">
+						<edges>
+							<edge vertexkey="128"/>
+							<edge vertexkey="135"/>
+							<edge vertexkey="142"/>
+							<edge vertexkey="149"/>
+							<edge vertexkey="171"/>
+							<edge vertexkey="185"/>
+							<edge vertexkey="199"/>
+							<edge vertexkey="217"/>
+							<edge vertexkey="224"/>
+							<edge vertexkey="241"/>
+							<edge vertexkey="255"/>
+							<edge vertexkey="269"/>
+							<edge vertexkey="283"/>
+							<edge vertexkey="297"/>
+							<edge vertexkey="320"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="164">
+						<edges>
+							<edge vertexkey="129"/>
+							<edge vertexkey="136"/>
+							<edge vertexkey="143"/>
+							<edge vertexkey="150"/>
+							<edge vertexkey="172"/>
+							<edge vertexkey="186"/>
+							<edge vertexkey="200"/>
+							<edge vertexkey="218"/>
+							<edge vertexkey="225"/>
+							<edge vertexkey="242"/>
+							<edge vertexkey="256"/>
+							<edge vertexkey="270"/>
+							<edge vertexkey="284"/>
+							<edge vertexkey="298"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="163">
+						<edges>
+							<edge vertexkey="130"/>
+							<edge vertexkey="137"/>
+							<edge vertexkey="144"/>
+							<edge vertexkey="151"/>
+							<edge vertexkey="173"/>
+							<edge vertexkey="187"/>
+							<edge vertexkey="201"/>
+							<edge vertexkey="219"/>
+							<edge vertexkey="226"/>
+							<edge vertexkey="243"/>
+							<edge vertexkey="257"/>
+							<edge vertexkey="271"/>
+							<edge vertexkey="285"/>
+							<edge vertexkey="299"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="127">
+						<edges>
+							<edge vertexkey="131"/>
+							<edge vertexkey="138"/>
+							<edge vertexkey="145"/>
+							<edge vertexkey="152"/>
+							<edge vertexkey="174"/>
+							<edge vertexkey="188"/>
+							<edge vertexkey="202"/>
+							<edge vertexkey="220"/>
+							<edge vertexkey="227"/>
+							<edge vertexkey="244"/>
+							<edge vertexkey="258"/>
+							<edge vertexkey="272"/>
+							<edge vertexkey="286"/>
+							<edge vertexkey="300"/>
+							<edge vertexkey="360"/>
+							<edge vertexkey="361"/>
+							<edge vertexkey="362"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="337">
+						<edges>
+							<edge vertexkey="132"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="123">
+						<edges>
+							<edge vertexkey="133"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="339">
+						<edges>
+							<edge vertexkey="139"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="126">
+						<edges>
+							<edge vertexkey="140"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="341">
+						<edges>
+							<edge vertexkey="146"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="159">
+						<edges>
+							<edge vertexkey="147"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="343">
+						<edges>
+							<edge vertexkey="153"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="168">
+						<edges>
+							<edge vertexkey="155"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="156">
+						<edges>
+							<edge vertexkey="158"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="118">
+						<edges>
+							<edge vertexkey="161"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="178">
+						<edges>
+							<edge vertexkey="169"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="345">
+						<edges>
+							<edge vertexkey="175"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="181">
+						<edges>
+							<edge vertexkey="177"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="182">
+						<edges>
+							<edge vertexkey="180"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="191">
+						<edges>
+							<edge vertexkey="183"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="194">
+						<edges>
+							<edge vertexkey="190"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="195">
+						<edges>
+							<edge vertexkey="193"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="333">
+						<edges>
+							<edge vertexkey="196"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="209">
+						<edges>
+							<edge vertexkey="197"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="347">
+						<edges>
+							<edge vertexkey="203"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="210">
+						<edges>
+							<edge vertexkey="205"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="206">
+						<edges>
+							<edge vertexkey="208"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="237">
+						<edges>
+							<edge vertexkey="213"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="214">
+						<edges>
+							<edge vertexkey="215"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="314">
+						<edges>
+							<edge vertexkey="221"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="231">
+						<edges>
+							<edge vertexkey="222"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="349">
+						<edges>
+							<edge vertexkey="228"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="234">
+						<edges>
+							<edge vertexkey="230"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="238">
+						<edges>
+							<edge vertexkey="233"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="211">
+						<edges>
+							<edge vertexkey="236"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="248">
+						<edges>
+							<edge vertexkey="239"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="351">
+						<edges>
+							<edge vertexkey="245"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="251">
+						<edges>
+							<edge vertexkey="247"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="252">
+						<edges>
+							<edge vertexkey="250"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="262">
+						<edges>
+							<edge vertexkey="253"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="312">
+						<edges>
+							<edge vertexkey="259"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="265">
+						<edges>
+							<edge vertexkey="261"/>
+							<edge vertexkey="321"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="266">
+						<edges>
+							<edge vertexkey="264"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="276">
+						<edges>
+							<edge vertexkey="267"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="310">
+						<edges>
+							<edge vertexkey="273"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="279">
+						<edges>
+							<edge vertexkey="275"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="280">
+						<edges>
+							<edge vertexkey="278"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="290">
+						<edges>
+							<edge vertexkey="281"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="353">
+						<edges>
+							<edge vertexkey="287"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="293">
+						<edges>
+							<edge vertexkey="289"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="294">
+						<edges>
+							<edge vertexkey="292"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="304">
+						<edges>
+							<edge vertexkey="295"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="355">
+						<edges>
+							<edge vertexkey="301"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="307">
+						<edges>
+							<edge vertexkey="303"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="308">
+						<edges>
+							<edge vertexkey="306"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="165">
+						<edges>
+							<edge vertexkey="309"/>
+							<edge vertexkey="311"/>
+							<edge vertexkey="313"/>
+							<edge vertexkey="332"/>
+							<edge vertexkey="336"/>
+							<edge vertexkey="338"/>
+							<edge vertexkey="340"/>
+							<edge vertexkey="342"/>
+							<edge vertexkey="344"/>
+							<edge vertexkey="346"/>
+							<edge vertexkey="348"/>
+							<edge vertexkey="350"/>
+							<edge vertexkey="352"/>
+							<edge vertexkey="354"/>
+							<edge vertexkey="364"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="317">
+						<edges>
+							<edge vertexkey="315"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="331">
+						<edges>
+							<edge vertexkey="316"/>
+							<edge vertexkey="325"/>
+							<edge vertexkey="326"/>
+							<edge vertexkey="327"/>
+							<edge vertexkey="328"/>
+							<edge vertexkey="330"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="319">
+						<edges>
+							<edge vertexkey="323"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="322">
+						<edges>
+							<edge vertexkey="324"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="318">
+						<edges>
+							<edge vertexkey="329"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="356">
+						<edges>
+							<edge vertexkey="358"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="357">
+						<edges>
+							<edge vertexkey="359"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="365">
+						<edges>
+							<edge vertexkey="363"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

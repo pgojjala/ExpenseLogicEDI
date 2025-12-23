@@ -1,0 +1,13 @@
+NEWCHARGES-09/12,UNITS,COST PER UNIT,CHARGE
+"BasicCharge,1PSecDelivery",,,18.70
+Delivery Charge Secondary,"4,225kwh",0.0282400,119.31
+Supply Energy Sec 1st 3000 Kwh,"3,000kwh",0.0619500,185.85
+Supply Energy Sec>3000 Kwh,"1,225kwh",0.0459400,56.28
+Public Purpose,, 0.0300000, 11.40
+Energy Conservation Charge," 4,225kwh", 0.0026600,11.24
+Low Income Assistance,"4,225kwh", 0.0005000,2.11
+J C Boyle Dam Removal Surcharg,"4,225kwh", 0.0003600,1.52
+Copco Iron Gate Dams Remv Schg," 4,225kwh", 0.0010100,4.27
+Portland City Tax,,0.0150000,5.87
+Multnomah CountyFee,,-0.0019000,-0.74
+Total New Charges,,,415.81

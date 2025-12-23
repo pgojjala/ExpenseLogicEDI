@@ -1,0 +1,7 @@
+HOST: 65.124.207.34
+PORT/PROTOCOL: SFTP - Port 22
+USERNAME: EDI-XCELENERGY
+PASSWORD: A?a7yQJT-Skc!b6Y
+
+
+Maps Backup-(O:\Technology Growth Specialist\EDI_Backups\Maps)

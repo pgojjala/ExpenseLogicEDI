@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2021r2sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="34">
+	<settings>
+		<deployment path="/Live/Atmos/Atmos_EDI_DB.mapping" server="localhost" port="8082" user="/root" toolversion="2021r3"/>
+	</settings>
+	<resources>
+		<datasources>
+			<datasource name="ApexEDI">
+				<properties JDBCDriver="com.microsoft.sqlserver.jdbc.SQLServerDriver" JDBCDatabaseURL="jdbc:sqlserver://TSGSQL3\MSSQLSERVER64;DatabaseName=ApexEDI" DBUser="LZone1" DBPassword="Password1" DBCatalog="ApexEDI"/>
+				<database_connection vendor="microsoftsqlserver" import_kind="ADO.NET" version="14.0" ConnectionString="Data Source=TSGSQL3\MSSQLSERVER64;Initial Catalog=ApexEDI;User ID= LZone1;Password=Password1" DriverClass="System.Data.SqlClient" Assembly="System.Data.SqlClient.SqlClientFactory, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="ApexEDI" path="ApexEDI">
+					<properties>
+						<property name="Database Kind" value="MS SQL Server"/>
+						<property name="Import Kind" value="ADO.NET"/>
+						<property name="Root Object" value="ApexEDI"/>
+						<property name="Connect Script"/>
+						<property name="User ID" value="LZone1"/>
+						<property name="Password" value="zHgKdG-26NFSE-dNkHC1"/>
+					</properties>
+					<LocalViewStorage/>
+					<LocalRelationsStorage/>
+					<RecordSetStructureStorage/>
+				</database_connection>
+			</datasource>
+		</datasources>
+	</resources>
+	<component name="defaultmap" uid="1">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="value-map" library="core" uid="16" kind="23">
+					<sources>
+						<datapoint pos="0" key="19"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="20"/>
+					</targets>
+					<view ltx="416" lty="418" rbx="496" rby="456"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="AQ" to="Access Code"/>
+								<entry from="ZZ" to="Mutually Defined"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="34" kind="23">
+					<sources>
+						<datapoint pos="0" key="176"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="177"/>
+					</targets>
+					<view ltx="329" lty="721" rbx="409" rby="759"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="92" to="Assigned by Buyer or Buyer&apos;s Agent"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="33" kind="23">
+					<sources>
+						<datapoint pos="0" key="178"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="179"/>
+					</targets>
+					<view ltx="507" lty="644" rbx="587" rby="682"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="MQ" to="Metering Location"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="35" kind="23">
+					<sources>
+						<datapoint pos="0" key="180"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="181"/>
+					</targets>
+					<view ltx="449" lty="737" rbx="529" rby="775"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="ZZ" to="Mutually Defined"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Else"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="36" kind="23">
+					<sources>
+						<datapoint pos="0" key="238"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="239"/>
+					</targets>
+					<view ltx="391" lty="793" rbx="471" rby="831"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="A" to="Allowance"/>
+								<entry from="C" to="Charge"/>
+								<entry from="N" to="No Allowance or Charge"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="37" kind="23">
+					<sources>
+						<datapoint pos="0" key="240"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="241"/>
+					</targets>
+					<view ltx="529" lty="793" rbx="609" rby="831"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="EU" to="Electric Utilities"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="38" kind="23">
+					<sources>
+						<datapoint pos="0" key="242"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="243"/>
+					</targets>
+					<view ltx="449" lty="839" rbx="529" rby="877"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="ADJ001" to="Cost Recovery Adjustment"/>
+								<entry from="ADJ002" to="Adjustment"/>
+								<entry from="ADJ007" to="Metering Adjustment"/>
+								<entry from="BAS001" to="Basic Customer Charge"/>
+								<entry from="BAS002" to="Special Billing Charge"/>
+								<entry from="BAS003" to="Delivery Point Charge"/>
+								<entry from="BUD001" to="Budget Billing Amount"/>
+								<entry from="COL001" to="Collection Charge"/>
+								<entry from="CRE001" to="Credit"/>
+								<entry from="CRE009" to="Interruptible Credit"/>
+								<entry from="CRE010" to="Off Peak Credit"/>
+								<entry from="DAB001" to="Deposit"/>
+								<entry from="DAB002" to="Deposit Interest"/>
+								<entry from="DAB003" to="Deposit Applied"/>
+								<entry from="DCS001" to="Disconnect Charge"/>
+								<entry from="DIS001" to="Distribution Charge"/>
+								<entry from="DMD001" to="Demand Charge"/>
+								<entry from="DMD003" to="Non-Time Related Demand Charge"/>
+								<entry from="DMD004" to="Reactive Demand Charge"/>
+								<entry from="DMD006" to="Off Peak Demand Charge"/>
+								<entry from="DMD007" to="On Peak Demand Charge"/>
+								<entry from="DMD012" to="Summer On Peak Demand Charge"/>
+								<entry from="DSC001" to="Discount"/>
+								<entry from="DSC004" to="Economic Development Discount"/>
+								<entry from="DSC006" to="Church Discount"/>
+								<entry from="DSC011" to="Legislated Rate Reduction Discount"/>
+								<entry from="DSC012" to="Demand Voltage Discount"/>
+								<entry from="ENC001" to="Energy Charge"/>
+								<entry from="ENC003" to="Off Peak Charge"/>
+								<entry from="ENC004" to="Summer Off Peak Charge"/>
+								<entry from="ENC005" to="Summer On Peak Charge"/>
+								<entry from="ENC007" to="Summer Super On Peak Charge"/>
+								<entry from="FAC001" to="Equipment and Service Charge"/>
+								<entry from="FUE001" to="Fuel Adjustment"/>
+								<entry from="FUE002" to="Fuel Adjustment On Peak"/>
+								<entry from="FUE003" to="Fuel Adjustment Off Peak"/>
+								<entry from="HOC001" to="Service Connection Charge"/>
+								<entry from="IBC001" to="Core Standby Service Charge"/>
+								<entry from="IBC014" to="Curtailment Violation Charge"/>
+								<entry from="IBC016" to="SL2 Surcharge"/>
+								<entry from="LAA001" to="Billing for Work Done"/>
+								<entry from="LPC001" to="Late Payment Charge"/>
+								<entry from="MAD001" to="Minimum Bill"/>
+								<entry from="MSC001" to="Miscellaneous Charge"/>
+								<entry from="MSC007" to="Property Damage"/>
+								<entry from="MSC008" to="Punitive Damage"/>
+								<entry from="ODL001" to="Outdoor Lighting"/>
+								<entry from="ODL002" to="Street Lighting"/>
+								<entry from="ODL003" to="Traffic Signals"/>
+								<entry from="PFA001" to="Power Factor Adjustment"/>
+								<entry from="PRB001" to="Past Due Balance"/>
+								<entry from="PRB002" to="Unpaid Balance"/>
+								<entry from="RCS001" to="Reconnect Charge"/>
+								<entry from="RES007" to="Interconnect Access Firm Reservation Charge"/>
+								<entry from="RRR001" to="Regulatory Required Refund"/>
+								<entry from="RTC001" to="Return Check Fee"/>
+								<entry from="SER001" to="Service Charge"/>
+								<entry from="SER002" to="Cost of Service"/>
+								<entry from="SMD001" to="Applicance Contract Installment"/>
+								<entry from="SMD002" to="Cash Sales/Stores"/>
+								<entry from="SMD003" to="Comm Heat Pump/Water Heater Equip"/>
+								<entry from="SMD007" to="Heat Pump Installment"/>
+								<entry from="SMD011" to="Other Services and Merchandise"/>
+								<entry from="SMD012" to="PWR Protection Equipment"/>
+								<entry from="SUR001" to="State/Intrastate Surcharge"/>
+								<entry from="TEM001" to="Temporary Service"/>
+								<entry from="TRS001" to="Transfer from Account to Account"/>
+								<entry from="VCR001" to="Voluntary Pledge Contributions"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="39" kind="23">
+					<sources>
+						<datapoint pos="0" key="244"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="245"/>
+					</targets>
+					<view ltx="343" lty="851" rbx="423" rby="889"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="BY" to="British Thermal Unit (BTU)"/>
+								<entry from="DA" to="Days"/>
+								<entry from="HR" to="Hours"/>
+								<entry from="K1" to="Kilowatt Demand
+K3
+Kilovolt Amperes Reactive"/>
+								<entry from="K3" to="Kilovolt Amperes Reactive Hour"/>
+								<entry from="K4" to="Kilovolt Amperes"/>
+								<entry from="K5" to="Kilovolt Amperes Reactive"/>
+								<entry from="K7" to="Kilowatt"/>
+								<entry from="K9" to="Kilograms per Millimeter Squared (KG/MM2)"/>
+								<entry from="KH" to="Kilowatt Hour"/>
+								<entry from="T1" to="Thousand pounds gross"/>
+								<entry from="UN" to="Unit"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="50" kind="23">
+					<sources>
+						<datapoint pos="0" key="308"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="309"/>
+					</targets>
+					<view ltx="331" lty="184" rbx="411" rby="222"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="ADD" to="Additional Information"/>
+								<entry from="OTH" to="Other instructions"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="5" kind="23">
+					<sources>
+						<datapoint pos="0" key="1"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2"/>
+					</targets>
+					<view ltx="416" lty="155" rbx="496" rby="193"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="07" to="Budget"/>
+								<entry from="FB" to="Final Bill"/>
+								<entry from="PR" to="Product or Service"/>
+								<entry from="13" to="Maintenance Request"/>
+								<entry from="AI" to="Adjusted invoice"/>
+								<entry from="BD" to="Statment of balance due"/>
+								<entry from="CI" to="Consolidated Invoice"/>
+								<entry from="FE" to="Memorandum, Final bill"/>
+								<entry from="ME" to="Memorandum"/>
+								<entry from="RA" to="Request for credit"/>
+								<entry from="RP" to="Reporting"/>
+								<entry from="SL" to="Summary Lease Schedule"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="15" kind="23">
+					<sources>
+						<datapoint pos="0" key="18"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="17"/>
+					</targets>
+					<view ltx="436" lty="260" rbx="516" rby="298"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="91" to="Assigned by Seller or Seller&apos;s Agent"/>
+								<entry from="92" to="Assigned by Buyer or Buyer&apos;s Agent"/>
+								<entry from="1" to="D-U-N-S Number, dun &amp; bradstreet"/>
+								<entry from="9" to="D-U-N-S Number with Four character suffix"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="18" kind="23">
+					<sources>
+						<datapoint pos="0" key="23"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="24"/>
+					</targets>
+					<view ltx="369" lty="248" rbx="449" rby="286"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="TE" to="Telephone"/>
+								<entry from="EM" to="Electronic Mail"/>
+								<entry from="FX" to="Facsimile"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="25" kind="23">
+					<sources>
+						<datapoint pos="0" key="126"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="125"/>
+					</targets>
+					<view ltx="507" lty="461" rbx="587" rby="499"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="22" to="Actual"/>
+								<entry from="31" to="Calculated"/>
+								<entry from="41" to="Off Peak"/>
+								<entry from="42" to="On Peak"/>
+								<entry from="43" to="Intermediate"/>
+								<entry from="AA" to="Summer On Peak"/>
+								<entry from="AB" to="Summer Mid Peak"/>
+								<entry from="AC" to="Summer Off Peak"/>
+								<entry from="AF" to="Winter On Peak"/>
+								<entry from="AG" to="Winter Mid Peak"/>
+								<entry from="AH" to="Winter Off Peak"/>
+								<entry from="AO" to="Summer"/>
+								<entry from="AP" to="Winter"/>
+								<entry from="AK" to="Summer day"/>
+								<entry from="AL" to="Summer Night"/>
+								<entry from="AM" to="Winter Day"/>
+								<entry from="AN" to="Winter Night"/>
+								<entry from="AQ" to="Day"/>
+								<entry from="AR" to="Night"/>
+								<entry from="AS" to="peak-2"/>
+								<entry from="AT" to="peak-3"/>
+								<entry from="AU" to="peak-4"/>
+								<entry from="AV" to="Shoulder"/>
+								<entry from="AW" to="Non time related demand"/>
+								<entry from="AD" to="Summer super on peak"/>
+								<entry from="AE" to="Summer super off peak"/>
+								<entry from="10" to="Not equal to"/>
+								<entry from="34" to="Ratchet"/>
+								<entry from="39" to="Corrected"/>
+								<entry from="40" to="Uncorrected"/>
+								<entry from="44" to="Averages"/>
+								<entry from="46" to="Estimated"/>
+								<entry from="51" to="Total"/>
+								<entry from="62" to="Current"/>
+								<entry from="68" to="As is"/>
+								<entry from="88" to="Adjusted"/>
+								<entry from="93" to="Previous"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="26" kind="23">
+					<sources>
+						<datapoint pos="0" key="146"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="147"/>
+					</targets>
+					<view ltx="357" lty="483" rbx="437" rby="521"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="F" to="Free Form"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="56" kind="5">
+					<sources>
+						<datapoint pos="0" key="324"/>
+						<datapoint pos="1" key="331"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="329"/>
+					</targets>
+					<view ltx="412" lty="740" rbx="468" rby="794"/>
+				</component>
+				<component name="constant" library="core" uid="58" kind="2">
+					<targets>
+						<datapoint pos="0" key="323"/>
+					</targets>
+					<view ltx="312" lty="668" rbx="372" rby="685"/>
+					<data>
+						<constant value="151" datatype="string"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="60" kind="4">
+					<sources>
+						<datapoint pos="0" key="326"/>
+						<datapoint pos="1" key="321"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="322"/>
+					</targets>
+					<view ltx="545" lty="668" rbx="649" rby="741"/>
+				</component>
+				<component name="if-else" library="core" uid="59" kind="4">
+					<sources>
+						<datapoint pos="0" key="330"/>
+						<datapoint pos="1" key="327"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="328"/>
+					</targets>
+					<view ltx="545" lty="740" rbx="649" rby="813"/>
+				</component>
+				<component name="value-map" library="core" uid="9" kind="23">
+					<sources>
+						<datapoint pos="0" key="5"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="343" lty="317" rbx="423" rby="355"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="BT" to="Bill-to-Party"/>
+								<entry from="RE" to="Party to receive commercial invoice remittance"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="51" kind="23">
+					<sources>
+						<datapoint pos="0" key="304"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="305"/>
+					</targets>
+					<view ltx="475" lty="108" rbx="555" rby="146"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="M" to="Current Month"/>
+								<entry from="P" to="Prevoius Month"/>
+								<entry from="Y" to="Year to Date "/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="52" kind="23">
+					<sources>
+						<datapoint pos="0" key="306"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="307"/>
+					</targets>
+					<view ltx="357" lty="118" rbx="437" rby="156"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="J9" to="Beginning Balance"/>
+								<entry from="PB" to="Billed Amount"/>
+								<entry from="YB" to="Actual unpaid principal balance"/>
+								<entry from="TP" to="Total payment amount"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="61" kind="23">
+					<sources>
+						<datapoint pos="0" key="335"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="334"/>
+					</targets>
+					<view ltx="545" lty="260" rbx="625" rby="298"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="SV" to="Service Rendered"/>
+								<entry from="C3" to="Classification"/>
+								<entry from="MB" to="Measurement type code"/>
+								<entry from="EQ" to="Equipment type"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="62" kind="23">
+					<sources>
+						<datapoint pos="0" key="337"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="336"/>
+					</targets>
+					<view ltx="449" lty="346" rbx="529" rby="384"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="SV" to="Service Rendered"/>
+								<entry from="C3" to="Classification"/>
+								<entry from="MB" to="Measurement type code"/>
+								<entry from="EQ" to="Equipment type"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="47" kind="2">
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="197" lty="737" rbx="249" rby="754"/>
+					<data>
+						<constant value="100" datatype="decimal"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="57" kind="2">
+					<targets>
+						<datapoint pos="0" key="319"/>
+					</targets>
+					<view ltx="312" lty="623" rbx="372" rby="640"/>
+					<data>
+						<constant value="150" datatype="string"/>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="20" kind="23">
+					<sources>
+						<datapoint pos="0" key="97"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="98"/>
+					</targets>
+					<view ltx="569" lty="204" rbx="649" rby="242"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="CA" to="City Tax"/>
+								<entry from="CT" to="County Tax"/>
+								<entry from="ET" to="Energy Tax"/>
+								<entry from="FR" to="Franchise Tax"/>
+								<entry from="GR" to="Gross Receipts Tax"/>
+								<entry from="MP" to="Municipal Tax"/>
+								<entry from="ST" to="State Sales Tax"/>
+								<entry from="TX" to="All Taxes"/>
+								<entry from="UL" to="License Tax"/>
+								<entry from="AA" to="Stadium Tax"/>
+								<entry from="LO" to="Local Tax (not sales tax)"/>
+								<entry from="LS" to="State and local tax"/>
+								<entry from="MT" to="Metropolitian transit tax"/>
+								<entry from="OH" to="Other Tax"/>
+								<entry from="UT" to="Utility Users tax"/>
+								<entry from="ZZ" to="Mutually Defined "/>
+								<entry from="SP" to="State/Provincial Tax"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="21" kind="23">
+					<sources>
+						<datapoint pos="0" key="119"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="120"/>
+					</targets>
+					<view ltx="343" lty="285" rbx="423" rby="323"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="A" to="Add"/>
+								<entry from="O" to="Information Only"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="22" kind="23">
+					<sources>
+						<datapoint pos="0" key="121"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="122"/>
+					</targets>
+					<view ltx="329" lty="369" rbx="409" rby="407"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="AA" to="Meter reading-beginning actual/ending actual"/>
+								<entry from="AE" to="Meter reading-beginning actual/ending estimated"/>
+								<entry from="EA" to="Meter reading-beginning estimated/ending actual"/>
+								<entry from="EE" to="Meter reading-beginning estimated/ending estimated"/>
+								<entry from="BO" to="Meter Reading as Billed"/>
+								<entry from="AB" to="Average balance"/>
+								<entry from="AF" to="Actual Total"/>
+								<entry from="AN" to="Work"/>
+								<entry from="BC" to="Billed Actual"/>
+								<entry from="BN" to="Billed Minimum"/>
+								<entry from="BR" to="Billed History"/>
+								<entry from="CF" to="Conversion Factor"/>
+								<entry from="DT" to="Dimensional Tolerance"/>
+								<entry from="EN" to="Environment Conditions"/>
+								<entry from="R1" to="Opening Reading"/>
+								<entry from="TI" to="Time"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="23" kind="23">
+					<sources>
+						<datapoint pos="0" key="127"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="128"/>
+					</targets>
+					<view ltx="529" lty="405" rbx="609" rby="443"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="MU" to="Multiplier"/>
+								<entry from="CO" to="Core Loss"/>
+								<entry from="VO" to="Voltage"/>
+								<entry from="CJ" to="Cycle Time"/>
+								<entry from="LN" to="Length"/>
+								<entry from="MX" to="Maximum"/>
+								<entry from="PU" to="Pressure base"/>
+								<entry from="TC" to="Temperature"/>
+								<entry from="ZA" to="Power Factor"/>
+								<entry from="ZD" to="Load Factor"/>
+								<entry from="RUD" to="Usage Deviation"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="24" kind="23">
+					<sources>
+						<datapoint pos="0" key="124"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="123"/>
+					</targets>
+					<view ltx="329" lty="431" rbx="409" rby="469"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="BY" to="British Thermal Unit (BTU)"/>
+								<entry from="DA" to="Days"/>
+								<entry from="HR" to="Hours"/>
+								<entry from="K1" to="Kilowatt Demand"/>
+								<entry from="K3" to="Kilovolt Amperes Reactive Hour"/>
+								<entry from="K4" to="Kilovolt Amperes"/>
+								<entry from="K5" to="Kilovolt Amperes Reactive"/>
+								<entry from="K7" to="Kilowatt"/>
+								<entry from="K9" to="Kilograms per Millimeter Squared (KG/MM2)"/>
+								<entry from="KH" to="Kilowatt Hour"/>
+								<entry from="T1" to="Thousand pounds gross"/>
+								<entry from="UN" to="Unit"/>
+								<entry from="99" to="Watt"/>
+								<entry from="BL" to="Block"/>
+								<entry from="CF" to="Cubic Feet"/>
+								<entry from="EA" to="Each"/>
+								<entry from="HH" to="hundred Cubic feet"/>
+								<entry from="HJ" to="Horsepower"/>
+								<entry from="K2" to="Kilovolt amperes reactive demand"/>
+								<entry from="LB" to="Pound"/>
+								<entry from="MO" to="Months"/>
+								<entry from="T9" to="Thousand Kilowatt Hours"/>
+								<entry from="TD" to="Therms"/>
+								<entry from="TH" to="Thousand"/>
+								<entry from="TZ" to="Thousand cubic feet"/>
+								<entry from="WK" to="Week"/>
+								<entry from="YR" to="Years"/>
+								<entry from="ZZ" to="Mutually Defined"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="55" kind="5">
+					<sources>
+						<datapoint pos="0" key="320"/>
+						<datapoint pos="1" key="332"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="325"/>
+					</targets>
+					<view ltx="412" lty="645" rbx="468" rby="699"/>
+				</component>
+				<component name="value-map" library="core" uid="28" kind="23">
+					<sources>
+						<datapoint pos="0" key="170"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="171"/>
+					</targets>
+					<view ltx="449" lty="524" rbx="529" rby="562"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="A" to="Add"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="29" kind="23">
+					<sources>
+						<datapoint pos="0" key="167"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="166"/>
+					</targets>
+					<view ltx="388" lty="583" rbx="468" rby="621"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="A" to="Allowance"/>
+								<entry from="C" to="Charge"/>
+								<entry from="N" to="No Allowance or Charge"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="30" kind="23">
+					<sources>
+						<datapoint pos="0" key="168"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="169"/>
+					</targets>
+					<view ltx="529" lty="561" rbx="609" rby="599"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="EU" to="Electric Utilities"/>
+								<entry from="GU" to="Natural Gas Utilities"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="6" kind="23">
+					<sources>
+						<datapoint pos="0" key="4"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="576" lty="167" rbx="656" rby="205"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="00" to="Orignal "/>
+								<entry from="05" to="Replace"/>
+								<entry from="01" to="Cancellation "/>
+								<entry from="07" to="Duplicate"/>
+								<entry from="CO" to="Corrected"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="8" kind="23">
+					<sources>
+						<datapoint pos="0" key="26"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="27"/>
+					</targets>
+					<view ltx="449" lty="297" rbx="529" rby="335"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="12" to="Billing Account"/>
+								<entry from="BLT" to="Billing type"/>
+								<entry from="OI" to="Orignal invoice number"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="19" kind="23">
+					<sources>
+						<datapoint pos="0" key="99"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="100"/>
+					</targets>
+					<view ltx="462" lty="208" rbx="542" rby="246"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="SV" to="Service Rendered"/>
+								<entry from="C3" to="Classification"/>
+								<entry from="MB" to="Measurement type code"/>
+								<entry from="EQ" to="Equipment type"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="remove-folder" library="core" uid="64" kind="5">
+					<sources>
+						<datapoint pos="0" key="346"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="347"/>
+					</targets>
+					<view ltx="388" rbx="492" rby="38"/>
+				</component>
+				<component name="value-map" library="core" uid="49" kind="23">
+					<sources>
+						<datapoint pos="0" key="300"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="301"/>
+					</targets>
+					<view ltx="436" lty="55" rbx="516" rby="93"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="810" to="Invoice"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="53" kind="23">
+					<sources>
+						<datapoint pos="0" key="303"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="302"/>
+					</targets>
+					<view ltx="329" lty="498" rbx="409" rby="536"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="11" to="Account Number"/>
+								<entry from="12" to="Billing Account "/>
+								<entry from="45" to="Old Acount Number "/>
+								<entry from="46" to="Old meter Number"/>
+								<entry from="4B" to="Shipment Origin Code"/>
+								<entry from="5B" to="Supplemental Account Number"/>
+								<entry from="AA" to="Account Receivalble Statement Number"/>
+								<entry from="AJ" to="Account Receivalble Customer Account"/>
+								<entry from="BE" to="Business Activity"/>
+								<entry from="CT" to="Contract Number"/>
+								<entry from="CZ" to="Contract Rider Number"/>
+								<entry from="IX" to="item Number"/>
+								<entry from="LO" to="Load Planing Number"/>
+								<entry from="LU" to="Location Number"/>
+								<entry from="MG" to="Meter Number"/>
+								<entry from="NH" to="Rate Card Number"/>
+								<entry from="PD" to="Promotion /Deal Number"/>
+								<entry from="PR" to="Price Quote Number"/>
+								<entry from="PRT" to="Product Type"/>
+								<entry from="PT" to="Purchase Option Agreement"/>
+								<entry from="Q5" to="Property  Control Number"/>
+								<entry from="QQ" to="Unit Number"/>
+								<entry from="QY" to="Service Performed Code"/>
+								<entry from="RB" to="Rate Code number"/>
+								<entry from="SU" to="Special Processing Code"/>
+								<entry from="SV" to="Service Charge Number"/>
+								<entry from="TZ" to="Total Cycle Number"/>
+								<entry from="UP" to="Upstream Shipper Contract Number"/>
+								<entry from="LI" to="Line Item Identifier (Seller&apos;s)"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="eRROR"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="48" kind="2">
+					<targets>
+						<datapoint pos="0" key="298"/>
+					</targets>
+					<view ltx="343" lty="92" rbx="417" rby="109"/>
+					<data>
+						<constant value="Atmos" datatype="string"/>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="17" kind="23">
+					<sources>
+						<datapoint pos="0" key="22"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="21"/>
+					</targets>
+					<view ltx="529" lty="336" rbx="609" rby="374"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="CR" to="Customer Relations"/>
+								<entry from="IC" to="Information Conatact"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Error"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="32" kind="23">
+					<sources>
+						<datapoint pos="0" key="174"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="175"/>
+					</targets>
+					<view ltx="416" lty="681" rbx="496" rby="719"/>
+					<data>
+						<valuemap>
+							<valuemapTable>
+								<entry from="BY" to="British Thermal Unit (BTU)"/>
+								<entry from="DA" to="Days"/>
+								<entry from="HR" to="Hours"/>
+								<entry from="K1" to="Kilowatt Demand
+K3
+Kilovolt Amperes Reactive"/>
+								<entry from="K3" to="Kilovolt Amperes Reactive Hour"/>
+								<entry from="K4" to="Kilovolt Amperes"/>
+								<entry from="K5" to="Kilovolt Amperes Reactive"/>
+								<entry from="K7" to="Kilowatt"/>
+								<entry from="K9" to="Kilograms per Millimeter Squared (KG/MM2)"/>
+								<entry from="KH" to="Kilowatt Hour"/>
+								<entry from="T1" to="Thousand pounds gross"/>
+								<entry from="UN" to="Unit"/>
+								<entry from="DO" to="Dollars"/>
+								<entry from="HH" to="Hundred Cubic Feet"/>
+								<entry from="K2" to="Kilowatt Demand"/>
+								<entry from="EA" to="Each"/>
+								<entry from="TD" to="Therms"/>
+								<entry from="TZ" to="Thousands cubic feet"/>
+								<entry from="BZ" to="Billion BTU&apos;s"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="31" kind="23">
+					<sources>
+						<datapoint pos="0" key="172"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="173"/>
+					</targets>
+					<view ltx="388" lty="631" rbx="468" rby="669"/>
+					<data>
+						<valuemap defaultValueMode="input">
+							<valuemapTable>
+								<entry from="ADJ001" to="Cost Recovery Adjustment"/>
+								<entry from="ADJ002" to="Adjustment"/>
+								<entry from="ADJ007" to="Metering Adjustment"/>
+								<entry from="BAS001" to="Basic Customer Charge"/>
+								<entry from="BAS002" to="Special Billing Charge"/>
+								<entry from="BAS003" to="Delivery Point Charge"/>
+								<entry from="BUD001" to="Budget Billing Amount"/>
+								<entry from="COL001" to="Collection Charge"/>
+								<entry from="CRE001" to="Credit"/>
+								<entry from="CRE009" to="Interruptible Credit"/>
+								<entry from="CRE010" to="Off Peak Credit"/>
+								<entry from="DAB001" to="Deposit"/>
+								<entry from="DAB002" to="Deposit Interest"/>
+								<entry from="DAB003" to="Deposit Applied"/>
+								<entry from="DCS001" to="Disconnect Charge"/>
+								<entry from="DIS001" to="Distribution Charge"/>
+								<entry from="DMD001" to="Demand Charge"/>
+								<entry from="DMD003" to="Non-Time Related Demand Charge"/>
+								<entry from="DMD004" to="Reactive Demand Charge"/>
+								<entry from="DMD006" to="Off Peak Demand Charge"/>
+								<entry from="DMD007" to="On Peak Demand Charge"/>
+								<entry from="DMD012" to="Summer On Peak Demand Charge"/>
+								<entry from="DSC001" to="Discount"/>
+								<entry from="DSC004" to="Economic Development Discount"/>
+								<entry from="DSC006" to="Church Discount"/>
+								<entry from="DSC011" to="Legislated Rate Reduction Discount"/>
+								<entry from="DSC012" to="Demand Voltage Discount"/>
+								<entry from="ENC001" to="Energy Charge"/>
+								<entry from="ENC003" to="Off Peak Charge"/>
+								<entry from="ENC004" to="Summer Off Peak Charge"/>
+								<entry from="ENC005" to="Summer On Peak Charge"/>
+								<entry from="ENC007" to="Summer Super On Peak Charge"/>
+								<entry from="FAC001" to="Equipment and Service Charge"/>
+								<entry from="FUE001" to="Fuel Adjustment"/>
+								<entry from="FUE002" to="Fuel Adjustment On Peak"/>
+								<entry from="FUE003" to="Fuel Adjustment Off Peak"/>
+								<entry from="HOC001" to="Service Connection Charge"/>
+								<entry from="IBC001" to="Core Standby Service Charge"/>
+								<entry from="IBC014" to="Curtailment Violation Charge"/>
+								<entry from="IBC016" to="SL2 Surcharge"/>
+								<entry from="LAA001" to="Billing for Work Done"/>
+								<entry from="LPC001" to="Late Payment Charge"/>
+								<entry from="MAD001" to="Minimum Bill"/>
+								<entry from="MSC001" to="Miscellaneous Charge"/>
+								<entry from="MSC007" to="Property Damage"/>
+								<entry from="MSC008" to="Punitive Damage"/>
+								<entry from="ODL001" to="Outdoor Lighting"/>
+								<entry from="ODL002" to="Street Lighting"/>
+								<entry from="ODL003" to="Traffic Signals"/>
+								<entry from="PFA001" to="Power Factor Adjustment"/>
+								<entry from="PRB001" to="Past Due Balance"/>
+								<entry from="PRB002" to="Unpaid Balance"/>
+								<entry from="RCS001" to="Reconnect Charge"/>
+								<entry from="RES007" to="Interconnect Access Firm Reservation Charge"/>
+								<entry from="RRR001" to="Regulatory Required Refund"/>
+								<entry from="RTC001" to="Return Check Fee"/>
+								<entry from="SER001" to="Service Charge"/>
+								<entry from="SER002" to="Cost of Service"/>
+								<entry from="SMD001" to="Applicance Contract Installment"/>
+								<entry from="SMD002" to="Cash Sales/Stores"/>
+								<entry from="SMD003" to="Comm Heat Pump/Water Heater Equip"/>
+								<entry from="SMD007" to="Heat Pump Installment"/>
+								<entry from="SMD011" to="Other Services and Merchandise"/>
+								<entry from="SMD012" to="PWR Protection Equipment"/>
+								<entry from="SUR001" to="State/Intrastate Surcharge"/>
+								<entry from="TEM001" to="Temporary Service"/>
+								<entry from="TRS001" to="Transfer from Account to Account"/>
+								<entry from="VCR001" to="Voluntary Pledge Contributions"/>
+								<entry from="ENC002" to="Energy Tier Charge"/>
+								<entry from="FFR001" to="Charges for non metered services"/>
+								<entry from="MSC000" to="Go to  SAC15 for text description"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="810" library="text" uid="2" kind="16">
+					<properties/>
+					<view rbx="272" rby="854"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" outkey="348" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" expanded="1">
+											<entry name="ISA" expanded="1"/>
+											<entry name="Group" expanded="1">
+												<entry name="GS" expanded="1"/>
+												<entry name="Message_810" outkey="29" expanded="1">
+													<entry name="ST" expanded="1">
+														<entry name="F143" outkey="299"/>
+														<entry name="F329" outkey="30"/>
+													</entry>
+													<entry name="BIG">
+														<entry name="F373_1" outkey="31"/>
+														<entry name="F76_1" outkey="32"/>
+														<entry name="F324" outkey="33"/>
+														<entry name="F640" outkey="34"/>
+														<entry name="F353" outkey="35"/>
+													</entry>
+													<entry name="NTE" outkey="36">
+														<entry name="F363" outkey="314"/>
+														<entry name="F352" outkey="37"/>
+													</entry>
+													<entry name="REF" outkey="38">
+														<entry name="F128" outkey="39"/>
+														<entry name="F127" outkey="40"/>
+													</entry>
+													<entry name="LoopN1" outkey="41">
+														<entry name="N1">
+															<entry name="F98_1" outkey="42"/>
+															<entry name="F93" outkey="43"/>
+															<entry name="F66" outkey="44"/>
+															<entry name="F67" outkey="45"/>
+														</entry>
+														<entry name="N2" expanded="1">
+															<entry name="F93" outkey="46"/>
+														</entry>
+														<entry name="N3" expanded="1">
+															<entry name="F166" outkey="47"/>
+														</entry>
+														<entry name="N4" expanded="1">
+															<entry name="F19" outkey="48"/>
+															<entry name="F156" outkey="49"/>
+															<entry name="F116" outkey="50"/>
+															<entry name="F26" outkey="51"/>
+														</entry>
+														<entry name="REF" outkey="52">
+															<entry name="F128" outkey="53"/>
+															<entry name="F127" outkey="54"/>
+														</entry>
+														<entry name="PER" outkey="55">
+															<entry name="F366" outkey="56"/>
+															<entry name="F93" outkey="57"/>
+															<entry name="F365_1" outkey="58"/>
+															<entry name="F364_1" outkey="59"/>
+														</entry>
+													</entry>
+													<entry name="ITD">
+														<entry name="F336" outkey="451"/>
+														<entry name="F338" outkey="452"/>
+														<entry name="F351" outkey="453"/>
+														<entry name="F446" outkey="60"/>
+														<entry name="F386" outkey="454"/>
+													</entry>
+													<entry name="DTM">
+														<entry name="F373" outkey="61"/>
+													</entry>
+													<entry name="BAL" outkey="315">
+														<entry name="F951" outkey="316"/>
+														<entry name="F522" outkey="317"/>
+														<entry name="F782" outkey="318"/>
+													</entry>
+													<entry name="LoopIT1" expanded="1">
+														<entry name="IT1" outkey="110" expanded="1">
+															<entry name="F350" outkey="111"/>
+															<entry name="F235_01" outkey="112"/>
+															<entry name="F234_01" outkey="113"/>
+															<entry name="F235_02" outkey="342"/>
+															<entry name="F234_02" outkey="343"/>
+															<entry name="F235_03" outkey="344"/>
+															<entry name="F234_03" outkey="345"/>
+														</entry>
+														<entry name="TXI" outkey="114" expanded="1">
+															<entry name="F963" outkey="115"/>
+															<entry name="F782" outkey="116"/>
+															<entry name="F954" outkey="350"/>
+															<entry name="F441" outkey="351"/>
+															<entry name="F662" outkey="117"/>
+															<entry name="F828" outkey="456"/>
+															<entry name="F350" outkey="118"/>
+														</entry>
+														<entry name="MEA" outkey="150">
+															<entry name="F737" outkey="151"/>
+															<entry name="F738" outkey="152"/>
+															<entry name="F739" outkey="153"/>
+															<entry name="C001">
+																<entry name="F355_1" outkey="154"/>
+															</entry>
+															<entry name="F740" outkey="155"/>
+															<entry name="F741" outkey="156"/>
+															<entry name="F935" outkey="157"/>
+														</entry>
+														<entry name="LoopPID" expanded="1">
+															<entry name="PID" outkey="158">
+																<entry name="F349" outkey="159"/>
+																<entry name="F352" outkey="160"/>
+															</entry>
+														</entry>
+														<entry name="REF" outkey="161" expanded="1">
+															<entry name="F128" outkey="162"/>
+															<entry name="F127" outkey="163"/>
+															<entry name="F352" outkey="164"/>
+														</entry>
+														<entry name="DTM" expanded="1">
+															<entry name="F374" outkey="333"/>
+															<entry name="F373" outkey="165"/>
+														</entry>
+														<entry name="LoopSLN" expanded="1">
+															<entry name="SLN" outkey="210" expanded="1">
+																<entry name="F350_1" outkey="211"/>
+																<entry name="F662_1" outkey="212"/>
+															</entry>
+															<entry name="SAC" expanded="1">
+																<entry name="F248" outkey="213"/>
+																<entry name="F559" outkey="214"/>
+																<entry name="F1301" outkey="215"/>
+																<entry name="F610" outkey="216"/>
+																<entry name="F118" outkey="217"/>
+																<entry name="F355" outkey="218"/>
+																<entry name="F380" outkey="219"/>
+																<entry name="F352" outkey="220"/>
+															</entry>
+														</entry>
+														<entry name="LoopN1" outkey="221">
+															<entry name="N1" expanded="1">
+																<entry name="F98_1" outkey="222"/>
+																<entry name="F93" outkey="223"/>
+																<entry name="F66" outkey="224"/>
+																<entry name="F67" outkey="225"/>
+															</entry>
+															<entry name="N2">
+																<entry name="F93" outkey="226"/>
+															</entry>
+															<entry name="N3">
+																<entry name="F166" outkey="227"/>
+															</entry>
+															<entry name="N4">
+																<entry name="F19" outkey="228"/>
+																<entry name="F156" outkey="229"/>
+																<entry name="F116" outkey="230"/>
+																<entry name="F26" outkey="231"/>
+															</entry>
+															<entry name="REF" outkey="232">
+																<entry name="F128" outkey="233"/>
+																<entry name="F127" outkey="234"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="TDS" outkey="235">
+														<entry name="F610_1" outkey="236"/>
+													</entry>
+													<entry name="LoopSAC" outkey="246" expanded="1">
+														<entry name="SAC">
+															<entry name="F248" outkey="247"/>
+															<entry name="F559" outkey="248"/>
+															<entry name="F1301" outkey="249"/>
+															<entry name="F610" outkey="250"/>
+															<entry name="F118" outkey="251"/>
+															<entry name="F355" outkey="252"/>
+															<entry name="F380" outkey="253"/>
+															<entry name="F352" outkey="254"/>
+														</entry>
+													</entry>
+													<entry name="CTT">
+														<entry name="F354" outkey="271"/>
+													</entry>
+													<entry name="SE">
+														<entry name="F96" outkey="272"/>
+														<entry name="F329" outkey="273"/>
+													</entry>
+													<entry name="ParserErrors_Message" expanded="1">
+														<entry name="LoopMF_AK3" expanded="1">
+															<entry name="MF_AK3" expanded="1"/>
+															<entry name="MF_AK4" expanded="1">
+																<entry name="C030" expanded="1"/>
+															</entry>
+														</entry>
+														<entry name="MF_AK5" expanded="1"/>
+													</entry>
+												</entry>
+												<entry name="GE" expanded="1">
+													<entry name="F97" outkey="274"/>
+													<entry name="F28" outkey="275"/>
+												</entry>
+												<entry name="ParserErrors_Group" expanded="1">
+													<entry name="MF_AK9" expanded="1"/>
+												</entry>
+											</entry>
+											<entry name="IEA" expanded="1">
+												<entry name="FI16" outkey="276"/>
+												<entry name="FI12" outkey="277"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1000" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config" inputinstance="*.edi">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="report+accept"/>
+									<case kind="missing-group" action="report+accept"/>
+									<case kind="missing-field-or-composite" action="report+accept"/>
+									<case kind="extra-data" action="report+accept"/>
+									<case kind="invalid-field-value" action="report+accept"/>
+									<case kind="invalid-date" action="report+accept"/>
+									<case kind="invalid-time" action="report+accept"/>
+									<case kind="extra-repeat" action="report+accept"/>
+									<case kind="numeric-overflow" action="report+accept"/>
+									<case kind="data-element-too-short" action="report+accept"/>
+									<case kind="data-element-too-long" action="report+accept"/>
+									<case kind="unexpected-eof" action="report+accept"/>
+									<case kind="invalid-codelist-value" action="report+accept"/>
+									<case kind="semantic" action="report+accept"/>
+									<case kind="segment-not-in-message" action="report+accept"/>
+									<case kind="unrecognized-segment-id" action="report+accept"/>
+									<case kind="impl-not-used-present" action="report+accept"/>
+									<case kind="not-all-data-parsed" action="report+accept"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="810"/>
+							</messages>
+						</text>
+					</data>
+				</component>
+				<component name="db" library="db" uid="3" kind="15">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="1012" lty="12" rbx="1305" rby="866"/>
+					<data>
+						<root scrollposition="574">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1">
+								<entry name="dbo.InvoiceHeader" type="table" inpkey="62" expanded="1">
+									<entry name="STTransactionSetIdentifierCode" inpkey="63"/>
+									<entry name="STTransactionSetControlNumber" inpkey="64"/>
+									<entry name="BigDate" inpkey="65"/>
+									<entry name="BigInvoiceNumber" inpkey="66"/>
+									<entry name="BigPurchaseOrderNumber" inpkey="67"/>
+									<entry name="BigTransactionTypeCode" inpkey="68"/>
+									<entry name="BigTransactionSetPurposeCode" inpkey="69"/>
+									<entry name="ITDTermsNetDueDate" inpkey="70"/>
+									<entry name="DTMBookingDate" inpkey="71"/>
+									<entry name="CompanyName" inpkey="297"/>
+									<entry name="FileName" inpkey="349"/>
+									<entry name="ITDTermsTypeCode" inpkey="447"/>
+									<entry name="ITDTermsDiscountPercent" inpkey="448"/>
+									<entry name="ITDTermsDiscountDaysDue" inpkey="449"/>
+									<entry name="ITDTermsNetDays" inpkey="450"/>
+									<entry name="dbo.BAL|InvoiceHeaderSysId" type="table" inpkey="310" expanded="1">
+										<entry name="BalBalanceTypeCode" inpkey="311"/>
+										<entry name="BalAmountQualifierCode" inpkey="312"/>
+										<entry name="BalMonetaryAmount" inpkey="313"/>
+									</entry>
+									<entry name="dbo.Invoice_Detail|InvoiceHeaderSysId" type="table" inpkey="101" expanded="1">
+										<entry name="IT1AssignedIdentification" inpkey="102"/>
+										<entry name="IT1ProductServiceIDQualifier1" inpkey="103"/>
+										<entry name="IT1ProductServiceID1" inpkey="104"/>
+										<entry name="IT1ProductServiceIDQualifier12" inpkey="338"/>
+										<entry name="IT1ProductServiceID12" inpkey="339"/>
+										<entry name="IT1ProductServiceIDQualifier13" inpkey="340"/>
+										<entry name="IT1ProductServiceID13" inpkey="341"/>
+										<entry name="DTMServiceStartDate" inpkey="129"/>
+										<entry name="DTMServiceEndDate" inpkey="130"/>
+										<entry name="dbo.MEA|InvoiceDetailSysId" type="table" inpkey="131" expanded="1">
+											<entry name="MEAMeasurementReferenceIDCode" inpkey="132"/>
+											<entry name="MEAMeasurementQualifier" inpkey="133"/>
+											<entry name="MEAMeasurementValue" inpkey="134"/>
+											<entry name="MEACompositeUnitofMeasure" inpkey="296"/>
+											<entry name="MEARangeMinimum" inpkey="136"/>
+											<entry name="MEARangeMaximum" inpkey="137"/>
+											<entry name="MEAMeasurementSignificanceCode" inpkey="138"/>
+										</entry>
+										<entry name="dbo.N1|InvoiceDetailsSysId" type="table" inpkey="182">
+											<entry name="N1EntityIdentifierCode" inpkey="183"/>
+											<entry name="N1Name" inpkey="184"/>
+											<entry name="N1IdentificationCodeQualifier" inpkey="185"/>
+											<entry name="N1IdentificationCode" inpkey="186"/>
+											<entry name="N2Name" inpkey="187"/>
+											<entry name="N3Address1" inpkey="188"/>
+											<entry name="N4CityName" inpkey="189"/>
+											<entry name="N4StateorProvinceCode" inpkey="190"/>
+											<entry name="N4PostalCode" inpkey="191"/>
+											<entry name="N4CountryCode" inpkey="192"/>
+											<entry name="dbo.REF|N1SysId" type="table" inpkey="193" expanded="1">
+												<entry name="REFReferenceIdentificationQualifier" inpkey="194"/>
+												<entry name="REFReferenceIdentification" inpkey="195"/>
+											</entry>
+										</entry>
+										<entry name="dbo.PID|InvoiceDetailSysId" type="table" inpkey="139">
+											<entry name="PIDItemDescriptionType" inpkey="140"/>
+											<entry name="PIDDescription" inpkey="141"/>
+										</entry>
+										<entry name="dbo.REF|InvoiceDetailSysId" type="table" inpkey="142">
+											<entry name="REFReferenceIdentificationQualifier" inpkey="143"/>
+											<entry name="REFReferenceIdentification" inpkey="144"/>
+											<entry name="REFDescription" inpkey="145"/>
+											<entry name="dbo.N1|N1SysId" type="table" expanded="1"/>
+										</entry>
+										<entry name="dbo.SLN|InvoiceDetailSysId" type="table" inpkey="196" expanded="1">
+											<entry name="SLNAssignedIdentification" inpkey="197"/>
+											<entry name="SLNRelationshipCode" inpkey="198"/>
+											<entry name="SACAllowanceorChargeIndicator" inpkey="199"/>
+											<entry name="SACAgencyQualifierCode" inpkey="200"/>
+											<entry name="SACAgencyServicePromotionAllowanceorChargeCode" inpkey="201"/>
+											<entry name="SACAmount" inpkey="202"/>
+											<entry name="SACRate" inpkey="203"/>
+											<entry name="SACUnitorBasisforMeasurementCode" inpkey="204"/>
+											<entry name="SACDescription" inpkey="205"/>
+											<entry name="SACQuantity" inpkey="206"/>
+										</entry>
+										<entry name="dbo.TXI|InvoiceDetailSysId" type="table" inpkey="105">
+											<entry name="TXITaxTypeCode" inpkey="106"/>
+											<entry name="TXIMonetaryAmount" inpkey="107"/>
+											<entry name="TXIAssignedIdentification" inpkey="108"/>
+											<entry name="TXIRelationshipCode" inpkey="109"/>
+											<entry name="TXIPercent" inpkey="352"/>
+											<entry name="TXITaxExemptCode" inpkey="353"/>
+											<entry name="DollarBasisForPercent" inpkey="455"/>
+										</entry>
+									</entry>
+									<entry name="dbo.Invoice_Summary|InvoiceHeaderSysId" type="table" inpkey="207">
+										<entry name="TDSAmount" inpkey="208"/>
+										<entry name="CTTNumberofLineItems" inpkey="264"/>
+										<entry name="SENumberofIncludedSegments" inpkey="265"/>
+										<entry name="SETransactionSetControlNumber" inpkey="266"/>
+										<entry name="GENumberofTransactionSetsIncluded" inpkey="267"/>
+										<entry name="GEGroupControlNumber" inpkey="268"/>
+										<entry name="IEANumberofIncludedFunctionalGroups" inpkey="269"/>
+										<entry name="IEAInterchangeControlNumber" inpkey="270"/>
+									</entry>
+									<entry name="dbo.N1|InvoiceHeaderSysId" type="table" inpkey="72">
+										<entry name="N1EntityIdentifierCode" inpkey="73"/>
+										<entry name="N1Name" inpkey="74"/>
+										<entry name="N1IdentificationCodeQualifier" inpkey="75"/>
+										<entry name="N1IdentificationCode" inpkey="76"/>
+										<entry name="N2Name" inpkey="77"/>
+										<entry name="N3Address1" inpkey="78"/>
+										<entry name="N4CityName" inpkey="79"/>
+										<entry name="N4StateorProvinceCode" inpkey="80"/>
+										<entry name="N4PostalCode" inpkey="81"/>
+										<entry name="N4CountryCode" inpkey="82"/>
+										<entry name="dbo.REF|N1SysId" type="table" inpkey="83" expanded="1">
+											<entry name="REFReferenceIdentificationQualifier" inpkey="84"/>
+											<entry name="REFReferenceIdentification" inpkey="85"/>
+											<entry name="dbo.Invoice_Detail|InvoiceDetailSysId" type="table" expanded="1">
+												<entry name="dbo.TXI|InvoiceDetailSysId" type="table" expanded="1"/>
+											</entry>
+										</entry>
+									</entry>
+									<entry name="dbo.NTE|InvoiceHeaderSysId" type="table" inpkey="86">
+										<entry name="NTENoteReferenceCode" inpkey="87"/>
+										<entry name="NTEDescription" inpkey="88"/>
+									</entry>
+									<entry name="dbo.PER|InvoiceHeaderSysId" type="table" inpkey="89" expanded="1">
+										<entry name="PERContactFunctionCode" inpkey="90"/>
+										<entry name="PERName" inpkey="91"/>
+										<entry name="PERCommunicationNumberQualifier" inpkey="92"/>
+										<entry name="PERCommunicationNumber" inpkey="93"/>
+									</entry>
+									<entry name="dbo.REF|InvoiceHeaderSysId" type="table" inpkey="94">
+										<entry name="REFReferenceIdentificationQualifier" inpkey="95"/>
+										<entry name="REFReferenceIdentification" inpkey="96"/>
+										<entry name="dbo.Invoice_Detail|InvoiceDetailSysId" type="table" expanded="1">
+											<entry name="dbo.N1|InvoiceDetailsSysId" type="table" expanded="1"/>
+										</entry>
+										<entry name="dbo.N1|N1SysId" type="table" expanded="1">
+											<entry name="dbo.Invoice_Detail|InvoiceDetailsSysId" type="table" expanded="1">
+												<entry name="dbo.TXI|InvoiceDetailSysId" type="table" expanded="1"/>
+											</entry>
+										</entry>
+									</entry>
+									<entry name="dbo.SLN|InvoiceHeaderSysId" type="table" inpkey="255">
+										<entry name="SACAllowanceorChargeIndicator" inpkey="256"/>
+										<entry name="SACAgencyQualifierCode" inpkey="257"/>
+										<entry name="SACAgencyServicePromotionAllowanceorChargeCode" inpkey="258"/>
+										<entry name="SACAmount" inpkey="259"/>
+										<entry name="SACRate" inpkey="260"/>
+										<entry name="SACUnitorBasisforMeasurementCode" inpkey="261"/>
+										<entry name="SACDescription" inpkey="262"/>
+										<entry name="SACQuantity" inpkey="263"/>
+									</entry>
+								</entry>
+								<entry name="dbo.sysdiagrams" show-schema-children="0"/>
+							</entry>
+						</root>
+						<database ref="ApexEDI">
+							<data>
+								<selections>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="BAL" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="InvoiceHeader" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="Invoice_Detail" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="Invoice_Summary" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="MEA" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="N1" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="NTE" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PER" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PID" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="REF" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="SLN" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="TXI" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="sysdiagrams" Kind="Table"/>
+									</selection>
+								</selections>
+							</data>
+						</database>
+					</data>
+				</component>
+			</children>
+		</structure>
+		<connections>
+			<edge from="34" to="1"/>
+			<edge from="35" to="4"/>
+			<edge from="42" to="5"/>
+			<edge from="44" to="18"/>
+			<edge from="53" to="19"/>
+			<edge from="56" to="22"/>
+			<edge from="58" to="23"/>
+			<edge from="39" to="26"/>
+			<edge from="29" to="62"/>
+			<edge from="301" to="63"/>
+			<edge from="30" to="64"/>
+			<edge from="31" to="65"/>
+			<edge from="32" to="66"/>
+			<edge from="33" to="67"/>
+			<edge from="2" to="68"/>
+			<edge from="3" to="69"/>
+			<edge from="60" to="70"/>
+			<edge from="61" to="71"/>
+			<edge from="41" to="72"/>
+			<edge from="6" to="73"/>
+			<edge from="43" to="74"/>
+			<edge from="17" to="75"/>
+			<edge from="45" to="76"/>
+			<edge from="46" to="77"/>
+			<edge from="47" to="78"/>
+			<edge from="48" to="79"/>
+			<edge from="49" to="80"/>
+			<edge from="50" to="81"/>
+			<edge from="51" to="82"/>
+			<edge from="52" to="83"/>
+			<edge from="20" to="84"/>
+			<edge from="54" to="85"/>
+			<edge from="36" to="86"/>
+			<edge from="309" to="87"/>
+			<edge from="37" to="88"/>
+			<edge from="55" to="89"/>
+			<edge from="21" to="90"/>
+			<edge from="57" to="91"/>
+			<edge from="24" to="92"/>
+			<edge from="59" to="93"/>
+			<edge from="38" to="94"/>
+			<edge from="27" to="95"/>
+			<edge from="40" to="96"/>
+			<edge from="115" to="97"/>
+			<edge from="112" to="99"/>
+			<edge from="110" to="101"/>
+			<edge from="111" to="102"/>
+			<edge from="100" to="103"/>
+			<edge from="113" to="104"/>
+			<edge from="114" to="105"/>
+			<edge from="98" to="106"/>
+			<edge from="116" to="107"/>
+			<edge from="118" to="108"/>
+			<edge from="120" to="109"/>
+			<edge from="117" to="119"/>
+			<edge from="151" to="121"/>
+			<edge from="154" to="124"/>
+			<edge from="157" to="126"/>
+			<edge from="152" to="127"/>
+			<edge from="322" to="129"/>
+			<edge from="328" to="130"/>
+			<edge from="150" to="131"/>
+			<edge from="122" to="132"/>
+			<edge from="128" to="133"/>
+			<edge from="153" to="134"/>
+			<edge from="155" to="136"/>
+			<edge from="156" to="137"/>
+			<edge from="125" to="138"/>
+			<edge from="158" to="139"/>
+			<edge from="147" to="140"/>
+			<edge from="160" to="141"/>
+			<edge from="161" to="142"/>
+			<edge from="302" to="143"/>
+			<edge from="163" to="144"/>
+			<edge from="164" to="145"/>
+			<edge from="159" to="146"/>
+			<edge from="213" to="167"/>
+			<edge from="214" to="168"/>
+			<edge from="212" to="170"/>
+			<edge from="215" to="172"/>
+			<edge from="218" to="174"/>
+			<edge from="224" to="176"/>
+			<edge from="222" to="178"/>
+			<edge from="233" to="180"/>
+			<edge from="221" to="182"/>
+			<edge from="179" to="183"/>
+			<edge from="223" to="184"/>
+			<edge from="177" to="185"/>
+			<edge from="225" to="186"/>
+			<edge from="226" to="187"/>
+			<edge from="227" to="188"/>
+			<edge from="228" to="189"/>
+			<edge from="229" to="190"/>
+			<edge from="230" to="191"/>
+			<edge from="231" to="192"/>
+			<edge from="232" to="193"/>
+			<edge from="181" to="194"/>
+			<edge from="234" to="195"/>
+			<edge from="210" to="196"/>
+			<edge from="211" to="197"/>
+			<edge from="171" to="198"/>
+			<edge from="166" to="199"/>
+			<edge from="169" to="200"/>
+			<edge from="173" to="201"/>
+			<edge from="216" to="202"/>
+			<edge from="217" to="203"/>
+			<edge from="175" to="204"/>
+			<edge from="220" to="205"/>
+			<edge from="219" to="206"/>
+			<edge from="235" to="207"/>
+			<edge from="236" to="208"/>
+			<edge from="247" to="238"/>
+			<edge from="248" to="240"/>
+			<edge from="249" to="242"/>
+			<edge from="252" to="244"/>
+			<edge from="246" to="255"/>
+			<edge from="239" to="256"/>
+			<edge from="241" to="257"/>
+			<edge from="243" to="258"/>
+			<edge from="250" to="259"/>
+			<edge from="251" to="260"/>
+			<edge from="245" to="261"/>
+			<edge from="254" to="262"/>
+			<edge from="253" to="263"/>
+			<edge from="271" to="264"/>
+			<edge from="272" to="265"/>
+			<edge from="273" to="266"/>
+			<edge from="274" to="267"/>
+			<edge from="275" to="268"/>
+			<edge from="276" to="269"/>
+			<edge from="277" to="270"/>
+			<edge from="123" to="296"/>
+			<edge from="298" to="297"/>
+			<edge from="299" to="300"/>
+			<edge from="162" to="303"/>
+			<edge from="316" to="304"/>
+			<edge from="317" to="306"/>
+			<edge from="314" to="308"/>
+			<edge from="315" to="310"/>
+			<edge from="305" to="311"/>
+			<edge from="307" to="312"/>
+			<edge from="318" to="313"/>
+			<edge from="319" to="320"/>
+			<edge from="165" to="321"/>
+			<edge from="323" to="324"/>
+			<edge from="325" to="326"/>
+			<edge from="165" to="327"/>
+			<edge from="329" to="330"/>
+			<edge from="333" to="331"/>
+			<edge from="333" to="332"/>
+			<edge from="342" to="335"/>
+			<edge from="344" to="337"/>
+			<edge from="334" to="338"/>
+			<edge from="343" to="339"/>
+			<edge from="336" to="340"/>
+			<edge from="345" to="341"/>
+			<edge from="348" to="346"/>
+			<edge from="347" to="349"/>
+			<edge from="350" to="352"/>
+			<edge from="351" to="353"/>
+			<edge from="451" to="447"/>
+			<edge from="452" to="448"/>
+			<edge from="453" to="449"/>
+			<edge from="454" to="450"/>
+			<edge from="456" to="455"/>
+		</connections>
+	</component>
+</mapping>

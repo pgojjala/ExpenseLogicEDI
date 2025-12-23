@@ -1,0 +1,988 @@
+ISA*00*          *00*          *ZZ*KUBDUKEENERGYOH*01*RADIUSPOINT    *250426*0422*U*00401*000000702*0*P*>~
+GS*IN*KUBDUKEENERGYOH*RADIUSPOINT*20250426*04222565*702*X*004010~
+ST*810*0001~
+BIG*20250428*200703632345*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least two full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit indiana811.org.~
+NTE*ADD*Your current rate is Unmetered Outdoor Lighting Service (SUOL).~
+NTE*ADD*For a complete listing of all Indiana rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+CUR*85*USD~
+REF*12*910118577925~
+N1*BT*RURAL KING*91*910118577925~
+N3*1211 STATE ROAD 436 STE 295~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*RURAL KING*91*910118577925~
+N3*3235 WABASH AVE~
+N4*TERRE HAUTE*IN*47803-1519*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250519~
+DTM*186*20250327~
+DTM*187*20250425~
+BAL*M*PB*37.71~
+PAM*99*362*KH***MO*MRR*20240401~
+PAM*99*362*KH***MO*MRR*20240501~
+PAM*99*362*KH***MO*MRR*20240601~
+PAM*99*362*KH***MO*MRR*20240701~
+PAM*99*362*KH***MO*MRR*20240801~
+PAM*99*362*KH***MO*MRR*20240901~
+PAM*99*362*KH***MO*MRR*20241001~
+PAM*99*362*KH***MO*MRR*20241101~
+PAM*99*362*KH***MO*MRR*20241201~
+PAM*99*362*KH***MO*MRR*20250101~
+PAM*99*362*KH***MO*MRR*20250201~
+PAM*99*362*KH***MO*MRR*20250301~
+PAM*99*362*KH***MO*MRR*20250401~
+PAM*99*4344*KH***PM*MRR*20250404~
+PAM*99*362*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*2.47*****A***Indiana State Tax~
+IT1*0002*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+MEA*TI**30*DA~
+REF*AH*3118103050~
+DTM*150*20250327~
+DTM*151*20250425~
+SLN*0001**A~
+SAC*N**EU*ODL000*****UN*2*****Quantity~
+SLN*0002**A~
+SAC*N**EU*ODL000*****KH*181*****Kilowatt hour~
+SLN*0003**A~
+SAC*N**EU*ENC001*****KH*362*****Total Kilo Watt Hour~
+IT1*0003*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+REF*NH*CM*Unmetered Outdoor Lighting Service (SUOL)~
+REF*AH*3118103050~
+SLN*0001**A~
+SAC*C**EU*ENC001*3782***.104475*KH*362*****Energy Charge~
+SLN*0002**A~
+SAC*A**EU*FUE001*-174***.004801*KH*362*****Rider No. 60 Fuel Cost Adjustment~
+SLN*0003**A~
+SAC*C**EU*ENC021*49***.001357*KH*362*****Rider No. 62 Environmental Compliance Adjustment~
+SLN*0004**A~
+SAC*C**EU*ENC021*42***.00116*KH*362*****Rider No. 65 Trans and Distrib Infrastructure Improvement Cost Rate Adj~
+SLN*0005**A~
+SAC*C**EU*ENC021*60***.001669*KH*362*****Rider No. 66 Energy Efficiency Revenue Adjustment~
+SLN*0006**A~
+SAC*A**EU*ENC021*-1372***.037891*KH*362*****Rider No. 67 Credits Adjustment~
+SLN*0007**A~
+SAC*C**EU*ENC021*09***.000255*KH*362*****Rider No. 70 Reliability Adjustment~
+SLN*0008**A~
+SAC*C**EU*ENC021*01***.000019*KH*362*****Rider No. 73 Renewable Energy Project Revenue Adjustment~
+SLN*0009**A~
+SAC*A**EU*FUE001*-03***.000071*KH*362*****Rider No. 74 Load Control Adj Rider~
+SLN*0010**A~
+SAC*C**EU*ODL005*1130**********Light Maintenance Charge~
+TDS*3771~
+TXI*ZZ*2.47*****O***Taxes~
+SAC*C**EU*PRB001*3898**********Previous Amount Due~
+SAC*A**EU*PAY001*-3898**********Payment Received Apr 04~
+SAC*N**EU*ENC000*3524**********Current Lighting Charges~
+SAC*N**EU*MSC000*3771**********Total Amount Due May 19~
+CTT*3~
+SE*86*0001~
+ST*810*0002~
+BIG*20250428*200123634357*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least two full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit indiana811.org.~
+NTE*ADD*Your current rate is Unmetered Outdoor Lighting Service (SUOL).~
+NTE*ADD*For a complete listing of all Indiana rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+CUR*85*USD~
+REF*12*910121848439~
+N1*BT*TH RURAL KING SUPPLY*91*910121848439~
+N2*1211 STATE ROAD 436 STE 295~
+N3*C/O RADIUS POINT DEPARTMENT 132~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*TH RURAL KING SUPPLY*91*910121848439~
+N3*TH RURAL KING SUPPLY~
+N4*TERRE HAUTE*IN*47801-0000*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250519~
+DTM*186*20250327~
+DTM*187*20250425~
+BAL*M*PB*105.09~
+PAM*99*972*KH***MO*MRR*20240401~
+PAM*99*972*KH***MO*MRR*20240501~
+PAM*99*972*KH***MO*MRR*20240601~
+PAM*99*972*KH***MO*MRR*20240701~
+PAM*99*972*KH***MO*MRR*20240801~
+PAM*99*972*KH***MO*MRR*20240901~
+PAM*99*972*KH***MO*MRR*20241001~
+PAM*99*972*KH***MO*MRR*20241101~
+PAM*99*972*KH***MO*MRR*20241201~
+PAM*99*972*KH***MO*MRR*20250101~
+PAM*99*972*KH***MO*MRR*20250201~
+PAM*99*972*KH***MO*MRR*20250301~
+PAM*99*972*KH***MO*MRR*20250401~
+PAM*99*11664*KH***PM*MRR*20250404~
+PAM*99*972*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*6.88*****A***Indiana State Tax~
+IT1*0002*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+MEA*TI**30*DA~
+REF*AH*3118138721~
+DTM*150*20250327~
+DTM*151*20250425~
+SLN*0001**A~
+SAC*N**EU*ODL000*****UN*6*****Quantity~
+SLN*0002**A~
+SAC*N**EU*ODL000*****KH*162*****Kilowatt hour~
+SLN*0003**A~
+SAC*N**EU*ENC001*****KH*972*****Total Kilo Watt Hour~
+IT1*0003*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+REF*NH*CM*Unmetered Outdoor Lighting Service (SUOL)~
+REF*AH*3118138721~
+SLN*0001**A~
+SAC*C**EU*ENC001*10155***.104475*KH*972*****Energy Charge~
+SLN*0002**A~
+SAC*A**EU*FUE001*-467***.004801*KH*972*****Rider No. 60 Fuel Cost Adjustment~
+SLN*0003**A~
+SAC*C**EU*ENC021*132***.001357*KH*972*****Rider No. 62 Environmental Compliance Adjustment~
+SLN*0004**A~
+SAC*C**EU*ENC021*113***.00116*KH*972*****Rider No. 65 Trans and Distrib Infrastructure Improvement Cost Rate Adj~
+SLN*0005**A~
+SAC*C**EU*ENC021*162***.001669*KH*972*****Rider No. 66 Energy Efficiency Revenue Adjustment~
+SLN*0006**A~
+SAC*A**EU*ENC021*-3683***.037891*KH*972*****Rider No. 67 Credits Adjustment~
+SLN*0007**A~
+SAC*A**EU*ADJ000*-01***.00001*KH*972*****Rider No. 68 Regional Transmission Operator (RTO) Non-Fuel Costs and Revenue Adj~
+SLN*0008**A~
+SAC*C**EU*ENC021*25***.000255*KH*972*****Rider No. 70 Reliability Adjustment~
+SLN*0009**A~
+SAC*C**EU*ENC021*02***.000019*KH*972*****Rider No. 73 Renewable Energy Project Revenue Adjustment~
+SLN*0010**A~
+SAC*A**EU*FUE001*-07***.000071*KH*972*****Rider No. 74 Load Control Adj Rider~
+SLN*0011**A~
+SAC*C**EU*ODL005*3390**********Light Maintenance Charge~
+TDS*10509~
+TXI*ZZ*6.88*****O***Taxes~
+SAC*C**EU*PRB001*10850**********Previous Amount Due~
+SAC*A**EU*PAY001*-10850**********Payment Received Apr 04~
+SAC*N**EU*ENC000*9821**********Current Lighting Charges~
+SAC*N**EU*MSC000*10509**********Total Amount Due May 19~
+CTT*3~
+SE*89*0002~
+ST*810*0003~
+BIG*20250428*200283631368*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least two full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit indiana811.org.~
+NTE*ADD*Your current rate is Low Load Factor Service (LLF).~
+NTE*ADD*For a complete listing of all Indiana rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+NTE*ADD*Your current rate is Low Load Factor Service (LLF).~
+CUR*85*USD~
+REF*12*910139751595~
+N1*BT*HUM PROVIDER HOLDINGS LLC*91*910139751595~
+N2*1211 STATE ROAD 436 STE 297~
+N3*RADIUSPOINT DEPT 124~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*HUM PROVIDER HOLDINGS LLC*91*910139751595~
+N3*1020 VETERANS PKWY STE 700~
+N4*CLARKSVILLE*IN*47129-2386*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250519~
+DTM*186*20250320~
+DTM*187*20250424~
+BAL*M*PB*1002.57~
+PAM*99*5098.713*KH***MO*MRR*20240401~
+PAM*99*5170.19*KH***MO*MRR*20240501~
+PAM*99*4786.546*KH***MO*MRR*20240601~
+PAM*99*5524.799*KH***MO*MRR*20240701~
+PAM*99*5570.75*KH***MO*MRR*20240801~
+PAM*99*5043.332*KH***MO*MRR*20240901~
+PAM*99*5054.336*KH***MO*MRR*20241001~
+PAM*99*5336.194*KH***MO*MRR*20241101~
+PAM*99*8178.8*KH***MO*MRR*20241201~
+PAM*99*10746.113*KH***MO*MRR*20250101~
+PAM*99*10242.721*KH***MO*MRR*20250201~
+PAM*99*6726.083*KH***MO*MRR*20250301~
+PAM*99*5546.728*KH***MO*MRR*20250401~
+PAM*99*77926.592*KH***PM*MRR*20250404~
+PAM*99*6493.883*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*65.59*****A***Indiana State Tax~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**29*DA~
+REF*MG*346261287*INTERVAL BILLED~
+REF*AH*3125213738~
+DTM*150*20250320~
+DTM*151*20250417~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*3980.393*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*20.424*****Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*20.424*****Billed Demand-kW~
+SLN*0004**A~
+SAC*N**EU*DMD000*****K2*1.948*****Demand-kVAr~
+SLN*0005**A~
+SAC*N**EU*DMD000*****K2*1.818*****Billed Demand-kVAr~
+SLN*0006**A~
+SAC*N**EU*DMD000*****K4*20.505*****Actual kVA~
+SLN*0007**A~
+SAC*N**EU*DMD000*****K1*99.61*****Power Factor~
+IT1*0003*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*346261246*INTERVAL BILLED~
+REF*AH*3124425726~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*1566.335*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*4.946*****Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*4.946*****Billed Demand-kW~
+SLN*0004**A~
+SAC*N**EU*DMD000*****K2*.098*****Demand-kVAr~
+SLN*0005**A~
+SAC*N**EU*DMD000*****K4*4.946*****Actual kVA~
+SLN*0006**A~
+SAC*N**EU*DMD000*****K1*100*****Power Factor~
+IT1*0004*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Low Load Factor Service (LLF)~
+REF*AH*3125213738~
+REF*MG*346261287*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*ENC002*1144***.114617*KH*99.8330000000001*****Load Factor Provision~
+SLN*0002**A~
+SAC*A**EU*FUE001*-64***.00016*KH*3980.393*****Rider No. 74 Load Control Adj Rider~
+SLN*0003**A~
+SAC*C**EU*ENC021*08***.000019*KH*3980.393*****Rider No. 73 Renewable Energy Project Revenue Adjustment~
+SLN*0004**A~
+SAC*C**EU*ENC021*315***.000792*KH*3980.393*****Rider No. 70 Reliability Adjustment~
+SLN*0005**A~
+SAC*A**EU*ADJ000*-42***.000106*KH*3980.393*****Rider No. 68 Regional Transmission Operator (RTO) Non-Fuel Costs and Revenue Adj~
+SLN*0006**A~
+SAC*A**EU*ENC021*-3736***.009386*KH*3980.393*****Rider No. 67 Credits Adjustment~
+SLN*0007**A~
+SAC*C**EU*ENC021*664***.001669*KH*3980.393*****Rider No. 66 Energy Efficiency Revenue Adjustment~
+SLN*0008**A~
+SAC*C**EU*ENC021*640***.001607*KH*3980.393*****Rider No. 65 Trans and Distrib Infrastructure Improvement Cost Rate Adj~
+SLN*0009**A~
+SAC*C**EU*ENC021*1125***.002826*KH*3980.393*****Rider No. 62 Environmental Compliance Adjustment~
+SLN*0010**A~
+SAC*A**EU*FUE001*-1911***.004801*KH*3980.393*****Rider No. 60 Fuel Cost Adjustment~
+SLN*0011**A~
+SAC*C**EU*DMD001*62***.34*K2*1.818*****kVAr Charge~
+SLN*0012**A~
+SAC*C**EU*ENC001*17825***.129114*KH*1380.56*****Energy Charge~
+SLN*0013**A~
+SAC*C**EU*ENC001*26042***.173612*KH*1500*****Energy Charge~
+SLN*0014**A~
+SAC*C**EU*ENC001*13486***.192654*KH*700*****Energy Charge~
+SLN*0015**A~
+SAC*C**EU*ENC001*7188***.239593*KH*300*****Energy Charge~
+SLN*0016**A~
+SAC*C**EU*BAS001*2763**********Connection Charge~
+IT1*0005*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Low Load Factor Service (LLF)~
+REF*AH*3124425726~
+REF*MG*346261246*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*SUR000*858***.103973*KH*82.535*****Load Factor Provision~
+SLN*0002**A~
+SAC*C**EU*ENC002*6236***.114617*KH*544.06*****Load Factor Provision~
+SLN*0003**A~
+SAC*A**EU*FUE001*-25***.00016*KH*1566.335*****Rider No. 74 Load Control Adj Rider~
+SLN*0004**A~
+SAC*C**EU*ENC021*03***.000019*KH*1566.335*****Rider No. 73 Renewable Energy Project Revenue Adjustment~
+SLN*0005**A~
+SAC*C**EU*ENC021*124***.000792*KH*1566.335*****Rider No. 70 Reliability Adjustment~
+SLN*0006**A~
+SAC*A**EU*ADJ000*-17***.000106*KH*1566.335*****Rider No. 68 Regional Transmission Operator (RTO) Non-Fuel Costs and Revenue Adj~
+SLN*0007**A~
+SAC*A**EU*ENC021*-1470***.009386*KH*1566.335*****Rider No. 67 Credits Adjustment~
+SLN*0008**A~
+SAC*C**EU*ENC021*261***.001669*KH*1566.335*****Rider No. 66 Energy Efficiency Revenue Adjustment~
+SLN*0009**A~
+SAC*C**EU*ENC021*252***.001607*KH*1566.335*****Rider No. 65 Trans and Distrib Infrastructure Improvement Cost Rate Adj~
+SLN*0010**A~
+SAC*C**EU*ENC021*443***.002826*KH*1566.335*****Rider No. 62 Environmental Compliance Adjustment~
+SLN*0011**A~
+SAC*A**EU*FUE001*-752***.004801*KH*1566.335*****Rider No. 60 Fuel Cost Adjustment~
+SLN*0012**A~
+SAC*C**EU*ENC001*12325***.192654*KH*639.74*****Energy Charge~
+SLN*0013**A~
+SAC*C**EU*ENC001*7188***.239593*KH*300*****Energy Charge~
+SLN*0014**A~
+SAC*C**EU*BAS001*2763**********Connection Charge~
+TDS*100257~
+TXI*ZZ*65.59*****O***Taxes~
+SAC*C**EU*PRB001*114018**********Previous Amount Due~
+SAC*A**EU*PAY001*-114018**********Payment Received Apr 14~
+SAC*N**EU*ENC000*93698**********Current Electric Charges~
+SAC*N**EU*MSC000*100257**********Total Amount Due May 19~
+CTT*5~
+SE*160*0003~
+ST*810*0004~
+BIG*20250428*200793629995*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least two full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit indiana811.org.~
+NTE*ADD*Your current rate is Low Load Factor Service (LLF).~
+NTE*ADD*For a complete listing of all Indiana rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+CUR*85*USD~
+REF*12*910117136409~
+N1*BT*NATIONAL VISION*91*910117136409~
+N3*1211 STATE ROAD 436 STE 295~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*NATIONAL VISION*91*910117136409~
+N3*3160 COLUMBUS CTR~
+N4*COLUMBUS*IN*47203-3417*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250519~
+DTM*186*20250326~
+DTM*187*20250424~
+BAL*M*PB*288.58~
+PAM*99*1485.189*KH***MO*MRR*20240401~
+PAM*99*1672.927*KH***MO*MRR*20240501~
+PAM*99*1907.751*KH***MO*MRR*20240601~
+PAM*99*2133.838*KH***MO*MRR*20240701~
+PAM*99*2244.998*KH***MO*MRR*20240801~
+PAM*99*1987.243*KH***MO*MRR*20240901~
+PAM*99*1435.826*KH***MO*MRR*20241001~
+PAM*99*1227.822*KH***MO*MRR*20241101~
+PAM*99*1487.278*KH***MO*MRR*20241201~
+PAM*99*1688.446*KH***MO*MRR*20250101~
+PAM*99*1701.008*KH***MO*MRR*20250201~
+PAM*99*1191.037*KH***MO*MRR*20250301~
+PAM*99*1251.601*KH***MO*MRR*20250401~
+PAM*99*19929.775*KH***PM*MRR*20250404~
+PAM*99*1660.815*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*18.88*****A***Indiana State Tax~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*321141971*INTERVAL BILLED~
+REF*AH*3118137606~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*1251.601*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*9.552*****Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*9.552*****Billed Demand-kW~
+SLN*0004**A~
+SAC*N**EU*DMD000*****K2*3.216*****Demand-kVAr~
+SLN*0005**A~
+SAC*N**EU*DMD000*****K2*3.216*****Billed Demand-kVAr~
+SLN*0006**A~
+SAC*N**EU*DMD000*****K4*10.079*****Actual kVA~
+SLN*0007**A~
+SAC*N**EU*DMD000*****K1*94.77*****Power Factor~
+IT1*0003*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Low Load Factor Service (LLF)~
+REF*AH*3118137606~
+REF*MG*321141971*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*BAS001*2763**********Connection Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*7188***.239593*KH*300*****Energy Charge~
+SLN*0003**A~
+SAC*C**EU*ENC001*13486***.192654*KH*700*****Energy Charge~
+SLN*0004**A~
+SAC*C**EU*ENC001*4368***.173612*KH*251.601*****Energy Charge~
+SLN*0005**A~
+SAC*C**EU*DMD001*109***.34*K2*3.216*****kVAr Charge~
+SLN*0006**A~
+SAC*A**EU*FUE001*-601***.004801*KH*1251.601*****Rider No. 60 Fuel Cost Adjustment~
+SLN*0007**A~
+SAC*C**EU*ENC021*354***.002826*KH*1251.601*****Rider No. 62 Environmental Compliance Adjustment~
+SLN*0008**A~
+SAC*C**EU*ENC021*201***.001607*KH*1251.601*****Rider No. 65 Trans and Distrib Infrastructure Improvement Cost Rate Adj~
+SLN*0009**A~
+SAC*C**EU*ENC021*209***.001669*KH*1251.601*****Rider No. 66 Energy Efficiency Revenue Adjustment~
+SLN*0010**A~
+SAC*A**EU*ENC021*-1175***.009386*KH*1251.601*****Rider No. 67 Credits Adjustment~
+SLN*0011**A~
+SAC*A**EU*ADJ000*-13***.000106*KH*1251.601*****Rider No. 68 Regional Transmission Operator (RTO) Non-Fuel Costs and Revenue Adj~
+SLN*0012**A~
+SAC*C**EU*ENC021*99***.000792*KH*1251.601*****Rider No. 70 Reliability Adjustment~
+SLN*0013**A~
+SAC*C**EU*ENC021*02***.000019*KH*1251.601*****Rider No. 73 Renewable Energy Project Revenue Adjustment~
+SLN*0014**A~
+SAC*A**EU*FUE001*-20***.00016*KH*1251.601*****Rider No. 74 Load Control Adj Rider~
+TDS*28858~
+TXI*ZZ*18.88*****O***Taxes~
+SAC*C**EU*PRB001*27923**********Previous Amount Due~
+SAC*A**EU*PAY001*-27923**********Payment Received Apr 03~
+SAC*N**EU*ENC000*26970**********Current Electric Charges~
+SAC*N**EU*MSC000*28858**********Total Amount Due May 19~
+CTT*3~
+SE*104*0004~
+ST*810*0005~
+BIG*20250428*200793629996*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least two full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit indiana811.org.~
+NTE*ADD*Your current rate is Low Load Factor Service (LLF).~
+NTE*ADD*For a complete listing of all Indiana rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+CUR*85*USD~
+REF*12*910117136459~
+N1*BT*NATIONAL VISION*91*910117136459~
+N3*1211 STATE ROAD 436 STE 295~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*NATIONAL VISION*91*910117136459~
+N3*1401 VETERANS PKWY STE 1100~
+N4*CLARKSVILLE*IN*47129-8728*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250519~
+DTM*186*20250326~
+DTM*187*20250424~
+BAL*M*PB*511.41~
+PAM*99*2363.1*KH***MO*MRR*20240401~
+PAM*99*3070.613*KH***MO*MRR*20240501~
+PAM*99*3867.196*KH***MO*MRR*20240601~
+PAM*99*4614.063*KH***MO*MRR*20240701~
+PAM*99*4733.615*KH***MO*MRR*20240801~
+PAM*99*4111.145*KH***MO*MRR*20240901~
+PAM*99*2953.712*KH***MO*MRR*20241001~
+PAM*99*2370.431*KH***MO*MRR*20241101~
+PAM*99*2408.001*KH***MO*MRR*20241201~
+PAM*99*2400.729*KH***MO*MRR*20250101~
+PAM*99*2389.739*KH***MO*MRR*20250201~
+PAM*99*1992.774*KH***MO*MRR*20250301~
+PAM*99*2501.724*KH***MO*MRR*20250401~
+PAM*99*37413.742*KH***PM*MRR*20250404~
+PAM*99*3117.812*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*33.46*****A***Indiana State Tax~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*321131097*INTERVAL BILLED~
+REF*AH*3118148924~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*2501.724*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*13.62*****Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*13.62*****Billed Demand-kW~
+SLN*0004**A~
+SAC*N**EU*DMD000*****K2*5.302*****Demand-kVAr~
+SLN*0005**A~
+SAC*N**EU*DMD000*****K2*5.302*****Billed Demand-kVAr~
+SLN*0006**A~
+SAC*N**EU*DMD000*****K4*14.616*****Actual kVA~
+SLN*0007**A~
+SAC*N**EU*DMD000*****K1*93.19*****Power Factor~
+IT1*0003*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*IN*Low Load Factor Service (LLF)~
+REF*AH*3118148924~
+REF*MG*321131097*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*BAS001*2763**********Connection Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*7188***.239593*KH*300*****Energy Charge~
+SLN*0003**A~
+SAC*C**EU*ENC001*13486***.192654*KH*700*****Energy Charge~
+SLN*0004**A~
+SAC*C**EU*ENC001*26042***.173612*KH*1500*****Energy Charge~
+SLN*0005**A~
+SAC*C**EU*ENC001*22***.129114*KH*1.724*****Energy Charge~
+SLN*0006**A~
+SAC*C**EU*DMD001*180***.34*K2*5.302*****kVAr Charge~
+SLN*0007**A~
+SAC*A**EU*FUE001*-1201***.004801*KH*2501.724*****Rider No. 60 Fuel Cost Adjustment~
+SLN*0008**A~
+SAC*C**EU*ENC021*707***.002826*KH*2501.724*****Rider No. 62 Environmental Compliance Adjustment~
+SLN*0009**A~
+SAC*C**EU*ENC021*402***.001607*KH*2501.724*****Rider No. 65 Trans and Distrib Infrastructure Improvement Cost Rate Adj~
+SLN*0010**A~
+SAC*C**EU*ENC021*418***.001669*KH*2501.724*****Rider No. 66 Energy Efficiency Revenue Adjustment~
+SLN*0011**A~
+SAC*A**EU*ENC021*-2348***.009386*KH*2501.724*****Rider No. 67 Credits Adjustment~
+SLN*0012**A~
+SAC*A**EU*ADJ000*-27***.000106*KH*2501.724*****Rider No. 68 Regional Transmission Operator (RTO) Non-Fuel Costs and Revenue Adj~
+SLN*0013**A~
+SAC*C**EU*ENC021*198***.000792*KH*2501.724*****Rider No. 70 Reliability Adjustment~
+SLN*0014**A~
+SAC*C**EU*ENC021*05***.000019*KH*2501.724*****Rider No. 73 Renewable Energy Project Revenue Adjustment~
+SLN*0015**A~
+SAC*A**EU*FUE001*-40***.00016*KH*2501.724*****Rider No. 74 Load Control Adj Rider~
+TDS*51141~
+TXI*ZZ*33.46*****O***Taxes~
+SAC*C**EU*PRB001*42479**********Previous Amount Due~
+SAC*A**EU*PAY001*-42479**********Payment Received Apr 11~
+SAC*N**EU*ENC000*47795**********Current Electric Charges~
+SAC*N**EU*MSC000*51141**********Total Amount Due May 19~
+CTT*3~
+SE*106*0005~
+ST*810*0006~
+BIG*20250428*200983632359*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least two full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit indiana811.org.~
+NTE*ADD*Your current rate is Low Load Factor Service (LLF).~
+NTE*ADD*For a complete listing of all Indiana rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+CUR*85*USD~
+REF*12*910120893448~
+N1*BT*NEW CASTLE RURAL KING SUPPLY*91*910120893448~
+N3*1211 STATE ROAD 436 STE 295~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*NEW CASTLE RURAL KING SUPPLY*91*910120893448~
+N3*127 S MEMORIAL DR~
+N4*NEW CASTLE*IN*47362-4947*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250519~
+DTM*186*20250326~
+DTM*187*20250424~
+BAL*M*PB*6655.52~
+PAM*99*43874.64*KH***MO*MRR*20240401~
+PAM*99*46512.88*KH***MO*MRR*20240501~
+PAM*99*59055.12*KH***MO*MRR*20240601~
+PAM*99*66049.44*KH***MO*MRR*20240701~
+PAM*99*62776.08*KH***MO*MRR*20240801~
+PAM*99*54390.8*KH***MO*MRR*20240901~
+PAM*99*48764.8*KH***MO*MRR*20241001~
+PAM*99*40934.88*KH***MO*MRR*20241101~
+PAM*99*98203.6*KH***MO*MRR*20241201~
+PAM*99*115988*KH***MO*MRR*20250101~
+PAM*99*115503.52*KH***MO*MRR*20250201~
+PAM*99*65789.68*KH***MO*MRR*20250301~
+PAM*99*54357.12*KH***MO*MRR*20250401~
+PAM*99*828325.92*KH***PM*MRR*20250404~
+PAM*99*69027.16*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*435.41*****A***Indiana State Tax~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*323442437*INTERVAL BILLED~
+REF*AH*3118036845~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*54357.12*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*135.52*****Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*135.52*****Billed Demand-kW~
+SLN*0004**A~
+SAC*N**EU*DMD000*****K2*33.12*****Demand-kVAr~
+SLN*0005**A~
+SAC*N**EU*DMD000*****K2*.8*****Billed Demand-kVAr~
+SLN*0006**A~
+SAC*N**EU*DMD000*****K4*135.522*****Actual kVA~
+SLN*0007**A~
+SAC*N**EU*DMD000*****K1*100*****Power Factor~
+IT1*0003*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Low Load Factor Service (LLF)~
+REF*AH*3118036845~
+REF*MG*323442437*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*BAS001*2763**********Connection Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*7188***.239593*KH*300*****Energy Charge~
+SLN*0003**A~
+SAC*C**EU*ENC001*13486***.192654*KH*700*****Energy Charge~
+SLN*0004**A~
+SAC*C**EU*ENC001*26042***.173612*KH*1500*****Energy Charge~
+SLN*0005**A~
+SAC*C**EU*ENC001*300175***.129114*KH*23248.8*****Energy Charge~
+SLN*0006**A~
+SAC*C**EU*DMD001*27***.34*K2*.8*****kVAr Charge~
+SLN*0007**A~
+SAC*A**EU*FUE001*-26097***.004801*KH*54357.12*****Rider No. 60 Fuel Cost Adjustment~
+SLN*0008**A~
+SAC*C**EU*ENC021*15361***.002826*KH*54357.12*****Rider No. 62 Environmental Compliance Adjustment~
+SLN*0009**A~
+SAC*C**EU*ENC021*8735***.001607*KH*54357.12*****Rider No. 65 Trans and Distrib Infrastructure Improvement Cost Rate Adj~
+SLN*0010**A~
+SAC*C**EU*ENC021*9072***.001669*KH*54357.12*****Rider No. 66 Energy Efficiency Revenue Adjustment~
+SLN*0011**A~
+SAC*A**EU*ENC021*-51020***.009386*KH*54357.12*****Rider No. 67 Credits Adjustment~
+SLN*0012**A~
+SAC*A**EU*ADJ000*-576***.000106*KH*54357.12*****Rider No. 68 Regional Transmission Operator (RTO) Non-Fuel Costs and Revenue Adj~
+SLN*0013**A~
+SAC*C**EU*ENC021*4305***.000792*KH*54357.12*****Rider No. 70 Reliability Adjustment~
+SLN*0014**A~
+SAC*C**EU*ENC021*103***.000019*KH*54357.12*****Rider No. 73 Renewable Energy Project Revenue Adjustment~
+SLN*0015**A~
+SAC*A**EU*FUE001*-870***.00016*KH*54357.12*****Rider No. 74 Load Control Adj Rider~
+SLN*0016**A~
+SAC*C**EU*ENC002*170862***.114617*KH*14907.2*****Load Factor Provision~
+SLN*0017**A~
+SAC*C**EU*SUR000*142455***.103973*KH*13701.12*****Load Factor Provision~
+TDS*665552~
+TXI*ZZ*435.41*****O***Taxes~
+SAC*C**EU*PRB001*844208**********Previous Amount Due~
+SAC*A**EU*PAY001*-844208**********Payment Received Apr 04~
+SAC*N**EU*ENC000*622011**********Current Electric Charges~
+SAC*N**EU*MSC000*665552**********Total Amount Due May 19~
+CTT*3~
+SE*110*0006~
+ST*810*0007~
+BIG*20250428*200603638426*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least two full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit indiana811.org.~
+NTE*ADD*Your current rate is Low Load Factor Service (LLF).~
+NTE*ADD*For a complete listing of all Indiana rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+CUR*85*USD~
+REF*12*910119991250~
+N1*BT*CENTURY RAIN AID*91*910119991250~
+N2*1211 STATE ROAD 436~
+N3*DEPT 127~
+N4*CASSELBERRY*FL*32707-6485*US~
+N1*MQ*CENTURY RAIN AID*91*910119991250~
+N3*130 CROSSROADS DR~
+N4*WHITELAND*IN*46184-9778*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250519~
+DTM*186*20250326~
+DTM*187*20250424~
+BAL*M*PB*268~
+PAM*99*1385.373*KH***MO*MRR*20240401~
+PAM*99*1416.589*KH***MO*MRR*20240501~
+PAM*99*1647.675*KH***MO*MRR*20240601~
+PAM*99*1882.57*KH***MO*MRR*20240701~
+PAM*99*1960.766*KH***MO*MRR*20240801~
+PAM*99*1706.521*KH***MO*MRR*20240901~
+PAM*99*1455.186*KH***MO*MRR*20241001~
+PAM*99*1125.105*KH***MO*MRR*20241101~
+PAM*99*1312.264*KH***MO*MRR*20241201~
+PAM*99*1690.752*KH***MO*MRR*20250101~
+PAM*99*1481.922*KH***MO*MRR*20250201~
+PAM*99*1186.98*KH***MO*MRR*20250301~
+PAM*99*1313.145*KH***MO*MRR*20250401~
+PAM*99*18179.475*KH***PM*MRR*20250404~
+PAM*99*1514.956*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*17.04*****A***Indiana State Tax~
+IT1*0002*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+SLN*0001**A~
+SAC*C**EU*LPC001*758***0*EA*1*****Late Fee~
+IT1*0003*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*321138722*INTERVAL BILLED~
+REF*AH*3118054561~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*1313.145*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*4.15*****Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*4.15*****Billed Demand-kW~
+SLN*0004**A~
+SAC*N**EU*DMD000*****K2*.84*****Demand-kVAr~
+SLN*0005**A~
+SAC*N**EU*DMD000*****K2*.766*****Billed Demand-kVAr~
+SLN*0006**A~
+SAC*N**EU*DMD000*****K4*4.22*****Actual kVA~
+SLN*0007**A~
+SAC*N**EU*DMD000*****K1*98.34*****Power Factor~
+IT1*0004*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Low Load Factor Service (LLF)~
+REF*AH*3118054561~
+REF*MG*321138722*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*BAS001*2763**********Connection Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*7188***.239593*KH*300*****Energy Charge~
+SLN*0003**A~
+SAC*C**EU*ENC001*9411***.192654*KH*488.5*****Energy Charge~
+SLN*0004**A~
+SAC*C**EU*DMD001*26***.34*K2*.766*****kVAr Charge~
+SLN*0005**A~
+SAC*A**EU*FUE001*-630***.004801*KH*1313.145*****Rider No. 60 Fuel Cost Adjustment~
+SLN*0006**A~
+SAC*C**EU*ENC021*371***.002826*KH*1313.145*****Rider No. 62 Environmental Compliance Adjustment~
+SLN*0007**A~
+SAC*C**EU*ENC021*211***.001607*KH*1313.145*****Rider No. 65 Trans and Distrib Infrastructure Improvement Cost Rate Adj~
+SLN*0008**A~
+SAC*C**EU*ENC021*219***.001669*KH*1313.145*****Rider No. 66 Energy Efficiency Revenue Adjustment~
+SLN*0009**A~
+SAC*A**EU*ENC021*-1233***.009386*KH*1313.145*****Rider No. 67 Credits Adjustment~
+SLN*0010**A~
+SAC*A**EU*ADJ000*-14***.000106*KH*1313.145*****Rider No. 68 Regional Transmission Operator (RTO) Non-Fuel Costs and Revenue Adj~
+SLN*0011**A~
+SAC*C**EU*ENC021*104***.000792*KH*1313.145*****Rider No. 70 Reliability Adjustment~
+SLN*0012**A~
+SAC*C**EU*ENC021*02***.000019*KH*1313.145*****Rider No. 73 Renewable Energy Project Revenue Adjustment~
+SLN*0013**A~
+SAC*A**EU*FUE001*-21***.00016*KH*1313.145*****Rider No. 74 Load Control Adj Rider~
+SLN*0014**A~
+SAC*C**EU*ENC002*5232***.114617*KH*456.5*****Load Factor Provision~
+SLN*0015**A~
+SAC*C**EU*SUR000*709***.103973*KH*68.145*****Load Factor Provision~
+TDS*26800~
+TXI*ZZ*17.04*****O***Taxes~
+SAC*C**EU*PRB001*25269**********Previous Amount Due~
+SAC*A**EU*PAY001*-25269**********Payment Received Apr 24~
+SAC*N**EU*ENC000*24338**********Current Electric Charges~
+SAC*N**EU*ADJ000*758**********Other Charges and Credits~
+SAC*N**EU*MSC000*26800**********Total Amount Due May 19~
+CTT*4~
+SE*111*0007~
+ST*810*0008~
+BIG*20250428*210004234608*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least two full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit Kentucky811.org~
+NTE*ADD*Your current rate is Service at Distribution Voltage (DS).~
+NTE*ADD*For a complete listing of all Kentucky rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+CUR*85*USD~
+REF*12*910118498307~
+N1*BT*AMEDISYS*91*910118498307~
+N3*1211 STATE ROAD 436 STE 297~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*AMEDISYS*91*910118498307~
+N3*533 CENTRE VIEW BLVD~
+N4*FORT MITCHELL*KY*41017-3444*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250519~
+DTM*186*20250325~
+DTM*187*20250423~
+BAL*M*PB*375.42~
+PAM*99*2900.777*KH***MO*MRR*20240401~
+PAM*99*1834.665*KH***MO*MRR*20240501~
+PAM*99*1876.592*KH***MO*MRR*20240601~
+PAM*99*2642.099*KH***MO*MRR*20240701~
+PAM*99*2269.142*KH***MO*MRR*20240801~
+PAM*99*2335.536*KH***MO*MRR*20240901~
+PAM*99*1694.085*KH***MO*MRR*20241001~
+PAM*99*1901.872*KH***MO*MRR*20241101~
+PAM*99*4819.412*KH***MO*MRR*20241201~
+PAM*99*7083.504*KH***MO*MRR*20250101~
+PAM*99*5902.461*KH***MO*MRR*20250201~
+PAM*99*2628.018*KH***MO*MRR*20250301~
+PAM*99*2221.8*KH***MO*MRR*20250401~
+PAM*99*37209.186*KH***PM*MRR*20250404~
+PAM*99*3100.766*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*21.25*****A***Kentucky Sales Tax~
+TXI*FR*10.01*****A***Franchise Fee~
+TXI*SC*10.32*****A***Rate Inc School Tax~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*320624836*INTERVAL BILLED~
+REF*AH*3117991464~
+DTM*150*20250325~
+DTM*151*20250423~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*2221.8*****Actual kWh~
+SLN*0002**A~
+SAC*N**EU*ENC001*****KH*2221.8*****Billed kWh~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*17.376*****Actual Demand-kW~
+SLN*0004**A~
+SAC*N**EU*DMD000*****K1*16.52*****Actual On Peak kW~
+SLN*0005**A~
+SAC*N**EU*DMD000*****K1*17.376*****Billed Demand kW~
+SLN*0006**A~
+SAC*N**EU*DMD000*****K4*17.376*****Measured Demand Off Pk kVA~
+SLN*0007**A~
+SAC*N**EU*DMD000*****K4*16.52*****Measured Demand On Pk kVA~
+SLN*0008**A~
+SAC*N**EU*DMD000*****K1*100*****Power Factor Off Peak~
+SLN*0009**A~
+SAC*N**EU*DMD000*****K1*100*****Power Factor On Peak~
+SLN*0010**A~
+SAC*N**EU*DMD000*****K1*100*****Power Factor~
+IT1*0003*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Service at Distribution Voltage (DS)~
+REF*AH*3117991464~
+REF*MG*320624836*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*BAS001*3000**********Customer Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*25504***.114788*KH*2221.8*****Energy Charge~
+SLN*0003**A~
+SAC*C**EU*DMD001*00***0*K1*15*****Demand Charge~
+SLN*0004**A~
+SAC*C**EU*DMD001*2538***10.68*K1*2.376*****Demand Charge~
+SLN*0005**A~
+SAC*C**EU*MSC001*757***.003409*KH*2221.8*****Demand Side Management Cost Recovery Program Rider (DSM)~
+SLN*0006**A~
+SAC*C**EU*MSC000*335***.001508*KH*2221.8*****Off-System Sales Profit Sharing Mechanism Rider (PSM)~
+SLN*0007**A~
+SAC*A**EU*FUE001*-36***.000163*KH*2221.8*****Electric Fuel Adjustment~
+SLN*0008**A~
+SAC*C**EU*MSC000*1286**********Environmental Surcharge Mechanism Rider (ESM)~
+TDS*37542~
+TXI*ZZ*41.58*****O***Taxes~
+SAC*C**EU*PRB001*44567**********Previous Amount Due~
+SAC*A**EU*PAY001*-44567**********Payment Received Apr 10~
+SAC*N**EU*ENC000*33384**********Current Electric Charges~
+SAC*N**EU*MSC000*37542**********Total Amount Due May 19~
+CTT*3~
+SE*100*0008~
+ST*810*0009~
+BIG*20250428*210004234618*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for participating in our Budget Billing Plan (BBP). After~
+NTE*ADD*reviewing your account, we have determined that your BBP amount will~
+NTE*ADD*need to be adjusted to better reflect your actual energy usage. Your~
+NTE*ADD*monthly BBP amount will be changed from~
+NTE*ADD*$84.00 to $98.00 . Your new BBP amount will be reflected~
+NTE*ADD*on your next month's bill. Questions? Call 800.544.6900.~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least two full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit Kentucky811.org~
+NTE*ADD*Your current rate is Service at Distribution Voltage (DS).~
+NTE*ADD*For a complete listing of all Kentucky rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+NTE*ADD*Your Quarterly Budget Billing plan keeps your monthly charge steady~
+NTE*ADD*throughout the quarter, even as your usage goes up or down. At each~
+NTE*ADD*quarterly review, we may adjust the amount of your monthly charge based~
+NTE*ADD*on your usage over the previous 12 months. So far this year, you have a~
+NTE*ADD*difference of $51.49 between plan charges and actual usage costs.~
+CUR*85*USD~
+REF*12*910118498357~
+N1*BT*AMEDISYS*91*910118498357~
+N3*1211 STATE ROAD 436 STE 297~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*AMEDISYS*91*910118498357~
+N3*535 CENTRE VIEW BLVD~
+N4*FORT MITCHELL*KY*41017-3444*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250519~
+DTM*186*20250325~
+DTM*187*20250423~
+BAL*M*PB*84~
+PAM*99*216.745*KH***MO*MRR*20240401~
+PAM*99*39.358*KH***MO*MRR*20240501~
+PAM*99*110.391*KH***MO*MRR*20240601~
+PAM*99*54.571*KH***MO*MRR*20240701~
+PAM*99*40.391*KH***MO*MRR*20240801~
+PAM*99*98.98*KH***MO*MRR*20240901~
+PAM*99*354.395*KH***MO*MRR*20241001~
+PAM*99*430.004*KH***MO*MRR*20241101~
+PAM*99*871.646*KH***MO*MRR*20241201~
+PAM*99*1225.79*KH***MO*MRR*20250101~
+PAM*99*923.414*KH***MO*MRR*20250201~
+PAM*99*506.603*KH***MO*MRR*20250301~
+PAM*99*253.076*KH***MO*MRR*20250401~
+PAM*99*4908.619*KH***PM*MRR*20250404~
+PAM*99*409.052*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*SUPCHG*****EK*Your Quarterly Budget Billing Plan-Feb-Apr~
+PID*F****Quarterly BBP Installment Amount 84.00~
+SLN*0001**A~
+SAC*N**EU*BUD000*8400**********Monthly Charge~
+SLN*0002**A~
+SAC*N**EU*BUD000*25200**********Budget Bill Plan Quarterly Charges~
+SLN*0003**A~
+SAC*N**EU*BUD000*35489**********Actual costs~
+SLN*0004**A~
+SAC*N**EU*BUD000*5149**********Budget Bill Plan Balance Amount~
+IT1*0002*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*4.01*****O***Kentucky Sales Tax~
+TXI*FR*1.89*****O***Franchise Fee~
+TXI*SC*1.94*****O***Rate Inc School Tax~
+IT1*0003*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*320624839*INTERVAL BILLED~
+REF*AH*3118035753~
+DTM*150*20250325~
+DTM*151*20250423~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*253.076*****Actual kWh~
+SLN*0002**A~
+SAC*N**EU*ENC001*****KH*253.076*****Billed kWh~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*11.86*****Actual Demand-kW~
+SLN*0004**A~
+SAC*N**EU*DMD000*****K1*11.86*****Actual On Peak kW~
+SLN*0005**A~
+SAC*N**EU*DMD000*****K1*11.86*****Billed Demand kW~
+SLN*0006**A~
+SAC*N**EU*DMD000*****K4*11.804*****Measured Demand Off Pk kVA~
+SLN*0007**A~
+SAC*N**EU*DMD000*****K4*11.86*****Measured Demand On Pk kVA~
+SLN*0008**A~
+SAC*N**EU*DMD000*****K1*100*****Power Factor Off Peak~
+SLN*0009**A~
+SAC*N**EU*DMD000*****K1*100*****Power Factor On Peak~
+SLN*0010**A~
+SAC*N**EU*DMD000*****K1*100*****Power Factor~
+IT1*0004*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Service at Distribution Voltage (DS)~
+REF*AH*3118035753~
+REF*MG*320624839*INTERVAL BILLED~
+SLN*0001**A~
+SAC*N**EU*BAS001*3000**********Customer Charge~
+SLN*0002**A~
+SAC*N**EU*ENC001*2905***.114788*KH*253.076*****Energy Charge~
+SLN*0003**A~
+SAC*N**EU*DMD001*00***0*K1*11.86*****Demand Charge~
+SLN*0004**A~
+SAC*N**EU*MSC001*86***.003409*KH*253.076*****Demand Side Management Cost Recovery Program Rider (DSM)~
+SLN*0005**A~
+SAC*N**EU*MSC000*38***.001508*KH*253.076*****Off-System Sales Profit Sharing Mechanism Rider (PSM)~
+SLN*0006**A~
+SAC*N**EU*FUE001*-04***.000163*KH*253.076*****Electric Fuel Adjustment~
+SLN*0007**A~
+SAC*N**EU*MSC000*270**********Environmental Surcharge Mechanism Rider (ESM)~
+TDS*8400~
+SAC*C**EU*PRB001*8400**********Previous Amount Due~
+SAC*A**EU*PAY001*-8400**********Payment Received Apr 10~
+SAC*C**EU*BUD001*8400**********Current Budget Billing Plan Charges~
+SAC*N**EU*MSC000*8400**********Total Amount Due May 19~
+CTT*4~
+SE*118*0009~
+GE*9*702~
+IEA*1*000000702~

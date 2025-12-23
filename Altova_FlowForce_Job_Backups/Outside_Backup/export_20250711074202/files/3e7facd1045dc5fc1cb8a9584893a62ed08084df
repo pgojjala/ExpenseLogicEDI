@@ -1,0 +1,105 @@
+ISA|00|          |00|          |01|963008388      |RP|RADIUSPOINT    |210914|0700|U|00400|000000016|0|P|>
+GS|IN|963008388|RADIUSPOINT|20210914|0700|16|X|004010
+ST|810|0001
+BIG|20210913|516903755|||||PR|00
+NTE|ADD|Total Amount Due After 10/05/2021 is $13.05
+NTE|OTH|MONTH BILLED   AVG USE/DAY ELEC  AVG USE/DAY GAS  AVG DAILY TEMP - ELEC  GAS
+NTE|OTH|202109                0.00 KWH         0.00 THERMS                   0F  71F
+NTE|OTH|202108                0.00 KWH         0.00 THERMS                   0F  74F
+NTE|OTH|202107                0.00 KWH         0.00 THERMS                   0F  72F
+NTE|OTH|202106                0.00 KWH         0.25 THERMS                   0F  65F
+NTE|OTH|202105                0.00 KWH         2.17 THERMS                   0F  50F
+NTE|OTH|202104                0.00 KWH         6.34 THERMS                   0F  46F
+NTE|OTH|202103                0.00 KWH        12.91 THERMS                   0F  25F
+NTE|OTH|202102                0.00 KWH        15.63 THERMS                   0F  15F
+NTE|OTH|202101                0.00 KWH        12.76 THERMS                   0F  24F
+NTE|OTH|202012                0.00 KWH         6.81 THERMS                   0F  35F
+NTE|OTH|202011                0.00 KWH         4.58 THERMS                   0F  44F
+NTE|OTH|202010                0.00 KWH         0.29 THERMS                   0F  58F
+NTE|OTH|202009                0.00 KWH         0.00 THERMS                   0F  69F
+NTE|ADD|Visit MidAmerican Energy's Customer News site at https://www.midamericanenergy.c
+NTE|ADD|om/customer-news.aspx for important messages.
+REF|12|0360094037
+REF|6P|09
+N1|8S|MIDAMERICAN ENERGY COMPANY|1|963008388
+N3|PO Box 8020
+N4|Davenport|IA|52808-8020
+N1|8R|RECOVERCARE LLC
+N3|3584 PERCH DR SE STE A
+N4|JOHNSON CO|IA|52240
+ITD||||||20211005
+BAL|M|J9|0
+BAL|P|RT|12.86
+IT1|0001|||||SV|GAS|C3|METER INFORMATION
+MEA|AA|UG|0|HH|3997|3997|51
+MEA|CF|MU|1
+MEA|CF|MU|1.078|BY
+REF|MG|R89201276
+REF|NH|70 Commercial
+DTM|150|20210812
+DTM|151|20210913
+IT1|0002|||||SV|GAS|C3|TARIFF
+PID|F||||032 DAYS
+REF|NH|70 Commercial
+IT1|0003|||||SV|GAS|C3|CURRENT PERIOD
+TXI|ST|0.73|0.06||||A
+PID|F||||032 DAYS 
+SLN|01||A
+SAC|C||GU|BAS001|1000||||||||||Basic Service Charge
+SLN|02||A
+SAC|C||GU|MSC001|213||||||||||Capital Investment Charge
+TDS|1286
+SE|50|0001
+ST|810|0002
+BIG|20210913|516954893|||||PR|00
+NTE|ADD|Total Amount Due After 10/05/2021 is $8.65
+NTE|OTH|MONTH BILLED   AVG USE/DAY ELEC  AVG USE/DAY GAS  AVG DAILY TEMP - ELEC  GAS
+NTE|OTH|202109                0.00 KWH         0.00 THERMS                   0F  72F
+NTE|OTH|202108                0.00 KWH         0.00 THERMS                   0F  76F
+NTE|OTH|202107                0.00 KWH         0.07 THERMS                   0F  74F
+NTE|OTH|202106                0.00 KWH         0.00 THERMS                   0F  69F
+NTE|OTH|202105                0.00 KWH         5.31 THERMS                   0F  49F
+NTE|OTH|202104                0.00 KWH         9.97 THERMS                   0F  45F
+NTE|OTH|202103                0.00 KWH        16.75 THERMS                   0F  27F
+NTE|OTH|202102                0.00 KWH        20.30 THERMS                   0F  19F
+NTE|OTH|202101                0.00 KWH        19.68 THERMS                   0F  25F
+NTE|OTH|202012                0.00 KWH        15.94 THERMS                   0F  34F
+NTE|OTH|202011                0.00 KWH         8.58 THERMS                   0F  42F
+NTE|OTH|202010                0.00 KWH         0.52 THERMS                   0F  61F
+NTE|OTH|202009                0.00 KWH         0.00 THERMS                   0F  72F
+NTE|ADD|Visit MidAmerican Energy's Customer News site at https://www.midamericanenergy.c
+NTE|ADD|om/customer-news.aspx for important messages.
+REF|12|6404024064
+REF|6P|09
+N1|8S|MIDAMERICAN ENERGY COMPANY|1|963008388
+N3|PO Box 8020
+N4|Davenport|IA|52808-8020
+N1|8R|RECOVERCARE LLC
+N3|809 W MAIN ST
+N4|ELK POINT|SD|57025
+ITD||||||20211005
+BAL|M|J9|0
+BAL|P|RT|8.52
+IT1|0001|||||SV|GAS|C3|METER INFORMATION
+MEA|AA|UG|0|HH|9821|9821|51
+MEA|CF|MU|1
+MEA|CF|MU|1.078|BY
+REF|MG|AY0953002
+REF|NH|SVS Non-Residential
+DTM|150|20210812
+DTM|151|20210913
+IT1|0002|||||SV|GAS|C3|TARIFF
+PID|F||||032 DAYS
+REF|NH|SVS Non-Residential
+IT1|0003|||||SV|GAS|C3|CURRENT PERIOD
+TXI|MP|0.16|0.02||||A
+TXI|ST|0.36|0.045||||A
+PID|F||||032 DAYS 
+SLN|01||A
+SAC|C||GU|BAS001|500||||||||||Basic Service Charge
+SLN|02||A
+SAC|C||GU|FAC001|300||||||||||Meter Class 1 Charge
+TDS|852
+SE|51|0002
+GE|2|16
+IEA|1|000000016
