@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Edited with Altova MapForce 2023r2 -->
+<!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="34">
 	<settings>
-		<deployment path="/Live/Direct Energy/Direct Energy_EDI_DB.mapping" server="localhost" port="8082" user="/root" toolversion="2022r2"/>
+		<deployment path="/Live/BGE/BGE_EDI_DB.mapping" server="localhost" port="8082" user="/root" toolversion="2025"/>
 	</settings>
 	<resources>
 		<datasources>
@@ -25,6 +25,46 @@
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
+				<component name="value-map" library="core" uid="4" kind="23">
+					<sources>
+						<datapoint pos="0" key="9"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="10"/>
+					</targets>
+					<view ltx="511" lty="149" rbx="591" rby="187"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="BD" to="Statement Of Balance Due"/>
+								<entry from="FB" to="Final Bill"/>
+								<entry from="PR" to="Product"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Original"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="24" kind="23">
+					<sources>
+						<datapoint pos="0" key="149"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="150"/>
+					</targets>
+					<view ltx="471" lty="86" rbx="551" rby="124"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="PRQ" to="Product Reportable Quantity"/>
+								<entry from="MU" to="Multiplier"/>
+								<entry from="ZA" to="Power Factor"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Original"/>
+						</valuemap>
+					</data>
+				</component>
 				<component name="remove-folder" library="core" uid="38" kind="5">
 					<sources>
 						<datapoint pos="0" key="248"/>
@@ -105,15 +145,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="53" kind="2">
-					<targets>
-						<datapoint pos="0" key="361"/>
-					</targets>
-					<view ltx="555" lty="-3" rbx="609" rby="14"/>
-					<data>
-						<constant value="01" datatype="string"/>
-					</data>
-				</component>
 				<component name="constant" library="core" uid="51" kind="2">
 					<properties/>
 					<targets>
@@ -154,129 +185,6 @@
 							<input name="input" type="string"/>
 							<result name="result" type="string"/>
 						</valuemap>
-					</data>
-				</component>
-				<component name="997" library="text" uid="49" kind="16">
-					<view ltx="1003" lty="-225" rbx="1436" rby="320"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1">
-									<entry name="Envelope" expanded="1">
-										<entry name="Interchange" inpkey="297" expanded="1">
-											<entry name="ISA" inpkey="298">
-												<entry name="FI06" inpkey="299"/>
-												<entry name="FI05_2" inpkey="362"/>
-												<entry name="FI07" inpkey="300"/>
-												<entry name="FI10" inpkey="363"/>
-												<entry name="FI11" inpkey="364"/>
-												<entry name="FI12" inpkey="365"/>
-												<entry name="FI14" inpkey="366"/>
-											</entry>
-											<entry name="Group" expanded="1">
-												<entry name="GS">
-													<entry name="F479" inpkey="301"/>
-													<entry name="F142" inpkey="302"/>
-													<entry name="F124" inpkey="303"/>
-													<entry name="F373" inpkey="367"/>
-													<entry name="F337" inpkey="368"/>
-													<entry name="F28" inpkey="304"/>
-													<entry name="F455" inpkey="305"/>
-													<entry name="F480" inpkey="306"/>
-												</entry>
-												<entry name="Message_997" inpkey="307" expanded="1">
-													<entry name="ST" expanded="1">
-														<entry name="F329" inpkey="308"/>
-													</entry>
-													<entry name="AK1" inpkey="309">
-														<entry name="F479" inpkey="310"/>
-														<entry name="F28" inpkey="311"/>
-													</entry>
-													<entry name="LoopAK2" inpkey="341">
-														<entry name="AK2" inpkey="342" expanded="1">
-															<entry name="F143" inpkey="343"/>
-															<entry name="F329" inpkey="344"/>
-														</entry>
-														<entry name="LoopAK3" inpkey="345" expanded="1">
-															<entry name="AK3" inpkey="346" expanded="1">
-																<entry name="F721" inpkey="347"/>
-																<entry name="F719" inpkey="348"/>
-																<entry name="F447" inpkey="349"/>
-																<entry name="F720" inpkey="350"/>
-															</entry>
-															<entry name="AK4" inpkey="351" expanded="1">
-																<entry name="C030" inpkey="352" expanded="1">
-																	<entry name="F722" inpkey="353"/>
-																	<entry name="F1528" inpkey="354"/>
-																</entry>
-																<entry name="F725" inpkey="355"/>
-																<entry name="F723" inpkey="356"/>
-																<entry name="F724" inpkey="357"/>
-															</entry>
-														</entry>
-														<entry name="AK5" inpkey="358" expanded="1">
-															<entry name="F717" inpkey="359"/>
-															<entry name="F718" inpkey="360"/>
-														</entry>
-													</entry>
-													<entry name="AK9" inpkey="312">
-														<entry name="F715" inpkey="313"/>
-														<entry name="F97" inpkey="314"/>
-														<entry name="F123" inpkey="315"/>
-														<entry name="F2" inpkey="316"/>
-														<entry name="F716" inpkey="317"/>
-													</entry>
-													<entry name="SE" expanded="1">
-														<entry name="F329" inpkey="318"/>
-													</entry>
-												</entry>
-												<entry name="GE" expanded="1">
-													<entry name="F28" inpkey="319"/>
-												</entry>
-											</entry>
-											<entry name="IEA" expanded="1">
-												<entry name="FI12" inpkey="369"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<text type="edi" encoding="1000" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
-								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
-								<validation>
-									<case kind="undefined" action="stop"/>
-									<case kind="missing-segment" action="stop"/>
-									<case kind="missing-group" action="stop"/>
-									<case kind="missing-field-or-composite" action="report+reject"/>
-									<case kind="extra-data" action="report+reject"/>
-									<case kind="invalid-field-value" action="report+reject"/>
-									<case kind="invalid-date" action="report+reject"/>
-									<case kind="invalid-time" action="report+reject"/>
-									<case kind="extra-repeat" action="report+reject"/>
-									<case kind="numeric-overflow" action="report+reject"/>
-									<case kind="data-element-too-short" action="report+reject"/>
-									<case kind="data-element-too-long" action="report+reject"/>
-									<case kind="unexpected-eof" action="stop"/>
-									<case kind="invalid-codelist-value" action="report+reject"/>
-									<case kind="semantic" action="report+reject"/>
-									<case kind="segment-not-in-message" action="stop"/>
-									<case kind="unrecognized-segment-id" action="stop"/>
-									<case kind="impl-not-used-present" action="report+reject"/>
-									<case kind="not-all-data-parsed" action="report+reject"/>
-								</validation>
-							</settings>
-							<messages>
-								<message type="997"/>
-							</messages>
-						</text>
 					</data>
 				</component>
 				<component name="if-else" library="core" uid="46" kind="4">
@@ -596,7 +504,7 @@
 				<component name="db" library="db" uid="48" kind="15">
 					<view ltx="70" lty="519" rbx="249" rby="807"/>
 					<data>
-						<root scrollposition="35">
+						<root scrollposition="33">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -939,6 +847,30 @@
 						</database>
 					</data>
 				</component>
+				<component name="value-map" library="core" uid="25" kind="23">
+					<sources>
+						<datapoint pos="0" key="157"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="158"/>
+					</targets>
+					<view ltx="471" lty="86" rbx="551" rby="124"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="K1" to="Kilowatt Demand"/>
+								<entry from="K2" to="Kilovolt Amperes Reactive Demand"/>
+								<entry from="K3" to="Kilovolt Amperes Reactive Hour"/>
+								<entry from="K4" to="Kilovolt Amperes"/>
+								<entry from="K5" to="Kilovolt Amperes Reactive "/>
+								<entry from="KH" to="Kilowatt Hour"/>
+								<entry from="ZZ" to="Mutually Defined"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Original"/>
+						</valuemap>
+					</data>
+				</component>
 				<component name="value-map" library="core" uid="18" kind="23">
 					<sources>
 						<datapoint pos="0" key="113"/>
@@ -1156,74 +1088,181 @@
 						</valuemap>
 					</data>
 				</component>
-				<component name="value-map" library="core" uid="4" kind="23">
-					<sources>
-						<datapoint pos="0" key="9"/>
-					</sources>
+				<component name="constant" library="core" uid="36" kind="2">
 					<targets>
-						<datapoint pos="0" key="10"/>
+						<datapoint pos="0" key="244"/>
 					</targets>
-					<view ltx="440" lty="-210" rbx="520" rby="-172"/>
+					<view ltx="526" lty="-66" rbx="588" rby="-49"/>
 					<data>
-						<valuemap defaultValueMode="custom">
-							<valuemapTable>
-								<entry from="BD" to="Statement Of Balance Due"/>
-								<entry from="FB" to="Final Bill"/>
-								<entry from="PR" to="Product"/>
-							</valuemapTable>
-							<input name="input" type="string"/>
-							<result name="result" type="string" defaultValue="Original"/>
-						</valuemap>
+						<constant value="BGE" datatype="string"/>
 					</data>
 				</component>
-				<component name="value-map" library="core" uid="25" kind="23">
-					<sources>
-						<datapoint pos="0" key="157"/>
-					</sources>
+				<component name="constant" library="core" uid="55" kind="2">
 					<targets>
-						<datapoint pos="0" key="158"/>
+						<datapoint pos="0" key="380"/>
 					</targets>
-					<view ltx="440" lty="-160" rbx="520" rby="-122"/>
+					<view ltx="806" lty="-331" rbx="860" rby="-314"/>
 					<data>
-						<valuemap defaultValueMode="custom">
-							<valuemapTable>
-								<entry from="K1" to="Kilowatt Demand"/>
-								<entry from="K2" to="Kilovolt Amperes Reactive Demand"/>
-								<entry from="K3" to="Kilovolt Amperes Reactive Hour"/>
-								<entry from="K4" to="Kilovolt Amperes"/>
-								<entry from="K5" to="Kilovolt Amperes Reactive "/>
-								<entry from="KH" to="Kilowatt Hour"/>
-								<entry from="ZZ" to="Mutually Defined"/>
-							</valuemapTable>
-							<input name="input" type="string"/>
-							<result name="result" type="string" defaultValue="Original"/>
-						</valuemap>
+						<constant value="01" datatype="string"/>
 					</data>
 				</component>
-				<component name="value-map" library="core" uid="24" kind="23">
-					<sources>
-						<datapoint pos="0" key="149"/>
-					</sources>
+				<component name="constant" library="core" uid="53" kind="2">
 					<targets>
-						<datapoint pos="0" key="150"/>
+						<datapoint pos="0" key="361"/>
 					</targets>
-					<view ltx="440" lty="-111" rbx="520" rby="-73"/>
+					<view ltx="806" lty="-303" rbx="860" rby="-286"/>
 					<data>
-						<valuemap defaultValueMode="custom">
-							<valuemapTable>
-								<entry from="PRQ" to="Product Reportable Quantity"/>
-								<entry from="MU" to="Multiplier"/>
-								<entry from="ZA" to="Power Factor"/>
-							</valuemapTable>
-							<input name="input" type="string"/>
-							<result name="result" type="string" defaultValue="Original"/>
-						</valuemap>
+						<constant value="01" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="56" kind="2">
+					<targets>
+						<datapoint pos="0" key="382"/>
+					</targets>
+					<view ltx="811" lty="-277" rbx="860" rby="-260"/>
+					<data>
+						<constant value="A" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="57" kind="2">
+					<targets>
+						<datapoint pos="0" key="383"/>
+					</targets>
+					<view ltx="806" lty="-242" rbx="855" rby="-225"/>
+					<data>
+						<constant value="A" datatype="string"/>
+					</data>
+				</component>
+				<component name="997" library="text" uid="49" kind="16">
+					<view ltx="1003" lty="-225" rbx="1436" rby="320"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" inpkey="297" expanded="1">
+											<entry name="ISA" inpkey="298" expanded="1">
+												<entry name="FI05_1" inpkey="381"/>
+												<entry name="FI06" inpkey="299"/>
+												<entry name="FI05_2" inpkey="362"/>
+												<entry name="FI07" inpkey="300"/>
+												<entry name="FI65" inpkey="390"/>
+												<entry name="FI11" inpkey="364"/>
+												<entry name="FI12" inpkey="365"/>
+												<entry name="FI13" inpkey="386"/>
+												<entry name="FI14" inpkey="366"/>
+												<entry name="FI10" inpkey="363"/>
+											</entry>
+											<entry name="Group" expanded="1">
+												<entry name="GS">
+													<entry name="F479" inpkey="301"/>
+													<entry name="F142" inpkey="302"/>
+													<entry name="F124" inpkey="303"/>
+													<entry name="F373" inpkey="367"/>
+													<entry name="F337" inpkey="368"/>
+													<entry name="F28" inpkey="304"/>
+													<entry name="F455" inpkey="305"/>
+													<entry name="F480" inpkey="306"/>
+												</entry>
+												<entry name="Message_997" inpkey="307" expanded="1">
+													<entry name="ST" expanded="1">
+														<entry name="F329" inpkey="308"/>
+													</entry>
+													<entry name="AK1" inpkey="309">
+														<entry name="F479" inpkey="310"/>
+														<entry name="F28" inpkey="311"/>
+													</entry>
+													<entry name="LoopAK2" inpkey="341" expanded="1">
+														<entry name="AK2" inpkey="342" expanded="1">
+															<entry name="F143" inpkey="343"/>
+															<entry name="F329" inpkey="344"/>
+														</entry>
+														<entry name="LoopAK3" inpkey="345" expanded="1">
+															<entry name="AK3" inpkey="346" expanded="1">
+																<entry name="F721" inpkey="347"/>
+																<entry name="F719" inpkey="348"/>
+																<entry name="F447" inpkey="349"/>
+																<entry name="F720" inpkey="350"/>
+															</entry>
+															<entry name="AK4" inpkey="351" expanded="1">
+																<entry name="C030" inpkey="352" expanded="1">
+																	<entry name="F722" inpkey="353"/>
+																	<entry name="F1528" inpkey="354"/>
+																</entry>
+																<entry name="F725" inpkey="355"/>
+																<entry name="F723" inpkey="356"/>
+																<entry name="F724" inpkey="357"/>
+															</entry>
+														</entry>
+														<entry name="AK5" inpkey="358" expanded="1">
+															<entry name="F717" inpkey="359"/>
+															<entry name="F718" inpkey="360"/>
+														</entry>
+													</entry>
+													<entry name="AK9" inpkey="312" expanded="1">
+														<entry name="F715" inpkey="313"/>
+														<entry name="F97" inpkey="314"/>
+														<entry name="F123" inpkey="315"/>
+														<entry name="F2" inpkey="316"/>
+														<entry name="F716" inpkey="317"/>
+													</entry>
+													<entry name="SE" expanded="1">
+														<entry name="F329" inpkey="318"/>
+													</entry>
+												</entry>
+												<entry name="GE" expanded="1">
+													<entry name="F28" inpkey="319"/>
+												</entry>
+											</entry>
+											<entry name="IEA" expanded="1">
+												<entry name="FI12" inpkey="369"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition=""/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="997"/>
+							</messages>
+						</text>
 					</data>
 				</component>
 				<component name="810" library="text" uid="2" kind="16">
-					<view rbx="249" rby="450"/>
+					<view ltx="-80" rbx="274" rby="460"/>
 					<data>
-						<root scrollposition="1">
+						<root scrollposition="171">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -1234,13 +1273,14 @@
 								<entry name="document" ns="1" expanded="1">
 									<entry name="Envelope" expanded="1">
 										<entry name="Interchange" outkey="279" expanded="1">
-											<entry name="ISA" outkey="280">
+											<entry name="ISA" outkey="280" expanded="1">
 												<entry name="FI06" outkey="281"/>
 												<entry name="FI07" outkey="282"/>
-												<entry name="FI10" outkey="370"/>
 												<entry name="FI11" outkey="371"/>
 												<entry name="FI12" outkey="372"/>
+												<entry name="FI13" outkey="387"/>
 												<entry name="FI14" outkey="373"/>
+												<entry name="FI10" outkey="370"/>
 											</entry>
 											<entry name="Group" outkey="283" expanded="1">
 												<entry name="GS" outkey="284">
@@ -1413,7 +1453,6 @@
 															</entry>
 														</entry>
 														<entry name="MF_AK5" outkey="338" expanded="1">
-															<entry name="F717" outkey="339"/>
 															<entry name="F718" outkey="340"/>
 														</entry>
 													</entry>
@@ -1423,7 +1462,6 @@
 												</entry>
 												<entry name="ParserErrors_Group" expanded="1">
 													<entry name="MF_AK9" outkey="291" expanded="1">
-														<entry name="F715" outkey="292"/>
 														<entry name="F97" outkey="293"/>
 														<entry name="F123" outkey="294"/>
 														<entry name="F2" outkey="295"/>
@@ -1439,8 +1477,8 @@
 								</entry>
 							</entry>
 						</root>
-						<text type="edi" encoding="1000" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config" inputinstance="*.*">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" inputinstance="*.*">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
 								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
 								<validation>
 									<case kind="undefined" action="stop"/>
@@ -1470,13 +1508,13 @@
 						</text>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="36" kind="2">
+				<component name="constant" library="core" uid="61" kind="2">
 					<targets>
-						<datapoint pos="0" key="244"/>
+						<datapoint pos="0" key="389"/>
 					</targets>
-					<view ltx="526" lty="-66" rbx="588" rby="-49"/>
+					<view ltx="811" lty="-198" rbx="861" rby="-181"/>
 					<data>
-						<constant value="BGE" datatype="string"/>
+						<constant value="U" datatype="string"/>
 					</data>
 				</component>
 			</children>
@@ -1635,7 +1673,7 @@
 			<edge from="285" to="310"/>
 			<edge from="288" to="311"/>
 			<edge from="291" to="312"/>
-			<edge from="292" to="313"/>
+			<edge from="383" to="313"/>
 			<edge from="293" to="314"/>
 			<edge from="294" to="315"/>
 			<edge from="295" to="316"/>
@@ -1660,7 +1698,7 @@
 			<edge from="336" to="356"/>
 			<edge from="337" to="357"/>
 			<edge from="338" to="358"/>
-			<edge from="339" to="359"/>
+			<edge from="382" to="359"/>
 			<edge from="340" to="360"/>
 			<edge from="361" to="362"/>
 			<edge from="370" to="363"/>
@@ -1671,6 +1709,9 @@
 			<edge from="375" to="368"/>
 			<edge from="377" to="369"/>
 			<edge from="12" to="378"/>
+			<edge from="380" to="381"/>
+			<edge from="387" to="386"/>
+			<edge from="389" to="390"/>
 		</connections>
 	</component>
 </mapping>

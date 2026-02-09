@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Edited with Altova MapForce 2023r2 -->
+<!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<settings>
 		<deployment path="/Live/BGE/BGE_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2022r2"/>
@@ -228,71 +228,6 @@
 						<constant value="BGE" datatype="string"/>
 					</data>
 				</component>
-				<component name="810" library="text" uid="2" kind="16">
-					<view ltx="78" lty="-561" rbx="395" rby="-46"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" outkey="39" expanded="1">
-								<entry name="document" ns="1" expanded="1">
-									<entry name="Envelope" expanded="1">
-										<entry name="Interchange" expanded="1">
-											<entry name="ISA" expanded="1"/>
-											<entry name="Group" expanded="1">
-												<entry name="Message_810" outkey="40" expanded="1">
-													<entry name="BIG" expanded="1">
-														<entry name="F373_1" outkey="24"/>
-														<entry name="F76_1" outkey="4"/>
-													</entry>
-													<entry name="REF" expanded="1">
-														<entry name="F127" outkey="41"/>
-													</entry>
-													<entry name="TDS" expanded="1">
-														<entry name="F610_1" outkey="25"/>
-													</entry>
-												</entry>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config" inputinstance="Test Files\Sample In test_810o.dat_tr.txt">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
-								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
-								<validation>
-									<case kind="undefined" action="stop"/>
-									<case kind="missing-segment" action="stop"/>
-									<case kind="missing-group" action="stop"/>
-									<case kind="missing-field-or-composite" action="report+reject"/>
-									<case kind="extra-data" action="report+reject"/>
-									<case kind="invalid-field-value" action="report+reject"/>
-									<case kind="invalid-date" action="report+reject"/>
-									<case kind="invalid-time" action="report+reject"/>
-									<case kind="extra-repeat" action="report+reject"/>
-									<case kind="numeric-overflow" action="report+reject"/>
-									<case kind="data-element-too-short" action="report+reject"/>
-									<case kind="data-element-too-long" action="report+reject"/>
-									<case kind="unexpected-eof" action="stop"/>
-									<case kind="invalid-codelist-value" action="report+reject"/>
-									<case kind="semantic" action="report+reject"/>
-									<case kind="segment-not-in-message" action="stop"/>
-									<case kind="unrecognized-segment-id" action="stop"/>
-									<case kind="impl-not-used-present" action="report+reject"/>
-									<case kind="not-all-data-parsed" action="report+reject"/>
-								</validation>
-							</settings>
-							<messages>
-								<message type="810"/>
-							</messages>
-						</text>
-					</data>
-				</component>
 				<component name="Sample Out Text file" library="text" uid="22" kind="16">
 					<properties XSLTDefaultOutput="1"/>
 					<view ltx="1110" lty="-499" rbx="1278" rby="-299"/>
@@ -373,6 +308,70 @@
 						<datapoint pos="0" key="65"/>
 					</targets>
 					<view ltx="514" lty="-409" rbx="618" rby="-336"/>
+				</component>
+				<component name="810" library="text" uid="2" kind="16">
+					<view ltx="78" lty="-561" rbx="395" rby="-46"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" outkey="39" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" expanded="1">
+											<entry name="Group" expanded="1">
+												<entry name="Message_810" outkey="40" expanded="1">
+													<entry name="BIG" expanded="1">
+														<entry name="F373_1" outkey="24"/>
+														<entry name="F76_1" outkey="4"/>
+													</entry>
+													<entry name="REF" expanded="1">
+														<entry name="F127" outkey="41"/>
+													</entry>
+													<entry name="TDS" expanded="1">
+														<entry name="F610_1" outkey="25"/>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" inputinstance="Test Files\Sample In test_810o.dat_tr.txt">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="810"/>
+							</messages>
+						</text>
+					</data>
 				</component>
 			</children>
 			<graph directed="1">
