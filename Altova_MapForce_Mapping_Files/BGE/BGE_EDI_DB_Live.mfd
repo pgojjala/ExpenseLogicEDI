@@ -25,46 +25,6 @@
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
-				<component name="value-map" library="core" uid="4" kind="23">
-					<sources>
-						<datapoint pos="0" key="9"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="10"/>
-					</targets>
-					<view ltx="511" lty="149" rbx="591" rby="187"/>
-					<data>
-						<valuemap defaultValueMode="custom">
-							<valuemapTable>
-								<entry from="BD" to="Statement Of Balance Due"/>
-								<entry from="FB" to="Final Bill"/>
-								<entry from="PR" to="Product"/>
-							</valuemapTable>
-							<input name="input" type="string"/>
-							<result name="result" type="string" defaultValue="Original"/>
-						</valuemap>
-					</data>
-				</component>
-				<component name="value-map" library="core" uid="24" kind="23">
-					<sources>
-						<datapoint pos="0" key="149"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="150"/>
-					</targets>
-					<view ltx="471" lty="86" rbx="551" rby="124"/>
-					<data>
-						<valuemap defaultValueMode="custom">
-							<valuemapTable>
-								<entry from="PRQ" to="Product Reportable Quantity"/>
-								<entry from="MU" to="Multiplier"/>
-								<entry from="ZA" to="Power Factor"/>
-							</valuemapTable>
-							<input name="input" type="string"/>
-							<result name="result" type="string" defaultValue="Original"/>
-						</valuemap>
-					</data>
-				</component>
 				<component name="remove-folder" library="core" uid="38" kind="5">
 					<sources>
 						<datapoint pos="0" key="248"/>
@@ -123,39 +83,6 @@
 					</targets>
 					<view ltx="376" lty="267" rbx="432" rby="321"/>
 				</component>
-				<component name="constant" library="core" uid="50" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="320"/>
-					</targets>
-					<view ltx="1226" lty="342" rbx="1292" rby="359"/>
-					<data>
-						<constant value="0001" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="52" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="323"/>
-					</targets>
-					<view ltx="1225" lty="135" rbx="1280" rby="152"/>
-					<data>
-						<constant value="FA" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="constant" library="core" uid="51" kind="2">
-					<properties/>
-					<targets>
-						<datapoint/>
-					</targets>
-					<view ltx="1226" lty="188" rbx="1280" rby="205"/>
-					<data>
-						<constant value="01" datatype="string"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="value-map" library="core" uid="20" kind="23">
 					<sources>
 						<datapoint pos="0" key="127"/>
@@ -186,17 +113,6 @@
 							<result name="result" type="string"/>
 						</valuemap>
 					</data>
-				</component>
-				<component name="if-else" library="core" uid="46" kind="4">
-					<sources>
-						<datapoint pos="0" key="263"/>
-						<datapoint pos="1" key="264"/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="265"/>
-					</targets>
-					<view ltx="511" lty="163" rbx="615" rby="236"/>
 				</component>
 				<component name="value-map" library="core" uid="27" kind="23">
 					<sources>
@@ -276,24 +192,6 @@
 							</valuemapTable>
 							<input name="input" type="string"/>
 							<result name="result" type="string" defaultValue="Original"/>
-						</valuemap>
-					</data>
-				</component>
-				<component name="value-map" library="core" uid="54" kind="23">
-					<sources>
-						<datapoint pos="0" key="378"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="379"/>
-					</targets>
-					<view ltx="471" lty="445" rbx="551" rby="483"/>
-					<data>
-						<valuemap defaultValueMode="input">
-							<valuemapTable>
-								<entry from="810" to="Invoice"/>
-							</valuemapTable>
-							<input name="input" type="string"/>
-							<result name="result" type="string"/>
 						</valuemap>
 					</data>
 				</component>
@@ -481,30 +379,10 @@
 						</valuemap>
 					</data>
 				</component>
-				<component name="value-map" library="core" uid="30" kind="23">
-					<sources>
-						<datapoint pos="0" key="192"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="193"/>
-					</targets>
-					<view ltx="471" lty="260" rbx="551" rby="298"/>
-					<data>
-						<valuemap defaultValueMode="custom">
-							<valuemapTable>
-								<entry from="A" to="Allowance"/>
-								<entry from="C" to="Charge"/>
-								<entry from="N" to="No Allowance Or Charge"/>
-							</valuemapTable>
-							<input name="input" type="string"/>
-							<result name="result" type="string" defaultValue="Original"/>
-						</valuemap>
-					</data>
-				</component>
 				<component name="db" library="db" uid="48" kind="15">
 					<view ltx="70" lty="519" rbx="249" rby="807"/>
 					<data>
-						<root scrollposition="33">
+						<root scrollposition="19">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -623,252 +501,6 @@
 						<where order="[InvoiceHeaderSysId] DESC;">
 							<parameters/>
 						</where>
-					</data>
-				</component>
-				<component name="db" library="db" uid="3" kind="15">
-					<properties XSLTDefaultOutput="1"/>
-					<view ltx="645" rbx="932" rby="509"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="document" ns="1" expanded="1">
-								<entry name="dbo.InvoiceHeader" type="table" inpkey="1" expanded="1">
-									<entry name="STTransactionSetIdentifierCode" inpkey="2"/>
-									<entry name="STTransactionSetControlNumber" inpkey="3"/>
-									<entry name="BigDate" inpkey="4"/>
-									<entry name="BigInvoiceNumber" inpkey="5"/>
-									<entry name="BigPurchaseOrderNumber" inpkey="6"/>
-									<entry name="BigTransactionTypeCode" inpkey="7"/>
-									<entry name="BigTransactionSetPurposeCode" inpkey="8"/>
-									<entry name="ITDTermsNetDueDate" inpkey="93"/>
-									<entry name="CompanyName" inpkey="245"/>
-									<entry name="FileName" inpkey="246"/>
-									<entry name="ITDTermsTypeCode" inpkey="85"/>
-									<entry name="TermsBasisDateCode" inpkey="89"/>
-									<entry name="dbo.BAL|InvoiceHeaderSysId" type="table" inpkey="95">
-										<entry name="BalBalanceTypeCode" inpkey="96"/>
-										<entry name="BalAmountQualifierCode" inpkey="97"/>
-										<entry name="BalMonetaryAmount" inpkey="98"/>
-									</entry>
-									<entry name="dbo.Invoice_Detail|InvoiceHeaderSysId" type="table" inpkey="107" expanded="1">
-										<entry name="IT1AssignedIdentification" inpkey="108"/>
-										<entry name="IT1ProductServiceIDQualifier1" inpkey="111"/>
-										<entry name="IT1ProductServiceID1" inpkey="115"/>
-										<entry name="IT1ProductServiceIDQualifier12" inpkey="117"/>
-										<entry name="IT1ProductServiceID12" inpkey="118"/>
-										<entry name="DTMServiceStartDate" inpkey="266"/>
-										<entry name="DTMServiceEndDate" inpkey="267"/>
-										<entry name="dbo.MEA|InvoiceDetailSysId" type="table" inpkey="167">
-											<entry name="InvoiceHeaderSysId" inpkey="271"/>
-											<entry name="MEAMeasurementReferenceIDCode" inpkey="168"/>
-											<entry name="MEAMeasurementQualifier" inpkey="169"/>
-											<entry name="MEAMeasurementValue" inpkey="170"/>
-											<entry name="MEACompositeUnitofMeasure" inpkey="171"/>
-											<entry name="MEAUnitorBasisforMeasurementCode" inpkey="172"/>
-											<entry name="MEARangeMinimum" inpkey="173"/>
-											<entry name="MEARangeMaximum" inpkey="174"/>
-											<entry name="MEAMeasurementSignificanceCode" inpkey="175"/>
-										</entry>
-										<entry name="dbo.N1|InvoiceDetailsSysId" type="table" inpkey="204">
-											<entry name="InvoiceHeaderSysId" inpkey="272"/>
-											<entry name="N1EntityIdentifierCode" inpkey="205"/>
-											<entry name="N1Name" inpkey="206"/>
-											<entry name="N1IdentificationCodeQualifier" inpkey="207"/>
-											<entry name="N1IdentificationCode" inpkey="208"/>
-											<entry name="N2Name" inpkey="234"/>
-											<entry name="N3Address1" inpkey="235"/>
-											<entry name="N4CityName" inpkey="236"/>
-											<entry name="N4StateorProvinceCode" inpkey="237"/>
-											<entry name="N4PostalCode" inpkey="238"/>
-											<entry name="N4CountryCode" inpkey="239"/>
-										</entry>
-										<entry name="dbo.REF|InvoiceDetailSysId" type="table" inpkey="176">
-											<entry name="InvoiceHeaderSysId" inpkey="273"/>
-											<entry name="REFReferenceIdentificationQualifier" inpkey="177"/>
-											<entry name="REFReferenceIdentification" inpkey="178"/>
-										</entry>
-										<entry name="dbo.SLN|InvoiceDetailSysId" type="table" inpkey="184" expanded="1">
-											<entry name="InvoiceHeaderSysId" inpkey="274"/>
-											<entry name="SLNAssignedIdentification" inpkey="185"/>
-											<entry name="SLNRelationshipCode" inpkey="186"/>
-											<entry name="SACAllowanceorChargeIndicator" inpkey="190"/>
-											<entry name="SACAgencyQualifierCode" inpkey="194"/>
-											<entry name="SACAgencyServicePromotionAllowanceorChargeCode" inpkey="276"/>
-											<entry name="SACAmount" inpkey="198"/>
-											<entry name="SACRate" inpkey="199"/>
-											<entry name="SACUnitorBasisforMeasurementCode" inpkey="209"/>
-											<entry name="SACDescription" inpkey="210"/>
-											<entry name="SACQuantity" inpkey="211"/>
-										</entry>
-										<entry name="dbo.TXI|InvoiceDetailSysId" type="table" inpkey="123" expanded="1">
-											<entry name="InvoiceHeaderSysId" inpkey="275"/>
-											<entry name="TXITaxTypeCode" inpkey="124"/>
-											<entry name="TXIMonetaryAmount" inpkey="129"/>
-											<entry name="TXIRelationshipCode" inpkey="137"/>
-											<entry name="TXIPercent" inpkey="130"/>
-											<entry name="TXITaxExemptCode" inpkey="131"/>
-										</entry>
-									</entry>
-									<entry name="dbo.Invoice_Summary|InvoiceHeaderSysId" type="table">
-										<entry name="TDSAmount" inpkey="240"/>
-										<entry name="CTTNumberofLineItems" inpkey="241"/>
-										<entry name="SENumberofIncludedSegments" inpkey="242"/>
-										<entry name="SETransactionSetControlNumber" inpkey="243"/>
-									</entry>
-									<entry name="dbo.N1|InvoiceHeaderSysId" type="table" inpkey="39">
-										<entry name="N1EntityIdentifierCode" inpkey="40"/>
-										<entry name="N1Name" inpkey="41"/>
-										<entry name="N1IdentificationCodeQualifier" inpkey="42"/>
-										<entry name="N1IdentificationCode" inpkey="43"/>
-										<entry name="N2Name" inpkey="53"/>
-										<entry name="N3Address1" inpkey="54"/>
-										<entry name="N4CityName" inpkey="57"/>
-										<entry name="N4StateorProvinceCode" inpkey="58"/>
-										<entry name="N4PostalCode" inpkey="59"/>
-										<entry name="N4CountryCode" inpkey="60"/>
-										<entry name="dbo.REF|N1SysId" type="table" inpkey="77">
-											<entry name="REFReferenceIdentificationQualifier" inpkey="78"/>
-											<entry name="REFReferenceIdentification" inpkey="83"/>
-										</entry>
-									</entry>
-									<entry name="dbo.NTE|InvoiceHeaderSysId" type="table" inpkey="21">
-										<entry name="NTENoteReferenceCode" inpkey="22"/>
-										<entry name="NTEDescription" inpkey="23"/>
-									</entry>
-									<entry name="dbo.PER|InvoiceHeaderSysId" type="table" inpkey="65">
-										<entry name="PERContactFunctionCode" inpkey="66"/>
-										<entry name="PERCommunicationNumberQualifier" inpkey="67"/>
-										<entry name="PERCommunicationNumber" inpkey="68"/>
-									</entry>
-									<entry name="dbo.REF|InvoiceHeaderSysId" type="table" inpkey="29">
-										<entry name="REFReferenceIdentificationQualifier" inpkey="30"/>
-										<entry name="REFReferenceIdentification" inpkey="31"/>
-										<entry name="REFDescription" inpkey="32"/>
-									</entry>
-								</entry>
-								<entry name="dbo.sysdiagrams" show-schema-children="0"/>
-							</entry>
-						</root>
-						<database ref="ApexEDI">
-							<data>
-								<selections>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="BAL" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="CTP" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="InvoiceHeader" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="Invoice_Detail" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="Invoice_Summary" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="MEA" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="N1" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="NTE" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="PAM" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="PER" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="PID" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="REF" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="SLN" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="TXI" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="TempEDIInvoiceHeader" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDI" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="tempEDIInvoiceDetail" Kind="Table"/>
-									</selection>
-									<selection>
-										<PathElement Name="ApexEDITesting" Kind="Database"/>
-										<PathElement Name="dbo" Kind="Schema"/>
-										<PathElement Name="sysdiagrams" Kind="Table"/>
-									</selection>
-								</selections>
-							</data>
-						</database>
-					</data>
-				</component>
-				<component name="value-map" library="core" uid="25" kind="23">
-					<sources>
-						<datapoint pos="0" key="157"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="158"/>
-					</targets>
-					<view ltx="471" lty="86" rbx="551" rby="124"/>
-					<data>
-						<valuemap defaultValueMode="custom">
-							<valuemapTable>
-								<entry from="K1" to="Kilowatt Demand"/>
-								<entry from="K2" to="Kilovolt Amperes Reactive Demand"/>
-								<entry from="K3" to="Kilovolt Amperes Reactive Hour"/>
-								<entry from="K4" to="Kilovolt Amperes"/>
-								<entry from="K5" to="Kilovolt Amperes Reactive "/>
-								<entry from="KH" to="Kilowatt Hour"/>
-								<entry from="ZZ" to="Mutually Defined"/>
-							</valuemapTable>
-							<input name="input" type="string"/>
-							<result name="result" type="string" defaultValue="Original"/>
-						</valuemap>
 					</data>
 				</component>
 				<component name="value-map" library="core" uid="18" kind="23">
@@ -1088,6 +720,70 @@
 						</valuemap>
 					</data>
 				</component>
+				<component name="value-map" library="core" uid="4" kind="23">
+					<sources>
+						<datapoint pos="0" key="9"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="10"/>
+					</targets>
+					<view ltx="440" lty="-210" rbx="520" rby="-172"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="BD" to="Statement Of Balance Due"/>
+								<entry from="FB" to="Final Bill"/>
+								<entry from="PR" to="Product"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Original"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="25" kind="23">
+					<sources>
+						<datapoint pos="0" key="157"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="158"/>
+					</targets>
+					<view ltx="440" lty="-160" rbx="520" rby="-122"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="K1" to="Kilowatt Demand"/>
+								<entry from="K2" to="Kilovolt Amperes Reactive Demand"/>
+								<entry from="K3" to="Kilovolt Amperes Reactive Hour"/>
+								<entry from="K4" to="Kilovolt Amperes"/>
+								<entry from="K5" to="Kilovolt Amperes Reactive "/>
+								<entry from="KH" to="Kilowatt Hour"/>
+								<entry from="ZZ" to="Mutually Defined"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Original"/>
+						</valuemap>
+					</data>
+				</component>
+				<component name="value-map" library="core" uid="24" kind="23">
+					<sources>
+						<datapoint pos="0" key="149"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="150"/>
+					</targets>
+					<view ltx="440" lty="-111" rbx="520" rby="-73"/>
+					<data>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="PRQ" to="Product Reportable Quantity"/>
+								<entry from="MU" to="Multiplier"/>
+								<entry from="ZA" to="Power Factor"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Original"/>
+						</valuemap>
+					</data>
+				</component>
 				<component name="constant" library="core" uid="36" kind="2">
 					<targets>
 						<datapoint pos="0" key="244"/>
@@ -1097,172 +793,134 @@
 						<constant value="BGE" datatype="string"/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="55" kind="2">
+				<component name="constant" library="core" uid="60" kind="2">
+					<properties/>
 					<targets>
-						<datapoint pos="0" key="380"/>
+						<datapoint pos="0" key="410"/>
 					</targets>
-					<view ltx="806" lty="-331" rbx="860" rby="-314"/>
+					<view ltx="994" lty="125" rbx="1049" rby="142"/>
+					<data>
+						<constant value="FA" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="62" kind="2">
+					<targets>
+						<datapoint pos="0" key="443"/>
+					</targets>
+					<view ltx="785" lty="-71" rbx="839" rby="-54"/>
 					<data>
 						<constant value="01" datatype="string"/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="53" kind="2">
+				<component name="constant" library="core" uid="64" kind="2">
 					<targets>
-						<datapoint pos="0" key="361"/>
+						<datapoint pos="0" key="446"/>
 					</targets>
-					<view ltx="806" lty="-303" rbx="860" rby="-286"/>
+					<view ltx="955" lty="231" rbx="1003" rby="248"/>
 					<data>
-						<constant value="01" datatype="string"/>
+						<constant value="0" datatype="string"/>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="56" kind="2">
+				<component name="value-map" library="core" uid="54" kind="23">
+					<sources>
+						<datapoint pos="0" key="378"/>
+					</sources>
 					<targets>
-						<datapoint pos="0" key="382"/>
+						<datapoint pos="0" key="379"/>
 					</targets>
-					<view ltx="811" lty="-277" rbx="860" rby="-260"/>
+					<view ltx="471" lty="445" rbx="551" rby="483"/>
 					<data>
-						<constant value="A" datatype="string"/>
+						<valuemap defaultValueMode="input">
+							<valuemapTable>
+								<entry from="810" to="Invoice"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string"/>
+						</valuemap>
 					</data>
 				</component>
-				<component name="constant" library="core" uid="57" kind="2">
+				<component name="if-else" library="core" uid="46" kind="4">
+					<sources>
+						<datapoint pos="0" key="263"/>
+						<datapoint pos="1" key="264"/>
+						<datapoint/>
+					</sources>
 					<targets>
-						<datapoint pos="0" key="383"/>
+						<datapoint pos="0" key="265"/>
 					</targets>
-					<view ltx="806" lty="-242" rbx="855" rby="-225"/>
+					<view ltx="511" lty="163" rbx="615" rby="236"/>
+				</component>
+				<component name="value-map" library="core" uid="30" kind="23">
+					<sources>
+						<datapoint pos="0" key="192"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="193"/>
+					</targets>
+					<view ltx="471" lty="260" rbx="551" rby="298"/>
 					<data>
-						<constant value="A" datatype="string"/>
+						<valuemap defaultValueMode="custom">
+							<valuemapTable>
+								<entry from="A" to="Allowance"/>
+								<entry from="C" to="Charge"/>
+								<entry from="N" to="No Allowance Or Charge"/>
+							</valuemapTable>
+							<input name="input" type="string"/>
+							<result name="result" type="string" defaultValue="Original"/>
+						</valuemap>
 					</data>
 				</component>
-				<component name="997" library="text" uid="49" kind="16">
-					<view ltx="1003" lty="-225" rbx="1436" rby="320"/>
+				<component name="constant" library="core" uid="65" kind="2">
+					<targets>
+						<datapoint pos="0" key="447"/>
+					</targets>
+					<view ltx="1061" lty="-111" rbx="1127" rby="-94"/>
 					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1">
-									<entry name="Envelope" expanded="1">
-										<entry name="Interchange" inpkey="297" expanded="1">
-											<entry name="ISA" inpkey="298" expanded="1">
-												<entry name="FI05_1" inpkey="381"/>
-												<entry name="FI06" inpkey="299"/>
-												<entry name="FI05_2" inpkey="362"/>
-												<entry name="FI07" inpkey="300"/>
-												<entry name="FI65" inpkey="390"/>
-												<entry name="FI11" inpkey="364"/>
-												<entry name="FI12" inpkey="365"/>
-												<entry name="FI13" inpkey="386"/>
-												<entry name="FI14" inpkey="366"/>
-												<entry name="FI10" inpkey="363"/>
-											</entry>
-											<entry name="Group" expanded="1">
-												<entry name="GS">
-													<entry name="F479" inpkey="301"/>
-													<entry name="F142" inpkey="302"/>
-													<entry name="F124" inpkey="303"/>
-													<entry name="F373" inpkey="367"/>
-													<entry name="F337" inpkey="368"/>
-													<entry name="F28" inpkey="304"/>
-													<entry name="F455" inpkey="305"/>
-													<entry name="F480" inpkey="306"/>
-												</entry>
-												<entry name="Message_997" inpkey="307" expanded="1">
-													<entry name="ST" expanded="1">
-														<entry name="F329" inpkey="308"/>
-													</entry>
-													<entry name="AK1" inpkey="309">
-														<entry name="F479" inpkey="310"/>
-														<entry name="F28" inpkey="311"/>
-													</entry>
-													<entry name="LoopAK2" inpkey="341" expanded="1">
-														<entry name="AK2" inpkey="342" expanded="1">
-															<entry name="F143" inpkey="343"/>
-															<entry name="F329" inpkey="344"/>
-														</entry>
-														<entry name="LoopAK3" inpkey="345" expanded="1">
-															<entry name="AK3" inpkey="346" expanded="1">
-																<entry name="F721" inpkey="347"/>
-																<entry name="F719" inpkey="348"/>
-																<entry name="F447" inpkey="349"/>
-																<entry name="F720" inpkey="350"/>
-															</entry>
-															<entry name="AK4" inpkey="351" expanded="1">
-																<entry name="C030" inpkey="352" expanded="1">
-																	<entry name="F722" inpkey="353"/>
-																	<entry name="F1528" inpkey="354"/>
-																</entry>
-																<entry name="F725" inpkey="355"/>
-																<entry name="F723" inpkey="356"/>
-																<entry name="F724" inpkey="357"/>
-															</entry>
-														</entry>
-														<entry name="AK5" inpkey="358" expanded="1">
-															<entry name="F717" inpkey="359"/>
-															<entry name="F718" inpkey="360"/>
-														</entry>
-													</entry>
-													<entry name="AK9" inpkey="312" expanded="1">
-														<entry name="F715" inpkey="313"/>
-														<entry name="F97" inpkey="314"/>
-														<entry name="F123" inpkey="315"/>
-														<entry name="F2" inpkey="316"/>
-														<entry name="F716" inpkey="317"/>
-													</entry>
-													<entry name="SE" expanded="1">
-														<entry name="F329" inpkey="318"/>
-													</entry>
-												</entry>
-												<entry name="GE" expanded="1">
-													<entry name="F28" inpkey="319"/>
-												</entry>
-											</entry>
-											<entry name="IEA" expanded="1">
-												<entry name="FI12" inpkey="369"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
-								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition=""/>
-								<validation>
-									<case kind="undefined" action="stop"/>
-									<case kind="missing-segment" action="stop"/>
-									<case kind="missing-group" action="stop"/>
-									<case kind="missing-field-or-composite" action="report+reject"/>
-									<case kind="extra-data" action="report+reject"/>
-									<case kind="invalid-field-value" action="report+reject"/>
-									<case kind="invalid-date" action="report+reject"/>
-									<case kind="invalid-time" action="report+reject"/>
-									<case kind="extra-repeat" action="report+reject"/>
-									<case kind="numeric-overflow" action="report+reject"/>
-									<case kind="data-element-too-short" action="report+reject"/>
-									<case kind="data-element-too-long" action="report+reject"/>
-									<case kind="unexpected-eof" action="stop"/>
-									<case kind="invalid-codelist-value" action="report+reject"/>
-									<case kind="semantic" action="report+reject"/>
-									<case kind="segment-not-in-message" action="stop"/>
-									<case kind="unrecognized-segment-id" action="stop"/>
-									<case kind="impl-not-used-present" action="report+reject"/>
-									<case kind="not-all-data-parsed" action="report+reject"/>
-								</validation>
-							</settings>
-							<messages>
-								<message type="997"/>
-							</messages>
-						</text>
+						<constant value="0001" datatype="string"/>
+					</data>
+				</component>
+				<component name="equal" library="core" uid="69" kind="5">
+					<sources>
+						<datapoint pos="0" key="463"/>
+						<datapoint pos="1" key="464"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="459"/>
+					</targets>
+					<view ltx="772" lty="-174" rbx="828" rby="-120"/>
+				</component>
+				<component name="constant" library="core" uid="74" kind="2">
+					<targets>
+						<datapoint pos="0" key="468"/>
+					</targets>
+					<view ltx="1167" lty="-121" rbx="1215" rby="-104"/>
+					<data>
+						<constant value="9" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="75" kind="2">
+					<targets>
+						<datapoint pos="0" key="469"/>
+					</targets>
+					<view ltx="1259" lty="-75" rbx="1307" rby="-58"/>
+					<data>
+						<constant value="0" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="68" kind="2">
+					<targets>
+						<datapoint pos="0" key="462"/>
+					</targets>
+					<view ltx="669" lty="-174" rbx="731" rby="-157"/>
+					<data>
+						<constant value="BGE" datatype="string"/>
 					</data>
 				</component>
 				<component name="810" library="text" uid="2" kind="16">
-					<view ltx="-80" rbx="274" rby="460"/>
+					<view rbx="249" rby="450"/>
 					<data>
-						<root scrollposition="171">
+						<root scrollposition="43">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -1273,22 +931,16 @@
 								<entry name="document" ns="1" expanded="1">
 									<entry name="Envelope" expanded="1">
 										<entry name="Interchange" outkey="279" expanded="1">
+											<entry name="Settings" outkey="383"/>
 											<entry name="ISA" outkey="280" expanded="1">
 												<entry name="FI06" outkey="281"/>
 												<entry name="FI07" outkey="282"/>
-												<entry name="FI11" outkey="371"/>
-												<entry name="FI12" outkey="372"/>
-												<entry name="FI13" outkey="387"/>
-												<entry name="FI14" outkey="373"/>
-												<entry name="FI10" outkey="370"/>
 											</entry>
 											<entry name="Group" outkey="283" expanded="1">
-												<entry name="GS" outkey="284">
+												<entry name="GS" outkey="284" expanded="1">
 													<entry name="F479" outkey="285"/>
 													<entry name="F142" outkey="286"/>
 													<entry name="F124" outkey="287"/>
-													<entry name="F373" outkey="374"/>
-													<entry name="F337" outkey="375"/>
 													<entry name="F28" outkey="288"/>
 													<entry name="F455" outkey="289"/>
 													<entry name="F480" outkey="290"/>
@@ -1297,8 +949,9 @@
 													<entry name="ST" outkey="324" expanded="1">
 														<entry name="F143" outkey="12"/>
 														<entry name="F329" outkey="13"/>
+														<entry name="F1705" outkey="412"/>
 													</entry>
-													<entry name="BIG">
+													<entry name="BIG" expanded="1">
 														<entry name="F373_1" outkey="14"/>
 														<entry name="F76_1" outkey="15"/>
 														<entry name="F324" outkey="16"/>
@@ -1314,8 +967,8 @@
 														<entry name="F127" outkey="37"/>
 														<entry name="F352" outkey="38"/>
 													</entry>
-													<entry name="LoopN1" outkey="48">
-														<entry name="N1">
+													<entry name="LoopN1" outkey="48" expanded="1">
+														<entry name="N1" expanded="1">
 															<entry name="F98_1" outkey="49"/>
 															<entry name="F93" outkey="50"/>
 															<entry name="F66" outkey="51"/>
@@ -1446,6 +1099,7 @@
 																<entry name="C030" outkey="332" expanded="1">
 																	<entry name="F722" outkey="333"/>
 																	<entry name="F1528" outkey="334"/>
+																	<entry name="F1686" outkey="413"/>
 																</entry>
 																<entry name="F725" outkey="335"/>
 																<entry name="F723" outkey="336"/>
@@ -1453,15 +1107,15 @@
 															</entry>
 														</entry>
 														<entry name="MF_AK5" outkey="338" expanded="1">
+															<entry name="F717" outkey="339"/>
 															<entry name="F718" outkey="340"/>
 														</entry>
 													</entry>
 												</entry>
-												<entry name="GE" expanded="1">
-													<entry name="F28" outkey="376"/>
-												</entry>
+												<entry name="GE" expanded="1"/>
 												<entry name="ParserErrors_Group" expanded="1">
 													<entry name="MF_AK9" outkey="291" expanded="1">
+														<entry name="F715" outkey="292"/>
 														<entry name="F97" outkey="293"/>
 														<entry name="F123" outkey="294"/>
 														<entry name="F2" outkey="295"/>
@@ -1469,16 +1123,14 @@
 													</entry>
 												</entry>
 											</entry>
-											<entry name="IEA" expanded="1">
-												<entry name="FI12" outkey="377"/>
-											</entry>
+											<entry name="IEA" expanded="1"/>
 										</entry>
 									</entry>
 								</entry>
 							</entry>
 						</root>
-						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" inputinstance="*.*">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.Temp/Envelope.Config" inputinstance="EDI-BGE\810_156171464TEST_003436227_78691657.x12">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00604" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
 								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
 								<validation>
 									<case kind="undefined" action="stop"/>
@@ -1508,13 +1160,553 @@
 						</text>
 					</data>
 				</component>
+				<component name="constant" library="core" uid="63" kind="2">
+					<targets>
+						<datapoint pos="0" key="444"/>
+					</targets>
+					<view ltx="1143" lty="-69" rbx="1215" rby="-52"/>
+					<data>
+						<constant value="00401" datatype="string"/>
+					</data>
+				</component>
 				<component name="constant" library="core" uid="61" kind="2">
 					<targets>
-						<datapoint pos="0" key="389"/>
+						<datapoint pos="0" key="437"/>
 					</targets>
-					<view ltx="811" lty="-198" rbx="861" rby="-181"/>
+					<view ltx="1006" lty="-42" rbx="1056" rby="-25"/>
 					<data>
 						<constant value="U" datatype="string"/>
+					</data>
+				</component>
+				<component name="997" library="text" uid="57" kind="16">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="1092" rbx="1517" rby="400"/>
+					<data>
+						<root scrollposition="148">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Envelope" expanded="1">
+										<entry name="Interchange" inpkey="384" expanded="1">
+											<entry name="Settings" inpkey="385"/>
+											<entry name="ISA" inpkey="386" expanded="1">
+												<entry name="FI05_1" inpkey="441"/>
+												<entry name="FI06" inpkey="387"/>
+												<entry name="FI05_2" inpkey="442"/>
+												<entry name="FI07" inpkey="388"/>
+												<entry name="FI65" inpkey="440"/>
+												<entry name="FI11" inpkey="436"/>
+												<entry name="FI12" inpkey="438"/>
+												<entry name="FI13" inpkey="439"/>
+											</entry>
+											<entry name="Group" expanded="1">
+												<entry name="GS" expanded="1">
+													<entry name="F479" inpkey="389"/>
+													<entry name="F142" inpkey="390"/>
+													<entry name="F124" inpkey="391"/>
+													<entry name="F28" inpkey="392"/>
+													<entry name="F455" inpkey="393"/>
+													<entry name="F480" inpkey="394"/>
+												</entry>
+												<entry name="Message_997" inpkey="395" expanded="1">
+													<entry name="ST" expanded="1">
+														<entry name="F329" inpkey="396"/>
+													</entry>
+													<entry name="AK1" inpkey="397" expanded="1">
+														<entry name="F479" inpkey="398"/>
+														<entry name="F28" inpkey="399"/>
+													</entry>
+													<entry name="LoopAK2" inpkey="414" expanded="1">
+														<entry name="AK2" inpkey="415" expanded="1">
+															<entry name="F143" inpkey="416"/>
+															<entry name="F329" inpkey="417"/>
+															<entry name="F1705" inpkey="418"/>
+														</entry>
+														<entry name="LoopAK3" inpkey="419" expanded="1">
+															<entry name="AK3" inpkey="420" expanded="1">
+																<entry name="F721" inpkey="421"/>
+																<entry name="F719" inpkey="422"/>
+																<entry name="F447" inpkey="423"/>
+																<entry name="F720" inpkey="424"/>
+															</entry>
+															<entry name="AK4" inpkey="425" expanded="1">
+																<entry name="C030" inpkey="426" expanded="1">
+																	<entry name="F722" inpkey="427"/>
+																	<entry name="F1528" inpkey="428"/>
+																	<entry name="F1686" inpkey="429"/>
+																</entry>
+																<entry name="F725" inpkey="430"/>
+																<entry name="F723" inpkey="431"/>
+																<entry name="F724" inpkey="432"/>
+															</entry>
+														</entry>
+														<entry name="AK5" inpkey="433" expanded="1">
+															<entry name="F717" inpkey="434"/>
+															<entry name="F718" inpkey="435"/>
+														</entry>
+													</entry>
+													<entry name="AK9" inpkey="401" expanded="1">
+														<entry name="F715" inpkey="402"/>
+														<entry name="F97" inpkey="403"/>
+														<entry name="F123" inpkey="404"/>
+														<entry name="F2" inpkey="405"/>
+														<entry name="F716" inpkey="406"/>
+													</entry>
+													<entry name="SE" expanded="1"/>
+												</entry>
+												<entry name="GE" expanded="1"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.Temp/Envelope.Config">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="false" interchangecontrolversionnumber="00604" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
+								<validation>
+									<case kind="undefined" action="stop"/>
+									<case kind="missing-segment" action="stop"/>
+									<case kind="missing-group" action="stop"/>
+									<case kind="missing-field-or-composite" action="report+reject"/>
+									<case kind="extra-data" action="report+reject"/>
+									<case kind="invalid-field-value" action="report+reject"/>
+									<case kind="invalid-date" action="report+reject"/>
+									<case kind="invalid-time" action="report+reject"/>
+									<case kind="extra-repeat" action="report+reject"/>
+									<case kind="numeric-overflow" action="report+reject"/>
+									<case kind="data-element-too-short" action="report+reject"/>
+									<case kind="data-element-too-long" action="report+reject"/>
+									<case kind="unexpected-eof" action="stop"/>
+									<case kind="invalid-codelist-value" action="report+reject"/>
+									<case kind="semantic" action="report+reject"/>
+									<case kind="segment-not-in-message" action="stop"/>
+									<case kind="unrecognized-segment-id" action="stop"/>
+									<case kind="impl-not-used-present" action="report+reject"/>
+									<case kind="not-all-data-parsed" action="report+reject"/>
+								</validation>
+							</settings>
+							<messages>
+								<message type="997"/>
+							</messages>
+						</text>
+					</data>
+				</component>
+				<component name="GS" library="core" uid="71" kind="3">
+					<sources>
+						<datapoint pos="0" key="460"/>
+						<datapoint pos="1" key="461"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="474"/>
+						<datapoint/>
+					</targets>
+					<view ltx="1050" lty="-197" rbx="1163" rby="-143"/>
+				</component>
+				<component name="add" library="core" uid="79" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="583"/>
+						<datapoint pos="1" key="582"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="584"/>
+					</targets>
+					<view ltx="1295" lty="-236" rbx="1377" rby="-180"/>
+				</component>
+				<component name="ISA" library="core" uid="70" kind="3">
+					<sources>
+						<datapoint pos="0" key="456"/>
+						<datapoint pos="1" key="457"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="467"/>
+						<datapoint/>
+					</targets>
+					<view ltx="890" lty="-197" rbx="1003" rby="-143"/>
+				</component>
+				<component name="pad-string-left" library="lang" uid="73" kind="5">
+					<sources>
+						<datapoint pos="0" key="470"/>
+						<datapoint pos="1" key="471"/>
+						<datapoint pos="2" key="472"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="473"/>
+					</targets>
+					<view ltx="1280" lty="-174" rbx="1405" rby="-104"/>
+				</component>
+				<component name="db" library="db" uid="3" kind="15">
+					<properties/>
+					<view ltx="645" rbx="932" rby="509"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1">
+								<entry name="dbo.CTLNBR" type="table" expanded="1">
+									<entry name="TPN" outkey="465"/>
+									<entry name="ISA" outkey="458"/>
+									<entry name="GS" outkey="466"/>
+								</entry>
+								<entry name="dbo.InvoiceHeader" type="table" inpkey="1" expanded="1">
+									<entry name="STTransactionSetIdentifierCode" inpkey="2"/>
+									<entry name="STTransactionSetControlNumber" inpkey="3"/>
+									<entry name="BigDate" inpkey="4"/>
+									<entry name="BigInvoiceNumber" inpkey="5"/>
+									<entry name="BigPurchaseOrderNumber" inpkey="6"/>
+									<entry name="BigTransactionTypeCode" inpkey="7"/>
+									<entry name="BigTransactionSetPurposeCode" inpkey="8"/>
+									<entry name="ITDTermsNetDueDate" inpkey="93"/>
+									<entry name="CompanyName" inpkey="245"/>
+									<entry name="FileName" inpkey="246"/>
+									<entry name="ITDTermsTypeCode" inpkey="85"/>
+									<entry name="TermsBasisDateCode" inpkey="89"/>
+									<entry name="dbo.BAL|InvoiceHeaderSysId" type="table" inpkey="95" expanded="1">
+										<entry name="BalBalanceTypeCode" inpkey="96"/>
+										<entry name="BalAmountQualifierCode" inpkey="97"/>
+										<entry name="BalMonetaryAmount" inpkey="98"/>
+									</entry>
+									<entry name="dbo.Invoice_Detail|InvoiceHeaderSysId" type="table" inpkey="107" expanded="1">
+										<entry name="IT1AssignedIdentification" inpkey="108"/>
+										<entry name="IT1ProductServiceIDQualifier1" inpkey="111"/>
+										<entry name="IT1ProductServiceID1" inpkey="115"/>
+										<entry name="IT1ProductServiceIDQualifier12" inpkey="117"/>
+										<entry name="IT1ProductServiceID12" inpkey="118"/>
+										<entry name="DTMServiceStartDate" inpkey="266"/>
+										<entry name="DTMServiceEndDate" inpkey="267"/>
+										<entry name="dbo.MEA|InvoiceDetailSysId" type="table" inpkey="167">
+											<entry name="InvoiceHeaderSysId" inpkey="271"/>
+											<entry name="MEAMeasurementReferenceIDCode" inpkey="168"/>
+											<entry name="MEAMeasurementQualifier" inpkey="169"/>
+											<entry name="MEAMeasurementValue" inpkey="170"/>
+											<entry name="MEACompositeUnitofMeasure" inpkey="171"/>
+											<entry name="MEAUnitorBasisforMeasurementCode" inpkey="172"/>
+											<entry name="MEARangeMinimum" inpkey="173"/>
+											<entry name="MEARangeMaximum" inpkey="174"/>
+											<entry name="MEAMeasurementSignificanceCode" inpkey="175"/>
+										</entry>
+										<entry name="dbo.N1|InvoiceDetailsSysId" type="table" inpkey="204">
+											<entry name="InvoiceHeaderSysId" inpkey="272"/>
+											<entry name="N1EntityIdentifierCode" inpkey="205"/>
+											<entry name="N1Name" inpkey="206"/>
+											<entry name="N1IdentificationCodeQualifier" inpkey="207"/>
+											<entry name="N1IdentificationCode" inpkey="208"/>
+											<entry name="N2Name" inpkey="234"/>
+											<entry name="N3Address1" inpkey="235"/>
+											<entry name="N4CityName" inpkey="236"/>
+											<entry name="N4StateorProvinceCode" inpkey="237"/>
+											<entry name="N4PostalCode" inpkey="238"/>
+											<entry name="N4CountryCode" inpkey="239"/>
+										</entry>
+										<entry name="dbo.REF|InvoiceDetailSysId" type="table" inpkey="176">
+											<entry name="InvoiceHeaderSysId" inpkey="273"/>
+											<entry name="REFReferenceIdentificationQualifier" inpkey="177"/>
+											<entry name="REFReferenceIdentification" inpkey="178"/>
+										</entry>
+										<entry name="dbo.SLN|InvoiceDetailSysId" type="table" inpkey="184" expanded="1">
+											<entry name="InvoiceHeaderSysId" inpkey="274"/>
+											<entry name="SLNAssignedIdentification" inpkey="185"/>
+											<entry name="SLNRelationshipCode" inpkey="186"/>
+											<entry name="SACAllowanceorChargeIndicator" inpkey="190"/>
+											<entry name="SACAgencyQualifierCode" inpkey="194"/>
+											<entry name="SACAgencyServicePromotionAllowanceorChargeCode" inpkey="276"/>
+											<entry name="SACAmount" inpkey="198"/>
+											<entry name="SACRate" inpkey="199"/>
+											<entry name="SACUnitorBasisforMeasurementCode" inpkey="209"/>
+											<entry name="SACDescription" inpkey="210"/>
+											<entry name="SACQuantity" inpkey="211"/>
+										</entry>
+										<entry name="dbo.TXI|InvoiceDetailSysId" type="table" inpkey="123" expanded="1">
+											<entry name="InvoiceHeaderSysId" inpkey="275"/>
+											<entry name="TXITaxTypeCode" inpkey="124"/>
+											<entry name="TXIMonetaryAmount" inpkey="129"/>
+											<entry name="TXIRelationshipCode" inpkey="137"/>
+											<entry name="TXIPercent" inpkey="130"/>
+											<entry name="TXITaxExemptCode" inpkey="131"/>
+										</entry>
+									</entry>
+									<entry name="dbo.Invoice_Summary|InvoiceHeaderSysId" type="table">
+										<entry name="TDSAmount" inpkey="240"/>
+										<entry name="CTTNumberofLineItems" inpkey="241"/>
+										<entry name="SENumberofIncludedSegments" inpkey="242"/>
+										<entry name="SETransactionSetControlNumber" inpkey="243"/>
+									</entry>
+									<entry name="dbo.N1|InvoiceHeaderSysId" type="table" inpkey="39">
+										<entry name="N1EntityIdentifierCode" inpkey="40"/>
+										<entry name="N1Name" inpkey="41"/>
+										<entry name="N1IdentificationCodeQualifier" inpkey="42"/>
+										<entry name="N1IdentificationCode" inpkey="43"/>
+										<entry name="N2Name" inpkey="53"/>
+										<entry name="N3Address1" inpkey="54"/>
+										<entry name="N4CityName" inpkey="57"/>
+										<entry name="N4StateorProvinceCode" inpkey="58"/>
+										<entry name="N4PostalCode" inpkey="59"/>
+										<entry name="N4CountryCode" inpkey="60"/>
+										<entry name="dbo.REF|N1SysId" type="table" inpkey="77">
+											<entry name="REFReferenceIdentificationQualifier" inpkey="78"/>
+											<entry name="REFReferenceIdentification" inpkey="83"/>
+										</entry>
+									</entry>
+									<entry name="dbo.NTE|InvoiceHeaderSysId" type="table" inpkey="21">
+										<entry name="NTENoteReferenceCode" inpkey="22"/>
+										<entry name="NTEDescription" inpkey="23"/>
+									</entry>
+									<entry name="dbo.PER|InvoiceHeaderSysId" type="table" inpkey="65">
+										<entry name="PERContactFunctionCode" inpkey="66"/>
+										<entry name="PERCommunicationNumberQualifier" inpkey="67"/>
+										<entry name="PERCommunicationNumber" inpkey="68"/>
+									</entry>
+									<entry name="dbo.REF|InvoiceHeaderSysId" type="table" inpkey="29">
+										<entry name="REFReferenceIdentificationQualifier" inpkey="30"/>
+										<entry name="REFReferenceIdentification" inpkey="31"/>
+										<entry name="REFDescription" inpkey="32"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<database ref="ApexEDI">
+							<data>
+								<selections>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="BAL" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="CTLNBR" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="CTP" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="InvoiceHeader" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="Invoice_Detail" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="Invoice_Summary" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="MEA" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="N1" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="NTE" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PAM" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PER" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PID" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="REF" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="SLN" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="TXI" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="TempEDIInvoiceHeader" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="tempEDIInvoiceDetail" Kind="Table"/>
+									</selection>
+								</selections>
+							</data>
+						</database>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="78" kind="2">
+					<targets>
+						<datapoint pos="0" key="580"/>
+					</targets>
+					<view ltx="1450" lty="-236" rbx="1498" rby="-219"/>
+					<data>
+						<constant value="1" datatype="string"/>
+					</data>
+				</component>
+				<component name="add" library="core" uid="77" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="577"/>
+						<datapoint pos="1" key="578"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="579"/>
+					</targets>
+					<view ltx="1351" lty="-66" rbx="1433" rby="-10"/>
+				</component>
+				<component name="db" library="db" uid="76" kind="15">
+					<properties/>
+					<view ltx="1527" lty="-174" rbx="1814" rby="335"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="document" ns="1" expanded="1">
+								<entry name="dbo.CTLNBR" type="table" expanded="1">
+									<tableactions>
+										<action operation="update" deletewithchildren="1" proceedchildren="1">
+											<field name="TPN" function="equal"/>
+										</action>
+									</tableactions>
+									<entry name="TPN" inpkey="585"/>
+									<entry name="ISA" inpkey="581"/>
+									<entry name="GS" inpkey="586"/>
+								</entry>
+								<entry name="dbo.InvoiceHeader" type="table" expanded="1">
+									<entry name="dbo.BAL|InvoiceHeaderSysId" type="table" expanded="1"/>
+									<entry name="dbo.Invoice_Detail|InvoiceHeaderSysId" type="table" expanded="1">
+										<entry name="dbo.SLN|InvoiceDetailSysId" type="table" expanded="1"/>
+										<entry name="dbo.TXI|InvoiceDetailSysId" type="table" expanded="1"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<database ref="ApexEDI">
+							<data>
+								<selections>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="BAL" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="CTLNBR" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="CTP" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="InvoiceHeader" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="Invoice_Detail" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="Invoice_Summary" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="MEA" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="N1" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="NTE" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PAM" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PER" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="PID" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="REF" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="SLN" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="TXI" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="TempEDIInvoiceHeader" Kind="Table"/>
+									</selection>
+									<selection>
+										<PathElement Name="ApexEDI" Kind="Database"/>
+										<PathElement Name="dbo" Kind="Schema"/>
+										<PathElement Name="tempEDIInvoiceDetail" Kind="Table"/>
+									</selection>
+								</selections>
+							</data>
+						</database>
 					</data>
 				</component>
 			</children>
@@ -1657,61 +1849,75 @@
 			<edge from="270" to="274"/>
 			<edge from="270" to="275"/>
 			<edge from="278" to="276"/>
-			<edge from="279" to="297"/>
-			<edge from="280" to="298"/>
-			<edge from="282" to="299"/>
-			<edge from="281" to="300"/>
-			<edge from="323" to="301"/>
-			<edge from="287" to="302"/>
-			<edge from="286" to="303"/>
-			<edge from="288" to="304"/>
-			<edge from="289" to="305"/>
-			<edge from="290" to="306"/>
-			<edge from="283" to="307"/>
-			<edge from="320" to="308"/>
-			<edge from="284" to="309"/>
-			<edge from="285" to="310"/>
-			<edge from="288" to="311"/>
-			<edge from="291" to="312"/>
-			<edge from="383" to="313"/>
-			<edge from="293" to="314"/>
-			<edge from="294" to="315"/>
-			<edge from="295" to="316"/>
-			<edge from="296" to="317"/>
-			<edge from="320" to="318"/>
-			<edge from="376" to="319"/>
-			<edge from="11" to="341"/>
-			<edge from="324" to="342"/>
-			<edge from="12" to="343"/>
-			<edge from="13" to="344"/>
-			<edge from="325" to="345"/>
-			<edge from="326" to="346"/>
-			<edge from="327" to="347"/>
-			<edge from="328" to="348"/>
-			<edge from="329" to="349"/>
-			<edge from="330" to="350"/>
-			<edge from="331" to="351"/>
-			<edge from="332" to="352"/>
-			<edge from="333" to="353"/>
-			<edge from="334" to="354"/>
-			<edge from="335" to="355"/>
-			<edge from="336" to="356"/>
-			<edge from="337" to="357"/>
-			<edge from="338" to="358"/>
-			<edge from="382" to="359"/>
-			<edge from="340" to="360"/>
-			<edge from="361" to="362"/>
-			<edge from="370" to="363"/>
-			<edge from="371" to="364"/>
-			<edge from="372" to="365"/>
-			<edge from="373" to="366"/>
-			<edge from="374" to="367"/>
-			<edge from="375" to="368"/>
-			<edge from="377" to="369"/>
 			<edge from="12" to="378"/>
-			<edge from="380" to="381"/>
-			<edge from="387" to="386"/>
-			<edge from="389" to="390"/>
+			<edge from="279" to="384"/>
+			<edge from="383" to="385">
+				<data type="2"/>
+			</edge>
+			<edge from="280" to="386"/>
+			<edge from="282" to="387"/>
+			<edge from="281" to="388"/>
+			<edge from="410" to="389"/>
+			<edge from="287" to="390"/>
+			<edge from="286" to="391"/>
+			<edge from="474" to="392"/>
+			<edge from="289" to="393"/>
+			<edge from="290" to="394"/>
+			<edge from="283" to="395"/>
+			<edge from="447" to="396"/>
+			<edge from="284" to="397"/>
+			<edge from="285" to="398"/>
+			<edge from="288" to="399"/>
+			<edge from="291" to="401"/>
+			<edge from="292" to="402"/>
+			<edge from="293" to="403"/>
+			<edge from="294" to="404"/>
+			<edge from="295" to="405"/>
+			<edge from="296" to="406"/>
+			<edge from="11" to="414"/>
+			<edge from="324" to="415"/>
+			<edge from="12" to="416"/>
+			<edge from="13" to="417"/>
+			<edge from="412" to="418"/>
+			<edge from="325" to="419"/>
+			<edge from="326" to="420"/>
+			<edge from="327" to="421"/>
+			<edge from="328" to="422"/>
+			<edge from="329" to="423"/>
+			<edge from="330" to="424"/>
+			<edge from="331" to="425"/>
+			<edge from="332" to="426"/>
+			<edge from="333" to="427"/>
+			<edge from="334" to="428"/>
+			<edge from="413" to="429"/>
+			<edge from="335" to="430"/>
+			<edge from="336" to="431"/>
+			<edge from="337" to="432"/>
+			<edge from="338" to="433"/>
+			<edge from="339" to="434"/>
+			<edge from="340" to="435"/>
+			<edge from="444" to="436"/>
+			<edge from="473" to="438"/>
+			<edge from="446" to="439"/>
+			<edge from="437" to="440"/>
+			<edge from="443" to="441"/>
+			<edge from="443" to="442"/>
+			<edge from="458" to="456"/>
+			<edge from="459" to="457"/>
+			<edge from="466" to="460"/>
+			<edge from="459" to="461"/>
+			<edge from="462" to="463"/>
+			<edge from="465" to="464"/>
+			<edge from="467" to="470"/>
+			<edge from="468" to="471"/>
+			<edge from="469" to="472"/>
+			<edge from="467" to="577"/>
+			<edge from="580" to="578"/>
+			<edge from="579" to="581"/>
+			<edge from="580" to="582"/>
+			<edge from="474" to="583"/>
+			<edge from="462" to="585"/>
+			<edge from="584" to="586"/>
 		</connections>
 	</component>
 </mapping>

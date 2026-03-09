@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Edited with Altova MapForce 2023r2 -->
+<!-- Edited with Altova MapForce 2025r2 -->
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<settings>
 		<deployment path="/Live/ROCKYMOUNTAIN/ROCKYMOUNTAIN_Notification.mapping" server="localhost" port="8082" user="/root" toolversion="2022r2"/>
@@ -696,11 +696,8 @@
 								<entry name="document" ns="1" expanded="1">
 									<entry name="Envelope" expanded="1">
 										<entry name="Interchange" expanded="1">
-											<entry name="ISA" expanded="1"/>
 											<entry name="Group" expanded="1">
 												<entry name="Message_810" expanded="1">
-													<entry name="BIG" expanded="1"/>
-													<entry name="REF" expanded="1"/>
 													<entry name="BAL" expanded="1">
 														<entry name="F782" outkey="290"/>
 													</entry>
@@ -708,9 +705,6 @@
 														<entry name="TXI" expanded="1">
 															<entry name="F782" outkey="275"/>
 															<entry name="F954" outkey="284"/>
-														</entry>
-														<entry name="LoopSAC" expanded="1">
-															<entry name="TXI" expanded="1"/>
 														</entry>
 														<entry name="LoopSLN" outkey="202" expanded="1">
 															<entry name="SLN" expanded="1">
@@ -722,10 +716,8 @@
 																<entry name="F380" outkey="206"/>
 																<entry name="F352" outkey="207"/>
 															</entry>
-															<entry name="TXI" expanded="1"/>
 														</entry>
 													</entry>
-													<entry name="TDS" expanded="1"/>
 												</entry>
 											</entry>
 										</entry>
@@ -733,9 +725,9 @@
 								</entry>
 							</entry>
 						</root>
-						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12.4010/Envelope.Config" inputinstance="..\..\Test_C810o_PacifiCorp_20250723-055215-446.dec">
-							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="00401" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
-								<separators dataelement="%7C" component="\" subcomponent="" segmentcode="%7C" segment="~" decimal="." escape="" repetition="%5E"/>
+						<text type="edi" encoding="1" byteorder="1" byteordermark="0" kind="EDIX12" config="X12/Envelope.Config" inputinstance="..\..\Test_C810o_PacifiCorp_20250723-055215-446.dec">
+							<settings unpackedformat="false" autocompletedata="true" terminatewithlinefeed="true" interchangecontrolversionnumber="" requestacknowledgement="true" syntaxversionnumber="4" controllingagency="UNO" syntaxlevel="A" writeuna="true" isidoc="false" usexml="false">
+								<separators dataelement="*" component="\" subcomponent="" segmentcode="*" segment="~" decimal="." escape="" repetition="%5E"/>
 								<validation>
 									<case kind="undefined" action="stop"/>
 									<case kind="missing-segment" action="stop"/>
