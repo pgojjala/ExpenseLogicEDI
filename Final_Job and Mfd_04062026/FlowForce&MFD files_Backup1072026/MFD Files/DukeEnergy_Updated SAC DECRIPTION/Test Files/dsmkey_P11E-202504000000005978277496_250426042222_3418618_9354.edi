@@ -1,0 +1,715 @@
+ISA*00*          *00*          *01*006996052CIS   *01*RADIUSPOINT    *250426*0422*U*00401*000000887*0*P*>~
+GS*IN*006996052CIS*RADIUSPOINT*20250426*04222563*887*X*004010~
+ST*810*0001~
+BIG*20250428*200793626945*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least three full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit nc811.org.~
+NTE*ADD*Your current rate is Small General Service (SGS).~
+NTE*ADD*For a complete listing of all North Carolina rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+NTE*ADD*A rider is a mechanism used to recover costs or credit customers for~
+NTE*ADD*programs, purchases or regional policy initiatives that are outside of~
+NTE*ADD*standard base rates. The Summary of Rider Adjustments line item~
+NTE*ADD*found in the Billing Details includes, but is not limited to} fuel-~
+NTE*ADD*related costs, demand-side management, energy efficiency program costs,~
+NTE*ADD*generation assets, and the competitive procurement of renewable energy.~
+NTE*ADD*For additional detail, please visit duke-energy.com/rates to view the~
+NTE*ADD*Summary of Rider Adjustments tariff found within the Index of Rate~
+NTE*ADD*Schedules tab. Each of the individual rider tariffs are located~
+NTE*ADD*under the Retail Riders heading.~
+CUR*85*USD~
+REF*12*910166411517~
+N1*BT*HIGHLIGHTS HEALTHCARE*91*910166411517~
+N2*1211 STATE ROAD 436 STE 297~
+N3*RADIUS POINT DEPT 139~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*HIGHLIGHTS HEALTHCARE*91*910166411517~
+N3*190 INDEPENDENCE AVE STE B~
+N4*N WILKESBORO*NC*28659-4270*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250527~
+DTM*186*20250325~
+DTM*187*20250424~
+BAL*M*PB*405.25~
+PAM*99*0*KH***MO*MRR*20240401~
+PAM*99*0*KH***MO*MRR*20240501~
+PAM*99*0*KH***MO*MRR*20240601~
+PAM*99*2504.991*KH***MO*MRR*20240701~
+PAM*99*2304.347*KH***MO*MRR*20240801~
+PAM*99*1865.959*KH***MO*MRR*20240901~
+PAM*99*1642.554*KH***MO*MRR*20241001~
+PAM*99*1360.578*KH***MO*MRR*20241101~
+PAM*99*1919.704*KH***MO*MRR*20241201~
+PAM*99*2263.301*KH***MO*MRR*20250101~
+PAM*99*1889.751*KH***MO*MRR*20250201~
+PAM*99*1289.753*KH***MO*MRR*20250301~
+PAM*99*1539.028*KH***MO*MRR*20250401~
+PAM*99*0*KH***PM*MRR*20250404~
+PAM*99*1857.997*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*26.51*****A***Sales Tx for Utility~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*78903016*INTERVAL BILLED~
+REF*AH*3129038004~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*1053.028*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*6.918*****Actual Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*30*****Billed Demand kW~
+IT1*0003*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+MEA*TI**30*DA~
+REF*AH*3129038006~
+DTM*150*20250325~
+DTM*151*20250423~
+SLN*0001**A~
+SAC*N**EU*ODL000*****UN*3*****Quantity~
+SLN*0002**A~
+SAC*N**EU*ODL000*****KH*54*****Kilowatt hour~
+SLN*0003**A~
+SAC*N**EU*ENC001*****KH*162*****Total Kilo Watt Hour~
+SLN*0004**A~
+SAC*N**EU*ODL000*****UN*6*****Quantity~
+SLN*0005**A~
+SAC*N**EU*ODL000*****KH*54*****Kilowatt hour~
+SLN*0006**A~
+SAC*N**EU*ENC001*****KH*324*****Total Kilo Watt Hour~
+IT1*0004*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+REF*NH*CM*Outdoor Lighting (OL)~
+REF*AH*3129038006~
+SLN*0001**A~
+SAC*C**EU*ODL000*5604**********Energy Charge-LED 54KWH AR EP~
+SLN*0002**A~
+SAC*C**EU*ENC001*15498**********Energy Charge-LED 54KWH AR NP~
+SLN*0003**A~
+SAC*C**EU*MSC001*73**********Storm Recovery Charge~
+SLN*0004**A~
+SAC*A**EU*CRE001*-529**********Summary of Rider Adjustments~
+IT1*0005*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Small General Service (SGS)~
+REF*AH*3129038004~
+REF*MG*78903016*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*FAC001*2100**********Basic Customer Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*14130**********Energy Charge~
+SLN*0003**A~
+SAC*C**EU*MSC001*33**********Customer Assistance Recovery~
+SLN*0004**A~
+SAC*C**EU*MSC001*687**********Clean Energy Rider~
+SLN*0005**A~
+SAC*C**EU*MSC001*15**********Storm Recovery Charge~
+SLN*0006**A~
+SAC*C**EU*CRE001*263**********Summary of Rider Adjustments~
+TDS*40525~
+TXI*ZZ*26.51*****O***Taxes~
+SAC*C**EU*PRB001*36876**********Previous Amount Due~
+SAC*A**EU*PAY001*-36876**********Payment Received Apr 11~
+SAC*N**EU*ENC000*20646**********Current Lighting Charges~
+SAC*N**EU*ENC000*17228**********Current Electric Charges~
+SAC*N**EU*MSC000*40525**********Total Amount Due May 27~
+CTT*5~
+SE*120*0001~
+ST*810*0002~
+BIG*20250428*200703629021*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least three full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit nc811.org.~
+NTE*ADD*Your current rate is Small General Service (SGS).~
+NTE*ADD*For a complete listing of all North Carolina rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+NTE*ADD*A rider is a mechanism used to recover costs or credit customers for~
+NTE*ADD*programs, purchases or regional policy initiatives that are outside of~
+NTE*ADD*standard base rates. The Summary of Rider Adjustments line item~
+NTE*ADD*found in the Billing Details includes, but is not limited to} fuel-~
+NTE*ADD*related costs, demand-side management, energy efficiency program costs,~
+NTE*ADD*generation assets, and the competitive procurement of renewable energy.~
+NTE*ADD*For additional detail, please visit duke-energy.com/rates to view the~
+NTE*ADD*Summary of Rider Adjustments tariff found within the Index of Rate~
+NTE*ADD*Schedules tab. Each of the individual rider tariffs are located~
+NTE*ADD*under the Retail Riders heading.~
+CUR*85*USD~
+REF*12*910029613123~
+N1*BT*SITEONE LANDSCAPE SUPPLY LLC*91*910029613123~
+N2*1211 STATE ROAD 436 STE 295~
+N3*C/O RADIUS POINT DEPT 127~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*SITEONE LANDSCAPE SUPPLY LLC*91*910029613123~
+N3*8605 TRIAD DR~
+N4*COLFAX*NC*27235-9404*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250527~
+DTM*186*20250326~
+DTM*187*20250424~
+BAL*M*PB*642.19~
+PAM*99*3769.318*KH***MO*MRR*20240401~
+PAM*99*4089.568*KH***MO*MRR*20240501~
+PAM*99*4601.125*KH***MO*MRR*20240601~
+PAM*99*4969.274*KH***MO*MRR*20240701~
+PAM*99*4694.885*KH***MO*MRR*20240801~
+PAM*99*4270.693*KH***MO*MRR*20240901~
+PAM*99*4024.744*KH***MO*MRR*20241001~
+PAM*99*3573.275*KH***MO*MRR*20241101~
+PAM*99*3640.731*KH***MO*MRR*20241201~
+PAM*99*3879.886*KH***MO*MRR*20250101~
+PAM*99*3931.143*KH***MO*MRR*20250201~
+PAM*99*3381.875*KH***MO*MRR*20250301~
+PAM*99*3714.257*KH***MO*MRR*20250401~
+PAM*99*48771.456*KH***PM*MRR*20250404~
+PAM*99*4064.288*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*42.01*****A***Sales Tx for Utility~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*77674839*INTERVAL BILLED~
+REF*AH*3102698037~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*2622.257*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*8.478*****Actual Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*30*****Billed Demand kW~
+IT1*0003*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+MEA*TI**30*DA~
+REF*AH*3102698047~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ODL000*****UN*6*****Quantity~
+SLN*0002**A~
+SAC*N**EU*ODL000*****KH*156*****Kilowatt hour~
+SLN*0003**A~
+SAC*N**EU*ENC001*****KH*936*****Total Kilo Watt Hour~
+SLN*0004**A~
+SAC*N**EU*ODL000*****UN*1*****Quantity~
+SLN*0005**A~
+SAC*N**EU*ODL000*****KH*156*****Kilowatt hour~
+SLN*0006**A~
+SAC*N**EU*ENC001*****KH*156*****Total Kilo Watt Hour~
+IT1*0004*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+REF*NH*CM*Outdoor Lighting (OL)~
+REF*AH*3102698047~
+SLN*0001**A~
+SAC*C**EU*ODL000*18540**********Energy Charge-HPSV 156KWH FL EP~
+SLN*0002**A~
+SAC*C**EU*ENC001*3805**********Energy Charge-HPSV 156KWH FL NP~
+SLN*0003**A~
+SAC*C**EU*MSC001*164**********Storm Recovery Charge~
+SLN*0004**A~
+SAC*A**EU*CRE001*-1189**********Summary of Rider Adjustments~
+IT1*0005*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Small General Service (SGS)~
+REF*AH*3102698037~
+REF*MG*77674839*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*FAC001*2100**********Basic Customer Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*35188**********Energy Charge~
+SLN*0003**A~
+SAC*C**EU*MSC001*33**********Customer Assistance Recovery~
+SLN*0004**A~
+SAC*C**EU*MSC001*687**********Clean Energy Rider~
+SLN*0005**A~
+SAC*C**EU*MSC001*38**********Storm Recovery Charge~
+SLN*0006**A~
+SAC*C**EU*CRE001*652**********Summary of Rider Adjustments~
+TDS*64219~
+TXI*ZZ*42.01*****O***Taxes~
+SAC*C**EU*PRB001*59354**********Previous Amount Due~
+SAC*A**EU*PAY001*-59354**********Payment Received Apr 10~
+SAC*N**EU*ENC000*21320**********Current Lighting Charges~
+SAC*N**EU*ENC000*38698**********Current Electric Charges~
+SAC*N**EU*MSC000*64219**********Total Amount Due May 27~
+CTT*5~
+SE*120*0002~
+ST*810*0003~
+BIG*20250428*200733632122*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least three full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit nc811.org.~
+NTE*ADD*Your current rate is Small General Service (SGS).~
+NTE*ADD*For a complete listing of all North Carolina rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+NTE*ADD*A rider is a mechanism used to recover costs or credit customers for~
+NTE*ADD*programs, purchases or regional policy initiatives that are outside of~
+NTE*ADD*standard base rates. The Summary of Rider Adjustments line item~
+NTE*ADD*found in the Billing Details includes, but is not limited to} fuel-~
+NTE*ADD*related costs, demand-side management, energy efficiency program costs,~
+NTE*ADD*generation assets, and the competitive procurement of renewable energy.~
+NTE*ADD*For additional detail, please visit duke-energy.com/rates to view the~
+NTE*ADD*Summary of Rider Adjustments tariff found within the Index of Rate~
+NTE*ADD*Schedules tab. Each of the individual rider tariffs are located~
+NTE*ADD*under the Retail Riders heading.~
+CUR*85*USD~
+REF*12*910031785000~
+N1*BT*NATIONAL VISION INC*91*910031785000~
+N3*1211 STATE ROAD 436 STE 297~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*NATIONAL VISION INC*91*910031785000~
+N3*5343 SOUTH BLVD STE D~
+N4*CHARLOTTE*NC*28217-4117*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250527~
+DTM*186*20250326~
+DTM*187*20250424~
+BAL*M*PB*290.41~
+PAM*99*1833.701*KH***MO*MRR*20240401~
+PAM*99*2231.757*KH***MO*MRR*20240501~
+PAM*99*2880.619*KH***MO*MRR*20240601~
+PAM*99*3465.958*KH***MO*MRR*20240701~
+PAM*99*3033.373*KH***MO*MRR*20240801~
+PAM*99*2255.762*KH***MO*MRR*20240901~
+PAM*99*1938.646*KH***MO*MRR*20241001~
+PAM*99*1613.101*KH***MO*MRR*20241101~
+PAM*99*1453.78*KH***MO*MRR*20241201~
+PAM*99*1748.264*KH***MO*MRR*20250101~
+PAM*99*1872.624*KH***MO*MRR*20250201~
+PAM*99*1526.073*KH***MO*MRR*20250301~
+PAM*99*1777.75*KH***MO*MRR*20250401~
+PAM*99*25797.707*KH***PM*MRR*20250404~
+PAM*99*2149.809*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*19*****A***Sales Tx for Utility~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*77679693*INTERVAL BILLED~
+REF*AH*3102730961~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*1777.75*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*9.614*****Actual Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*30*****Billed Demand kW~
+IT1*0003*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Small General Service (SGS)~
+REF*AH*3102730961~
+REF*MG*77679693*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*FAC001*2100**********Basic Customer Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*23855**********Energy Charge~
+SLN*0003**A~
+SAC*C**EU*MSC001*33**********Customer Assistance Recovery~
+SLN*0004**A~
+SAC*C**EU*MSC001*687**********Clean Energy Rider~
+SLN*0005**A~
+SAC*C**EU*MSC001*26**********Storm Recovery Charge~
+SLN*0006**A~
+SAC*C**EU*CRE001*440**********Summary of Rider Adjustments~
+TDS*29041~
+TXI*ZZ*19*****O***Taxes~
+SAC*C**EU*PRB001*25359**********Previous Amount Due~
+SAC*A**EU*PAY001*-25359**********Payment Received Apr 03~
+SAC*N**EU*ENC000*27141**********Current Electric Charges~
+SAC*N**EU*MSC000*29041**********Total Amount Due May 27~
+CTT*3~
+SE*90*0003~
+ST*810*0004~
+BIG*20250428*200793626622*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least three full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit sc811.com.~
+NTE*ADD*Your current rate is Small General Service (SGS).~
+NTE*ADD*For a complete listing of all South Carolina rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+NTE*ADD*A rider is a mechanism used to recover costs or credit customers for~
+NTE*ADD*programs, purchases or regional policy initiatives that are outside of~
+NTE*ADD*standard base rates. The Summary of Rider Adjustments line item~
+NTE*ADD*found in the Billing Details includes} demand-side management and energy~
+NTE*ADD*efficiency program costs, as well as a credit for tax savings. For~
+NTE*ADD*additional detail, please visit duke-energy.com/rates to view the~
+NTE*ADD*Summary of Rider Adjustments tariff found within the Index of Rate~
+NTE*ADD*Schedules tab. Each of the individual rider tariffs are located~
+NTE*ADD*under the Retail Riders heading.~
+CUR*85*USD~
+REF*12*910034810288~
+N1*BT*AMEDISYS*91*910034810288~
+N2*1211 STATE ROAD 436 STE 297~
+N3*WINAH HOME HEALTH~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*AMEDISYS*91*910034810288~
+N3*210 PHYSICIANS PARK DR STE U~
+N4*CLINTON*SC*29325-7565*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250527~
+DTM*186*20250326~
+DTM*187*20250424~
+BAL*M*PB*173.5~
+PAM*99*1009*KH***MO*MRR*20240401~
+PAM*99*1381*KH***MO*MRR*20240501~
+PAM*99*1929*KH***MO*MRR*20240601~
+PAM*99*2308*KH***MO*MRR*20240701~
+PAM*99*2567*KH***MO*MRR*20240801~
+PAM*99*1703*KH***MO*MRR*20240901~
+PAM*99*932*KH***MO*MRR*20241001~
+PAM*99*695*KH***MO*MRR*20241101~
+PAM*99*869*KH***MO*MRR*20241201~
+PAM*99*1117*KH***MO*MRR*20250101~
+PAM*99*932*KH***MO*MRR*20250201~
+PAM*99*792*KH***MO*MRR*20250301~
+PAM*99*982*KH***MO*MRR*20250401~
+PAM*99*16207*KH***PM*MRR*20250404~
+PAM*99*1350.583*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*9.64*****A***Sales Tax~
+TXI*CP*3.21*****A***County Sales Tax~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*AA*MU*1*KH*112430*113412~
+REF*MG*80048585~
+REF*AH*3102887334~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*982*****Energy Used~
+SLN*0002**A~
+SAC*N**EU*ENC001*****KH*982*****Billed kWh~
+IT1*0003*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Small General Service (SGS)~
+REF*AH*3102887334~
+REF*MG*80048585~
+SLN*0001**A~
+SAC*C**EU*FAC001*1350**********Basic Customer Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*14079**********Energy Charge~
+SLN*0003**A~
+SAC*C**EU*MSC000*324**********Fixed Monthly Leaf 50C Charge~
+SLN*0004**A~
+SAC*C**EU*CRE001*312**********Summary of Rider Adjustments~
+TDS*17350~
+TXI*ZZ*12.85*****O***Taxes~
+SAC*C**EU*PRB001*14343**********Previous Amount Due~
+SAC*A**EU*PAY001*-14343**********Payment Received Apr 10~
+SAC*N**EU*ENC000*16065**********Current Electric Charges~
+SAC*N**EU*MSC000*17350**********Total Amount Due May 27~
+CTT*3~
+SE*85*0004~
+ST*810*0005~
+BIG*20250428*200653637352*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least three full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit nc811.org.~
+NTE*ADD*Your current rate is Small General Service (SGS).~
+NTE*ADD*For a complete listing of all North Carolina rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+NTE*ADD*A rider is a mechanism used to recover costs or credit customers for~
+NTE*ADD*programs, purchases or regional policy initiatives that are outside of~
+NTE*ADD*standard base rates. The Summary of Rider Adjustments line item~
+NTE*ADD*found in the Billing Details includes, but is not limited to} fuel-~
+NTE*ADD*related costs, demand-side management, energy efficiency program costs,~
+NTE*ADD*generation assets, and the competitive procurement of renewable energy.~
+NTE*ADD*For additional detail, please visit duke-energy.com/rates to view the~
+NTE*ADD*Summary of Rider Adjustments tariff found within the Index of Rate~
+NTE*ADD*Schedules tab. Each of the individual rider tariffs are located~
+NTE*ADD*under the Retail Riders heading.~
+CUR*85*USD~
+REF*12*910030743775~
+N1*BT*OCTAPHARMA PLASMA INC*91*910030743775~
+N3*1211 STATE ROAD 436 STE 297~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*OCTAPHARMA PLASMA INC*91*910030743775~
+N3*5943 SOUTH BLVD~
+N4*CHARLOTTE*NC*28217-4123*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250527~
+DTM*186*20250326~
+DTM*187*20250424~
+BAL*M*PB*1933.64~
+PAM*99*22724.92*KH***MO*MRR*20240401~
+PAM*99*25073.24*KH***MO*MRR*20240501~
+PAM*99*31130.08*KH***MO*MRR*20240601~
+PAM*99*34681.96*KH***MO*MRR*20240701~
+PAM*99*31669.72*KH***MO*MRR*20240801~
+PAM*99*25912.08*KH***MO*MRR*20240901~
+PAM*99*24236.12*KH***MO*MRR*20241001~
+PAM*99*19075.76*KH***MO*MRR*20241101~
+PAM*99*19188.04*KH***MO*MRR*20241201~
+PAM*99*19502.6*KH***MO*MRR*20250101~
+PAM*99*19399.04*KH***MO*MRR*20250201~
+PAM*99*17314.28*KH***MO*MRR*20250301~
+PAM*99*20961.92*KH***MO*MRR*20250401~
+PAM*99*288144.84*KH***PM*MRR*20250404~
+PAM*99*24012.07*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*126.5*****A***Sales Tx for Utility~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*67900106*INTERVAL BILLED~
+REF*AH*3102781336~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*20961.92*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*51.44*****Actual Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*51.744*****Billed Demand kW~
+IT1*0003*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Small General Service (SGS)~
+REF*AH*3102781336~
+REF*MG*67900106*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*FAC001*2100**********Basic Customer Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*172380**********Energy Charge~
+SLN*0003**A~
+SAC*C**EU*MSC001*33**********Customer Assistance Recovery~
+SLN*0004**A~
+SAC*C**EU*MSC001*687**********Clean Energy Rider~
+SLN*0005**A~
+SAC*C**EU*MSC001*302**********Storm Recovery Charge~
+SLN*0006**A~
+SAC*C**EU*CRE001*5212**********Summary of Rider Adjustments~
+TDS*193364~
+TXI*ZZ*126.5*****O***Taxes~
+SAC*C**EU*PRB001*167720**********Previous Amount Due~
+SAC*A**EU*PAY001*-167720**********Payment Received Apr 09~
+SAC*N**EU*ENC000*180714**********Current Electric Charges~
+SAC*N**EU*MSC000*193364**********Total Amount Due May 27~
+CTT*3~
+SE*90*0005~
+ST*810*0006~
+BIG*20250428*200813640921*20250428*UTILITY***PR*00~
+NTE*ADD*Thank you for your payment.~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least three full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit nc811.org.~
+NTE*ADD*Your current rate is Small General Service (SGS).~
+NTE*ADD*For a complete listing of all North Carolina rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+NTE*ADD*A rider is a mechanism used to recover costs or credit customers for~
+NTE*ADD*programs, purchases or regional policy initiatives that are outside of~
+NTE*ADD*standard base rates. The Summary of Rider Adjustments line item~
+NTE*ADD*found in the Billing Details includes, but is not limited to} fuel-~
+NTE*ADD*related costs, demand-side management, energy efficiency program costs,~
+NTE*ADD*generation assets, and the competitive procurement of renewable energy.~
+NTE*ADD*For additional detail, please visit duke-energy.com/rates to view the~
+NTE*ADD*Summary of Rider Adjustments tariff found within the Index of Rate~
+NTE*ADD*Schedules tab. Each of the individual rider tariffs are located~
+NTE*ADD*under the Retail Riders heading.~
+CUR*85*USD~
+REF*12*910029992151~
+N1*BT*GENTIVA HEALTH SERVICE LLC*91*910029992151~
+N2*1211 STATE ROAD 436 STE 297~
+N3*RADIUSPOINT DEPT 124~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*GENTIVA HEALTH SERVICE LLC*91*910029992151~
+N3*607 S MAIN ST UNIT L~
+N4*KING*NC*27021-9016*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250527~
+DTM*186*20250326~
+DTM*187*20250424~
+BAL*M*PB*189.71~
+PAM*99*1002.409*KH***MO*MRR*20240401~
+PAM*99*1624.613*KH***MO*MRR*20240501~
+PAM*99*1753.494*KH***MO*MRR*20240601~
+PAM*99*2086.714*KH***MO*MRR*20240701~
+PAM*99*1814.251*KH***MO*MRR*20240801~
+PAM*99*1451.935*KH***MO*MRR*20240901~
+PAM*99*1073.226*KH***MO*MRR*20241001~
+PAM*99*906.181*KH***MO*MRR*20241101~
+PAM*99*1183.437*KH***MO*MRR*20241201~
+PAM*99*1183.555*KH***MO*MRR*20250101~
+PAM*99*1392.566*KH***MO*MRR*20250201~
+PAM*99*1068.742*KH***MO*MRR*20250301~
+PAM*99*1011.672*KH***MO*MRR*20250401~
+PAM*99*16550.386*KH***PM*MRR*20250404~
+PAM*99*1379.199*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*12.41*****A***Sales Tx for Utility~
+IT1*0002*****SV*ELECTRIC*C3*METER*BS*CURRENT CHARGES~
+MEA*TI**30*DA~
+REF*MG*77530947*INTERVAL BILLED~
+REF*AH*3102866482~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ENC001*****KH*993.672*****Billed kWh~
+SLN*0002**A~
+SAC*N**EU*DMD000*****K1*9.16*****Actual Demand-kW~
+SLN*0003**A~
+SAC*N**EU*DMD000*****K1*30*****Billed Demand kW~
+IT1*0003*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+MEA*TI**30*DA~
+REF*AH*3102866484~
+DTM*150*20250326~
+DTM*151*20250424~
+SLN*0001**A~
+SAC*N**EU*ODL000*****UN*1*****Quantity~
+SLN*0002**A~
+SAC*N**EU*ODL000*****KH*18*****Kilowatt hour~
+SLN*0003**A~
+SAC*N**EU*ENC001*****KH*18*****Total Kilo Watt Hour~
+IT1*0004*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+REF*NH*CM*Outdoor Lighting (OL)~
+REF*AH*3102866484~
+SLN*0001**A~
+SAC*C**EU*ODL000*1333**********Energy Charge-LED 18KWH AR EP~
+SLN*0002**A~
+SAC*C**EU*MSC001*03**********Storm Recovery Charge~
+SLN*0003**A~
+SAC*A**EU*CRE001*-20**********Summary of Rider Adjustments~
+IT1*0005*****SV*ELECTRIC*C3*BILLDET*BS*CURRENT CHARGES~
+REF*NH*CM*Small General Service (SGS)~
+REF*AH*3102866482~
+REF*MG*77530947*INTERVAL BILLED~
+SLN*0001**A~
+SAC*C**EU*FAC001*2100**********Basic Customer Charge~
+SLN*0002**A~
+SAC*C**EU*ENC001*13334**********Energy Charge~
+SLN*0003**A~
+SAC*C**EU*MSC001*33**********Customer Assistance Recovery~
+SLN*0004**A~
+SAC*C**EU*MSC001*687**********Clean Energy Rider~
+SLN*0005**A~
+SAC*C**EU*MSC001*14**********Storm Recovery Charge~
+SLN*0006**A~
+SAC*C**EU*CRE001*246**********Summary of Rider Adjustments~
+TDS*18971~
+TXI*ZZ*12.41*****O***Taxes~
+SAC*C**EU*PRB001*19808**********Previous Amount Due~
+SAC*A**EU*PAY001*-19808**********Payment Received Apr 15~
+SAC*N**EU*ENC000*1316**********Current Lighting Charges~
+SAC*N**EU*ENC000*16414**********Current Electric Charges~
+SAC*N**EU*MSC000*18971**********Total Amount Due May 27~
+CTT*5~
+SE*112*0006~
+ST*810*0007~
+BIG*20250428*200763631743*20250428*UTILITY***PR*00~
+NTE*ADD*Know what's below. Call before you dig. Always call 811 before you dig,~
+NTE*ADD*it's the law. Making this free call at least three full working days~
+NTE*ADD*before you dig gets utility lines marked and helps protect you from~
+NTE*ADD*injury and expense. Call 811 or visit nc811.org.~
+NTE*ADD*Your current rate is Outdoor Lighting (OL).~
+NTE*ADD*For a complete listing of all North Carolina rates and riders, visit~
+NTE*ADD*duke-energy.com/rates~
+NTE*ADD*A rider is a mechanism used to recover costs or credit customers for~
+NTE*ADD*programs, purchases or regional policy initiatives that are outside of~
+NTE*ADD*standard base rates. The Summary of Rider Adjustments line item~
+NTE*ADD*found in the Billing Details includes, but is not limited to} fuel-~
+NTE*ADD*related costs, demand-side management, energy efficiency program costs,~
+NTE*ADD*generation assets, and the competitive procurement of renewable energy.~
+NTE*ADD*For additional detail, please visit duke-energy.com/rates to view the~
+NTE*ADD*Summary of Rider Adjustments tariff found within the Index of Rate~
+NTE*ADD*Schedules tab. Each of the individual rider tariffs are located~
+NTE*ADD*under the Retail Riders heading.~
+CUR*85*USD~
+REF*12*910032872557~
+N1*BT*MCGINNIS FARM INC*91*910032872557~
+N2*C/O RADIUS POINT DEPT 127 1211 STATE ROAD 436 STE 295~
+N3*JOHN DEERE LANDSCAPE JDL #186-35260~
+N4*CASSELBERRY*FL*32707-6442*US~
+N1*MQ*MCGINNIS FARM INC*91*910032872557~
+N3*11601 DOWNS RD~
+N4*PINEVILLE*NC*28134-8438*US~
+N1*RE*Duke Energy~
+N2*Remittance Processing~
+N3*PO BOX 1094~
+N4*CHARLOTTE*NC*28201-1094*US~
+PER*EA*EDI TEAM*EM*EDIBILLING@DUKE-ENERGY.COM~
+ITD******20250527~
+DTM*186*20250327~
+DTM*187*20250425~
+BAL*M*PB*306.39~
+PAM*99*468*KH***MO*MRR*20240401~
+PAM*99*468*KH***MO*MRR*20240501~
+PAM*99*468*KH***MO*MRR*20240601~
+PAM*99*468*KH***MO*MRR*20240701~
+PAM*99*468*KH***MO*MRR*20240801~
+PAM*99*468*KH***MO*MRR*20240901~
+PAM*99*468*KH***MO*MRR*20241001~
+PAM*99*468*KH***MO*MRR*20241101~
+PAM*99*468*KH***MO*MRR*20241201~
+PAM*99*468*KH***MO*MRR*20250101~
+PAM*99*468*KH***MO*MRR*20250201~
+PAM*99*468*KH***MO*MRR*20250301~
+PAM*99*468*KH***MO*MRR*20250401~
+PAM*99*5616*KH***PM*MRR*20250404~
+PAM*99*468*KH***AM*MRR*20250404~
+IT1*0001*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+TXI*ST*6.68*****A***Sales Tx for Utility~
+IT1*0002*****SV*MULTIPLE*C3*ACCOUNT*BS*CURRENT CHARGES~
+SLN*0001**A~
+SAC*C**EU*PAY001*142514***0*EA*1*****Reversed Payment~
+IT1*0003*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+MEA*TI**30*DA~
+REF*AH*3102662330~
+DTM*150*20250327~
+DTM*151*20250425~
+SLN*0001**A~
+SAC*N**EU*ODL000*****UN*2*****Quantity~
+SLN*0002**A~
+SAC*N**EU*ODL000*****KH*156*****Kilowatt hour~
+SLN*0003**A~
+SAC*N**EU*ENC001*****KH*312*****Total Kilo Watt Hour~
+SLN*0004**A~
+SAC*N**EU*ODL000*****UN*1*****Quantity~
+SLN*0005**A~
+SAC*N**EU*ODL000*****KH*156*****Kilowatt hour~
+SLN*0006**A~
+SAC*N**EU*ENC001*****KH*156*****Total Kilo Watt Hour~
+IT1*0004*****SV*ELECTRIC*C3*UNMET*****BS*CURRENT CHARGES*GE*Outdoor Lighting~
+REF*NH*CM*Outdoor Lighting (OL)~
+REF*AH*3102662330~
+SLN*0001**A~
+SAC*C**EU*ODL000*6180**********Energy Charge-HPSV 156KWH FL EP~
+SLN*0002**A~
+SAC*C**EU*ENC001*3805**********Energy Charge-HPSV 156KWH FL NP~
+SLN*0003**A~
+SAC*C**EU*MSC001*70**********Storm Recovery Charge~
+SLN*0004**A~
+SAC*A**EU*CRE001*-510**********Summary of Rider Adjustments~
+TDS*30639~
+TXI*ZZ*6.68*****O***Taxes~
+SAC*A**EU*PRB001*-122088**********Previous Amount Due~
+SAC*C**EU*PAY001*00**********Payment Received~
+SAC*N**EU*ENC000*9545**********Current Lighting Charges~
+SAC*N**EU*ADJ000*142514**********Other Charges and Credits~
+SAC*N**EU*MSC000*30639**********Total Amount Due May 27~
+CTT*4~
+SE*94*0007~
+GE*7*887~
+IEA*1*000000887~
