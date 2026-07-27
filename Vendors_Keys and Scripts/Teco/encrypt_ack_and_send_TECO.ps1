@@ -74,11 +74,18 @@ foreach ($f in $files) {
         --output "$outFile" --encrypt "$inFile"
 
     if ($LASTEXITCODE -ne 0) {
-        Log "ERROR: gpg failed with exit code $LASTEXITCODE for $($f.Name)."
-        continue
-    }
+    Log "ERROR: gpg failed with exit code $LASTEXITCODE for $($f.Name)."
+    continue
+}
 
-    Log "Encrypted successfully: $($f.Name) → $(Split-Path $outFile -Leaf)"
+# Copy original timestamps to encrypted file
+$EncryptedFile = Get-Item $outFile
+
+$EncryptedFile.CreationTime   = $f.CreationTime
+$EncryptedFile.LastWriteTime  = $f.LastWriteTime
+$EncryptedFile.LastAccessTime = $f.LastAccessTime
+
+Log "Encrypted successfully: $($f.Name) → $(Split-Path $outFile -Leaf)"
 }
 
 Log "Encryption run complete."
