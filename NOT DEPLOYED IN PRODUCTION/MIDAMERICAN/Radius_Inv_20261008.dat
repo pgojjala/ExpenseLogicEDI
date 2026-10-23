@@ -1,0 +1,64 @@
+ISA|00|          |00|          |01|963008388      |RP|RADIUSPOINT    |261008|0705|U|00400|000001091|0|P|>
+GS|IN|963008388|RADIUSPOINT|20261008|0705|1091|X|004010
+ST|810|0001
+BIG|20261007|586281246|||||PR|00
+NTE|ADD|Total Amount Due After 10/29/2026 is $20.13
+NTE|OTH|MONTH BILLED   AVG USE/DAY ELEC  AVG USE/DAY GAS  AVG DAILY TEMP - ELEC  GAS
+NTE|OTH|202610                0.00 KWH         0.16 THERMS                   0F  65F
+NTE|OTH|202609                0.00 KWH         0.00 THERMS                   0F  73F
+NTE|OTH|202608                0.00 KWH         0.00 THERMS                   0F  74F
+NTE|OTH|202607                0.00 KWH         0.00 THERMS                   0F  71F
+NTE|OTH|202606                0.00 KWH         0.09 THERMS                   0F  66F
+NTE|OTH|202605                0.00 KWH         0.66 THERMS                   0F  55F
+NTE|OTH|202604                0.00 KWH         2.24 THERMS                   0F  43F
+NTE|OTH|202603                0.00 KWH         2.97 THERMS                   0F  37F
+NTE|OTH|202602                0.00 KWH         5.34 THERMS                   0F  16F
+NTE|OTH|202601                0.00 KWH         4.18 THERMS                   0F  24F
+NTE|OTH|202512                0.00 KWH         2.23 THERMS                   0F  36F
+NTE|OTH|202511                0.00 KWH         0.66 THERMS                   0F  53F
+NTE|OTH|202510                0.00 KWH         0.00 THERMS                   0F  68F
+NTE|ADD|Visit MidAmerican Energy's Customer News site at https://www.midamericanenergy.c
+NTE|ADD|om/customer-news.aspx for important messages.
+REF|12|2643039173
+REF|6P|06
+N1|8S|MIDAMERICAN ENERGY COMPANY|1|963008388
+N3|PO Box 8020
+N4|Davenport|IA|52808-8020
+N1|8R|KINDRED AT HOME
+N3|1305 BOYSON LOOP STE B
+N4|HIAWATHA|IA|52233
+ITD||||||20261029
+BAL|M|J9|0
+BAL|P|RT|16.74
+IT1|0001|||||SV|GAS|C3|METER INFORMATION
+MEA|AA|UG|5|HH|3539|3544|51
+MEA|CF|MU|1
+MEA|CF|MU|0.988
+MEA|CF|MU|1.073|BY
+REF|MG|RY1668157
+REF|NH|SVS Non-Residential
+DTM|150|20260904
+DTM|151|20261006
+IT1|0002|||||SV|GAS|C3|TARIFF
+PID|F||||032 DAYS
+REF|NH|SVS Non-Residential
+IT1|0003|||||SV|GAS|C3|CURRENT PERIOD
+TXI|FR|0.54|0.03||||A
+TXI|ST|1.13|0.06||||A
+PID|F||||032 DAYS 
+SLN|01||A
+SAC|C||GU|BAS001|1079||||||||||Basic Service Charge
+SLN|02||A
+SAC|C||GU|FAC001|450||||||||||Meter Class 1 Charge
+SLN|03||A
+SAC|C||GU|DIS002|82|||0.16346|UN|5|||||Delivery Charge
+SLN|04||A
+SAC|C||GU|MSC024|4|||0.00882|UN|5|||||Energy Efficiency Charge
+SLN|05||A
+SAC|C||GU|ENC001|197|||0.39343|UN|5|||||Gas Supply Charge
+SLN|06||A
+SAC|C||GU|MSC001|4||||||||||Rate Case Cost Recovery Fee
+TDS|1983
+SE|60|0001
+GE|1|1091
+IEA|1|000001091

@@ -1,0 +1,105 @@
+ISA|00|          |00|          |01|963008388      |RP|RADIUSPOINT    |261015|0705|U|00400|000001096|0|P|>
+GS|IN|963008388|RADIUSPOINT|20261015|0705|1096|X|004010
+ST|810|0001
+BIG|20261014|586592813|||||PR|00
+NTE|ADD|Total Amount Due After 11/05/2026 is $564.37
+NTE|OTH|MONTH BILLED   AVG USE/DAY ELEC  AVG USE/DAY GAS  AVG DAILY TEMP - ELEC  GAS
+NTE|OTH|202610              190.24 KWH         0.41 THERMS                  65F  65F
+NTE|OTH|202609              250.84 KWH         0.16 THERMS                  75F  75F
+NTE|OTH|202608              266.59 KWH         0.24 THERMS                  77F  77F
+NTE|OTH|202607              284.31 KWH         0.21 THERMS                  75F  75F
+NTE|OTH|202606              221.87 KWH         0.67 THERMS                  70F  70F
+NTE|OTH|202605              171.19 KWH         1.97 THERMS                  57F  57F
+NTE|OTH|202604              271.69 KWH         6.55 THERMS                  54F  54F
+NTE|OTH|202603              418.93 KWH        11.43 THERMS                  36F  36F
+NTE|OTH|202602              479.34 KWH        19.10 THERMS                  25F  25F
+NTE|OTH|202601              519.29 KWH        12.80 THERMS                  33F  33F
+NTE|OTH|202512              437.09 KWH        11.21 THERMS                  34F  34F
+NTE|OTH|202511              222.59 KWH         6.21 THERMS                  49F  49F
+NTE|OTH|202510              201.10 KWH         0.00 THERMS                  69F  69F
+NTE|ADD|MidAmerican Energy waives one late payment charge each year.  Your annual waiver
+NTE|ADD|was used in July 2026.
+NTE|ADD|Visit MidAmerican Energy's Customer News site at https://www.midamericanenergy.c
+NTE|ADD|om/customer-news.aspx for important messages.
+REF|12|6603092039
+REF|6P|12
+N1|8S|MIDAMERICAN ENERGY COMPANY|1|963008388
+N3|PO Box 8020
+N4|Davenport|IA|52808-8020
+N1|8R|BARNHART CRANE & RIGGING CO
+N3|4200 SE BEISSER DR
+N4|GRIMES|IA|50111
+ITD||||||20261105
+BAL|M|J9|0
+BAL|P|RT|993.03
+IT1|0001|||||SV|ELECTRIC|C3|METER INFORMATION
+MEA|AA|UG|5517|KH|37650|43167|51
+MEA|CF|MU|1
+REF|MG|S64084952
+REF|NH|GD General Demand  WINTER
+DTM|150|20260915
+DTM|151|20261014
+IT1|0002|||||SV|ELECTRIC|C3|METER INFORMATION
+MEA|AA|UG|22|K1|0|21.65|67
+MEA|CF|MU|1
+REF|MG|S64084952
+REF|NH|GD General Demand  WINTER
+DTM|150|20260915
+DTM|151|20261014
+IT1|0003|||||SV|ELECTRIC|C3|TARIFF
+PID|F||||029 DAYS
+REF|NH|GD General Demand
+IT1|0004|||||SV|ELECTRIC|C3|CURRENT PERIOD
+TXI|FR|14.61|0.03||||A
+TXI|ST|30.1|0.06||||A
+PID|F||||029 DAYS 
+SLN|01||A
+SAC|C||EU|BAS001|2000||||||||||Basic Service Charge
+SLN|02||A
+SAC|C||EU|ENC001|16575|||0.03767|UN|4400|||||Energy Charge
+SLN|03||A
+SAC|C||EU|ENC001|4090|||0.03662|UN|1117|||||Energy Charge
+SLN|04||A
+SAC|C||EU|ADJ002|8424|||0.01527|UN|5517|||||Energy Adjustment Clause
+SLN|05||A
+SAC|C||EU|TRN002|3190|||1.45|UN|22|||||Transmission Cost Adjustment
+SLN|06||A
+SAC|C||EU|DMD001|14894|||6.77|UN|22|||||Demand Charge
+SLN|07||A
+SAC|C||EU|MSC024|585|||0.00106|UN|5517|||||Energy Efficiency Charge
+SLN|08||A
+SAC|C||EU|MSC024|171|||0.00031|UN|5517|||||Demand Response Charge
+SLN|09||A
+SAC|A||EU|ITA002|-1225|||-0.00222|UN|5517|||||Income Tax Adjustment
+IT1|0005|||||SV|GAS|C3|METER INFORMATION
+MEA|AA|UG|11|HH|3082|3093|51
+MEA|CF|MU|1
+MEA|CF|MU|0.988
+MEA|CF|MU|1.073|BY
+REF|MG|R90300275
+REF|NH|SVS Non-Residential
+DTM|150|20260915
+DTM|151|20261014
+IT1|0006|||||SV|GAS|C3|TARIFF
+PID|F||||029 DAYS
+REF|NH|SVS Non-Residential
+IT1|0007|||||SV|GAS|C3|CURRENT PERIOD
+TXI|FR|0.67|0.03||||A
+TXI|ST|1.38|0.06||||A
+PID|F||||029 DAYS 
+SLN|01||A
+SAC|C||GU|BAS001|1079||||||||||Basic Service Charge
+SLN|02||A
+SAC|C||GU|FAC001|450||||||||||Meter Class 1 Charge
+SLN|03||A
+SAC|C||GU|DIS002|196|||0.16346|UN|12|||||Delivery Charge
+SLN|04||A
+SAC|C||GU|MSC024|11|||0.00882|UN|12|||||Energy Efficiency Charge
+SLN|05||A
+SAC|C||GU|ENC001|483|||0.40264|UN|12|||||Gas Supply Charge
+SLN|06||A
+SAC|C||GU|MSC001|4||||||||||Rate Case Cost Recovery Fee
+TDS|55603
+SE|101|0001
+GE|1|1096
+IEA|1|000001096
